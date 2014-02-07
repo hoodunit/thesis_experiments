@@ -1,0 +1,14 @@
+/*   */ import java.io.PrintStream;
+/*   */ 
+/*   */ public class Hello
+/*   */ {
+/*   */   public static void main(String[] paramArrayOfString)
+/*   */   {
+/* 3 */     System.out.println("Hello world");
+/*   */   }
+/*   */ }
+
+/* Location:           /home/ennus/school/thesis/thesis/experiments/java_hello_world/
+ * Qualified Name:     Hello
+ * JD-Core Version:    0.6.2
+ */
