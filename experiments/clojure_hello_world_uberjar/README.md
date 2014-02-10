@@ -9,6 +9,8 @@ This is an example of the compilation of a Clojure Hello World app and packaging
 | Java Runtime | Java(TM) SE Runtime Environment (build 1.7.0_51-b13) |
 | JVM | Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode) |
 | Clojure | 1.5.1 |
+| Operating System | Ubuntu Linux 13.10 64 bit |
+| Computer | Lenovo Yoga 2 Pro i7-4500U 1.8 GHz, 4 GB RAM, 256 GB SSD |
 
 ## Run time
 
