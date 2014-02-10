@@ -12,7 +12,9 @@ This is an example of the compilation of a Clojure Hello World app and packaging
 
 ## Run time
 
-`time java -jar target/hello-0.1.0-SNAPSHOT-standalone.jar`
+```
+time java -jar target/hello-0.1.0-SNAPSHOT-standalone.jar
+```
 
 | Time |
 | ---- |
@@ -22,3 +24,13 @@ This is an example of the compilation of a Clojure Hello World app and packaging
 | 0.99 |
 | 1.11 |
 | Average: 1.048 |
+
+## Profiling
+
+Profiling information is obtained using YourKit with the following command:
+
+```
+java -agentpath:$HOME/app/yjp-2013-build-13072/bin/linux-x86-64/libyjpagent.so=onexit=snapshot,sampling -jar target/hello-0.1.0-SNAPSHOT-standalone.jar
+```
+
+This creates a single snapshot profiling the startup of the Hello World JAR using sampling.
