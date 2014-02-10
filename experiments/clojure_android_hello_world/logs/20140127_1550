@@ -1,0 +1,54 @@
+01-27 15:50:21.831   625         ActivityManager  I  Start proc org.helloandroid.core for activity org.helloandroid.core/.SplashActivity: pid=8101 uid=10144 gids={50144}
+01-27 15:50:21.951   8101               dalvikvm  D  GC_FOR_ALLOC freed 43K, 1% free 9017K/9092K, paused 32ms, total 32ms
+01-27 15:50:21.951   8101          dalvikvm-heap  I  Grow heap (frag case) to 9.445MB for 640016-byte allocation
+01-27 15:50:21.971   8101               dalvikvm  D  GC_FOR_ALLOC freed <1K, 1% free 9642K/9720K, paused 19ms, total 19ms
+01-27 15:50:22.001   8101               dalvikvm  D  GC_CONCURRENT freed 0K, 1% free 9644K/9720K, paused 3ms+1ms, total 21ms
+01-27 15:50:22.021   8101               dalvikvm  D  GC_FOR_ALLOC freed <1K, 1% free 9643K/9720K, paused 13ms, total 13ms
+01-27 15:50:22.021   8101          dalvikvm-heap  I  Grow heap (frag case) to 10.056MB for 640016-byte allocation
+01-27 15:50:22.031   8101               dalvikvm  D  GC_FOR_ALLOC freed <1K, 1% free 10268K/10348K, paused 15ms, total 15ms
+01-27 15:50:22.051   8101               dalvikvm  D  GC_CONCURRENT freed <1K, 1% free 10269K/10348K, paused 1ms+1ms, total 16ms
+01-27 15:50:22.071   8101               dalvikvm  D  GC_FOR_ALLOC freed <1K, 1% free 10270K/10348K, paused 11ms, total 11ms
+01-27 15:50:22.071   8101          dalvikvm-heap  I  Grow heap (frag case) to 10.668MB for 640016-byte allocation
+01-27 15:50:22.081   8101               dalvikvm  D  GC_FOR_ALLOC freed <1K, 1% free 10895K/10976K, paused 12ms, total 12ms
+01-27 15:50:22.091   8101               dalvikvm  D  GC_CONCURRENT freed <1K, 1% free 10895K/10976K, paused 1ms+1ms, total 12ms
+01-27 15:50:22.141   8101             Adreno-EGL  I  <qeglDrvAPI_eglInitialize:320>: EGL 1.4 QUALCOMM Build: I0404c4692afb8623f95c43aeb6d5e13ed4b30ddbDate: 11/06/13
+01-27 15:50:22.181   8101         OpenGLRenderer  D  Enabling debug mode 0
+01-27 15:50:22.261   8101               dalvikvm  D  GC_CONCURRENT freed 223K, 3% free 11210K/11468K, paused 3ms+5ms, total 33ms
+01-27 15:50:22.271   1013               GCoreUlr  I  Received powerMode change from NLP: com.google.android.location.activity.LOW_POWER_MODE_ENABLED
+01-27 15:50:22.271   1013               GCoreUlr  I  Starting service, intent=Intent { cmp=com.google.android.gms/com.google.android.location.reporting.service.DispatchingService (has extras) }, extras=Bundle[{inte ntType=3}]
+01-27 15:50:22.291   625         ActivityManager  I  Displayed org.helloandroid.core/.SplashActivity: +468ms
+01-27 15:50:22.331   1013               GCoreUlr  I  Ensuring that reporting is stopped because of reasons: {account#-17#=[InactiveReason{mVersionCode=0, mIdentifier=6, mName='ReportingNotSelected'}]}
+01-27 15:50:22.331   1013               GCoreFlp  D  Unknown pending intent to remove.
+01-27 15:50:22.331   1013               GCoreUlr  I  Unbound from all location providers
+01-27 15:50:22.532   8101               dalvikvm  D  GC_CONCURRENT freed 339K, 4% free 11540K/11912K, paused 2ms+3ms, total 24ms
+01-27 15:50:22.852   8101               dalvikvm  D  GC_CONCURRENT freed 416K, 4% free 11875K/12324K, paused 2ms+2ms, total 36ms
+01-27 15:50:23.192   8101               dalvikvm  I  Could not find method java.beans.Introspector.getBeanInfo, referenced from method clojure.core$bean.invoke
+01-27 15:50:23.192   8101               dalvikvm  W  VFY: unable to resolve static method 17196: Ljava/beans/Introspector;.getBeanInfo (Ljava/lang/Class;)Ljava/beans/BeanInfo;
+01-27 15:50:23.192   8101               dalvikvm  D  VFY: replacing opcode 0x71 at 0x0021
+01-27 15:50:23.252   8101               dalvikvm  D  GC_CONCURRENT freed 631K, 6% free 12137K/12800K, paused 1ms+3ms, total 43ms
+01-27 15:50:23.573   8101               dalvikvm  D  GC_CONCURRENT freed 795K, 7% free 12343K/13172K, paused 3ms+2ms, total 36ms
+01-27 15:50:23.863   8101               dalvikvm  D  GC_CONCURRENT freed 1004K, 8% free 12464K/13500K, paused 2ms+2ms, total 46ms
+01-27 15:50:23.863   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 19ms
+01-27 15:50:24.133   8101               dalvikvm  D  GC_CONCURRENT freed 1082K, 9% free 12546K/13660K, paused 4ms+2ms, total 44ms
+01-27 15:50:24.133   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 16ms
+01-27 15:50:24.394   8101               dalvikvm  D  GC_CONCURRENT freed 1072K, 9% free 12641K/13744K, paused 2ms+3ms, total 41ms
+01-27 15:50:24.764   8101               dalvikvm  D  GC_CONCURRENT freed 993K, 8% free 12872K/13896K, paused 2ms+2ms, total 37ms
+01-27 15:50:24.764   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 10ms
+01-27 15:50:25.004   8101               dalvikvm  D  GC_CONCURRENT freed 1247K, 9% free 12925K/14204K, paused 5ms+2ms, total 80ms
+01-27 15:50:25.004   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 57ms
+01-27 15:50:25.195   8101               dalvikvm  D  GC_CONCURRENT freed 1240K, 9% free 13004K/14276K, paused 1ms+2ms, total 39ms
+01-27 15:50:25.195   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 23ms
+01-27 15:50:25.415   8101               dalvikvm  D  GC_CONCURRENT freed 1208K, 9% free 13053K/14296K, paused 3ms+3ms, total 44ms
+01-27 15:50:25.615   8101               dalvikvm  D  GC_CONCURRENT freed 1204K, 9% free 13163K/14376K, paused 3ms+2ms, total 40ms
+01-27 15:50:25.855   8101               dalvikvm  D  GC_CONCURRENT freed 1260K, 9% free 13302K/14552K, paused 3ms+4ms, total 72ms
+01-27 15:50:26.055   8101               dalvikvm  D  GC_CONCURRENT freed 1384K, 10% free 13360K/14776K, paused 3ms+2ms, total 59ms
+01-27 15:50:26.055   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 36ms
+01-27 15:50:26.286   8101               dalvikvm  D  GC_CONCURRENT freed 1335K, 10% free 13426K/14796K, paused 3ms+3ms, total 47ms
+01-27 15:50:26.536   8101               dalvikvm  D  GC_CONCURRENT freed 1415K, 10% free 13498K/14944K, paused 2ms+2ms, total 63ms
+01-27 15:50:26.536   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 31ms
+01-27 15:50:26.786   8101               dalvikvm  D  GC_CONCURRENT freed 1427K, 10% free 13581K/15040K, paused 3ms+2ms, total 41ms
+01-27 15:50:26.786   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 23ms
+01-27 15:50:27.137   8101               dalvikvm  D  GC_CONCURRENT freed 1448K, 10% free 13669K/15148K, paused 2ms+2ms, total 42ms
+01-27 15:50:27.137   8101               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 22ms
+01-27 15:50:27.177   625         ActivityManager  I  START u0 {act=org.helloandroid.core.MAIN cmp=org.helloandroid.core/.MyActivity} from pid 8101
+01-27 15:50:27.317   625         ActivityManager  I  Displayed org.helloandroid.core/.MyActivity: +132ms

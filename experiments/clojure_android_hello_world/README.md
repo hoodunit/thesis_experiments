@@ -20,8 +20,8 @@ Run times are measured from when the START action is printed to the log to start
 
 The application was built using `lein release` and the settings in the project.clj file.
 
-| Time (s) |
-| ---- |
-| 5.486 |
-| 5.626 |
+| Time (s) | Log file |
+| ---- | --- |
+| 5.486 | 20140127_1550 |
+| 5.626 | 20140127_1552 |
 | Average: 5.556 |
