@@ -19,3 +19,16 @@ This is an example of the compilation of a Java Hello World program. The `Hello.
 | JVM | Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode) |
 | javap | 1.7.0_51 |
 | jd-gui | 0.3.5 |
+
+## Run time
+
+`time java Hello`
+
+| Time |
+| ---- |
+| 0.03 |
+| 0.03 |
+| 0.03 |
+| 0.03 |
+| 0.03 |
+| Average: 0.03 |
