@@ -1,13 +1,15 @@
 (ns org.helloandroid.core.main
-  (:use [neko.activity :only [defactivity set-content-view!]]
-        [neko.threading :only [on-ui]]
-        [neko.ui :only [make-ui]]))
+  (:gen-class
+   :extends android.app.Activity
+   :exposes-methods {onCreate superOnCreate})
+  (:import [android.app Activity]
+           [android.os Bundle]
+           [android.util Log]))
 
-(defactivity org.helloandroid.core.MyActivity
-  ;; :def a
-  :on-create
-  (fn [this bundle]
-    (on-ui
-     (set-content-view! this
-      (make-ui [:linear-layout {}
-                [:text-view {:text "Hello from Clojure!"}]])))))
+(defn -onCreate [this #^android.os.Bundle bundle ]
+  (.superOnCreate this bundle)
+  (.setContentView this org.helloandroid.core.R$layout/main)
+  (.setText (.findViewById this org.helloandroid.core.R$id/helloText) 
+            "Hello world")
+  (Log/v "helloandroid" "Clojure Android Hello World done"))
+
