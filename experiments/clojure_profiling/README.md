@@ -46,8 +46,12 @@ lein compile
 ```
 
 ```
-java -cp lib/clojure-1.5.1.jar:target/classes ClojureExecutionTimeLoader
+time java -cp lib/clojure-1.5.1.jar:target/classes ClojureExecutionTimeLoader
 ```
+
+The `time` output gives us the total run time of the program and the printed time gives us the time to execute our Clojure function. However, I'm not sure how accurate this time is. For these measurements the total program execution time is about 1000 ms and the measured time for our Clojure call is 750 ms. This leaves 250 ms of time for Java. But if you run the program with the profiler it shows that almost all of the time goes to executing the Clojure call. Also, if you run it without the Clojure call it takes only about 40 ms.
+
+There are two things that I think might be happening. First, part of the work for loading the hello.core class may be happening outside of our timing calls. And secondly, there might be some compiler optimizations that cause part of the function call to occur outside of our timing.
 
 | Time (ms) |
 | ---- |
