@@ -20,7 +20,7 @@ The application was built using `lein release`. This produces an APK file. The A
 
 ## Run time
 
-Run times are measured from when the START action is printed to the log to start `org.helloandroid.core/SplashActivity` to when the log message indicates that the `org.helloandroid.core/MyActivity` activity has been displayed. Note that this includes loading of some neko libraries, although this appears to be a very small portion of the startup time.
+Run times are measured from when the START action is printed to the log to start `org.helloandroid.core/SplashActivity` to when the log message indicates that the `org.helloandroid.core/MyActivity` activity has been displayed. Note that this includes displaying a splash screen and loading of some neko libraries. Initially I thought that the effect of this would be negligible but with removing those actually reduces start times by a few seconds.
 
 | Time (s) | Log file |
 | ---- | --- |
