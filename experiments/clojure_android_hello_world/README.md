@@ -22,8 +22,19 @@ The application was built using `lein release`. This produces an APK file. The A
 
 Run times are measured from when the START action is printed to the log to start `org.helloandroid.core/SplashActivity` to when the log message indicates that the `org.helloandroid.core/MyActivity` activity has been displayed. Note that this includes displaying a splash screen and loading of some neko libraries. Initially I thought that the effect of this would be negligible but with removing those actually reduces start times by a few seconds.
 
+### Nexus 4:
+
 | Time (s) | Log file |
 | ---- | --- |
 | 5.486 | 20140127_1550 |
 | 5.626 | 20140127_1552 |
-| Average: 5.556 |
+| Average: 5.556 | 
+
+### Nexus 5:
+
+| Time (s) | Log file |
+| ---- | --- |
+| 3.130 | 20140219_0934 |
+| 3.070 | 20140219_0935 |
+| 3.100 | 20140219_0938 |
+| Average: 3.100 | 
