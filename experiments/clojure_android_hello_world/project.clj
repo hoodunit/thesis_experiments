@@ -26,10 +26,10 @@
                         ;; ~/.lein/profiles.clj
                          :keystore-path "my-release-key.keystore"
                          :key-alias "alias_name"
+                         :storepass "password"
+                         :keypass "password"
                         ;; Generated with
                         ;; keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
-                        ;; storepass: password
-                        ;; keypass:   password
 
 
                         :ignore-log-priority [:debug :verbose]
