@@ -1,0 +1,95 @@
+02-24 14:04:46.702   752         ActivityManager  I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.helloworld/.MainActivity} from pid 1043
+02-24 14:04:46.803   752                dalvikvm  D  GC_FOR_ALLOC freed 2108K, 9% free 26493K/28856K, paused 70ms, total 71ms
+02-24 14:04:46.803   752           dalvikvm-heap  I  Grow heap (frag case) to 26.721MB for 856096-byte allocation
+02-24 14:04:46.842   752                dalvikvm  D  GC_FOR_ALLOC freed 7K, 8% free 27322K/29696K, paused 44ms, total 44ms
+02-24 14:04:46.892   752                dalvikvm  D  GC_FOR_ALLOC freed 33K, 9% free 27292K/29696K, paused 44ms, total 44ms
+02-24 14:04:46.892   752           dalvikvm-heap  I  Grow heap (frag case) to 27.500MB for 856096-byte allocation
+02-24 14:04:46.942   752                dalvikvm  D  GC_FOR_ALLOC freed 0K, 8% free 28128K/30536K, paused 44ms, total 44ms
+02-24 14:04:46.972   752         ActivityManager  I  Start proc com.example.helloworld for activity com.example.helloworld/.MainActivity: pid=3490 uid=10014 gids={50014, 1028, 1015}
+02-24 14:04:47.002   859          PhoneStatusBar  V  setLightsOn(true)
+02-24 14:04:47.102   752         ActivityManager  I  Displayed com.example.helloworld/.MainActivity: +135ms
+02-24 14:04:49.093   992                   Icing  I  Indexing A0DFF7A479489E0E9E8CF33BD7C972B2FF32644C from com.google.android.music
+02-24 14:04:49.113   992                dalvikvm  D  GC_CONCURRENT freed 324K, 3% free 17154K/17656K, paused 2ms+2ms, total 18ms
+02-24 14:04:49.163   992                   Icing  I  Indexing done A0DFF7A479489E0E9E8CF33BD7C972B2FF32644C
+02-24 14:04:52.322   752                dalvikvm  D  GC_FOR_ALLOC freed 116K, 8% free 28140K/30536K, paused 55ms, total 55ms
+02-24 14:04:52.322   752           dalvikvm-heap  I  Grow heap (frag case) to 28.330MB for 856096-byte allocation
+02-24 14:04:52.372   752                dalvikvm  D  GC_FOR_ALLOC freed 52K, 8% free 28924K/31376K, paused 50ms, total 50ms
+02-24 14:04:52.422   752                dalvikvm  D  GC_FOR_ALLOC freed 6K, 8% free 28918K/31376K, paused 46ms, total 46ms
+02-24 14:04:52.422   752           dalvikvm-heap  I  Grow heap (frag case) to 29.089MB for 856096-byte allocation
+02-24 14:04:52.472   752                dalvikvm  D  GC_FOR_ALLOC freed <1K, 8% free 29754K/32216K, paused 47ms, total 47ms
+02-24 14:04:52.832   2166               dalvikvm  D  GC_CONCURRENT freed 830K, 5% free 20093K/21036K, paused 3ms+3ms, total 46ms
+02-24 14:04:52.832   2166               dalvikvm  D  WAIT_FOR_CONCURRENT_GC blocked 15ms
+02-24 14:04:52.922   2166                 Finsky  D  [1] 5.onFinished: Installation state replication succeeded.
+02-24 14:04:52.952   752         ActivityManager  I  START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 859
+02-24 14:04:53.042   752         ActivityManager  I  Displayed com.android.systemui/.recent.RecentsActivity: +82ms
+02-24 14:04:53.322   752         ActivityManager  I  Killing 2326:com.google.android.gm/u0a42 (adj 15): empty #17
+02-24 14:04:54.012   752                dalvikvm  D  GC_FOR_ALLOC freed 935K, 10% free 29802K/33056K, paused 51ms, total 52ms
+02-24 14:04:54.062   752                dalvikvm  D  GC_FOR_ALLOC freed 852K, 10% free 29785K/33056K, paused 45ms, total 46ms
+02-24 14:04:54.062   752         ActivityManager  I  Killing 3490:com.example.helloworld/u0a14 (adj 9): remove task
+02-24 14:04:54.142   752            ResourceType  W  Skipping entry 0x7f05000e in package table 0 because it is not complex!
+02-24 14:04:54.152   752            ResourceType  W  Skipping entry 0x7f05000f in package table 0 because it is not complex!
+02-24 14:04:56.512   752         ActivityManager  I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.helloworld/.MainActivity} from pid 1043
+02-24 14:04:56.602   752                dalvikvm  D  GC_FOR_ALLOC freed 2534K, 8% free 28167K/30528K, paused 64ms, total 64ms
+02-24 14:04:56.602   752           dalvikvm-heap  I  Grow heap (frag case) to 28.356MB for 856096-byte allocation
+02-24 14:04:56.642   752                dalvikvm  D  GC_FOR_ALLOC freed 5K, 8% free 28998K/31368K, paused 45ms, total 45ms
+02-24 14:04:56.702   752                dalvikvm  D  GC_FOR_ALLOC freed 840K, 11% free 28158K/31368K, paused 56ms, total 56ms
+02-24 14:04:56.732   752         ActivityManager  I  Start proc com.example.helloworld for activity com.example.helloworld/.MainActivity: pid=3552 uid=10014 gids={50014, 1028, 1015}
+02-24 14:04:56.742   182                dalvikvm  D  GC_EXPLICIT freed 42K, 1% free 16726K/16800K, paused 1ms+2ms, total 15ms
+02-24 14:04:56.752   182                dalvikvm  D  GC_EXPLICIT freed <1K, 1% free 16726K/16800K, paused 1ms+1ms, total 13ms
+02-24 14:04:56.762   182                dalvikvm  D  GC_EXPLICIT freed <1K, 1% free 16726K/16800K, paused 1ms+2ms, total 12ms
+02-24 14:04:56.762   859          PhoneStatusBar  V  setLightsOn(true)
+02-24 14:04:56.842   752         ActivityManager  I  Displayed com.example.helloworld/.MainActivity: +126ms
+02-24 14:04:59.522   752                dalvikvm  D  GC_FOR_ALLOC freed 74K, 8% free 29001K/31368K, paused 46ms, total 46ms
+02-24 14:04:59.532   752           dalvikvm-heap  I  Grow heap (frag case) to 29.169MB for 856096-byte allocation
+02-24 14:04:59.572   752                dalvikvm  D  GC_FOR_ALLOC freed 53K, 8% free 29783K/32208K, paused 46ms, total 46ms
+02-24 14:05:00.062   859                dalvikvm  D  GC_FOR_ALLOC freed 23050K, 48% free 25920K/48996K, paused 23ms, total 23ms
+02-24 14:05:00.082   752         ActivityManager  I  START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 859
+02-24 14:05:00.122   752                dalvikvm  D  GC_FOR_ALLOC freed 861K, 10% free 29787K/33048K, paused 45ms, total 45ms
+02-24 14:05:00.222   752         ActivityManager  I  Displayed com.android.systemui/.recent.RecentsActivity: +64ms
+02-24 14:05:01.102   752                dalvikvm  D  GC_FOR_ALLOC freed 862K, 10% free 29789K/33048K, paused 59ms, total 59ms
+02-24 14:05:01.152   752                dalvikvm  D  GC_FOR_ALLOC freed 843K, 10% free 29782K/33048K, paused 45ms, total 46ms
+02-24 14:05:01.152   752         ActivityManager  I  Killing 3552:com.example.helloworld/u0a14 (adj 9): remove task
+02-24 14:05:01.192   752    InputMethodManager..  W  Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@42d61e30 (uid=10012 pid=859)
+02-24 14:05:03.852   752         ActivityManager  I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.helloworld/.MainActivity} from pid 1043
+02-24 14:05:03.922   752                dalvikvm  D  GC_FOR_ALLOC freed 2533K, 15% free 28157K/33048K, paused 54ms, total 54ms
+02-24 14:05:03.952   752         ActivityManager  I  Start proc com.example.helloworld for activity com.example.helloworld/.MainActivity: pid=3586 uid=10014 gids={50014, 1028, 1015}
+02-24 14:05:03.972   859          PhoneStatusBar  V  setLightsOn(true)
+02-24 14:05:04.082   752         ActivityManager  I  Displayed com.example.helloworld/.MainActivity: +145ms
+02-24 14:05:06.372   752                dalvikvm  D  GC_FOR_ALLOC freed 883K, 10% free 29841K/33048K, paused 48ms, total 49ms
+02-24 14:05:07.212   752         ActivityManager  I  START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 859
+02-24 14:05:07.252   752                dalvikvm  D  GC_FOR_ALLOC freed 924K, 10% free 29789K/33048K, paused 47ms, total 47ms
+02-24 14:05:07.322   752         ActivityManager  I  Displayed com.android.systemui/.recent.RecentsActivity: +61ms
+02-24 14:05:08.192   752                dalvikvm  D  GC_FOR_ALLOC freed 861K, 10% free 29793K/33048K, paused 63ms, total 63ms
+02-24 14:05:08.242   752                dalvikvm  D  GC_FOR_ALLOC freed 843K, 10% free 29786K/33048K, paused 43ms, total 43ms
+02-24 14:05:08.242   752         ActivityManager  I  Killing 3586:com.example.helloworld/u0a14 (adj 9): remove task
+02-24 14:05:08.282   752    InputMethodManager..  W  Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@42d61e30 (uid=10012 pid=859)
+02-24 14:05:10.452   752         ActivityManager  I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.helloworld/.MainActivity} from pid 1043
+02-24 14:05:10.502   752                dalvikvm  D  GC_FOR_ALLOC freed 2542K, 15% free 28160K/33048K, paused 43ms, total 43ms
+02-24 14:05:10.562   752         ActivityManager  I  Start proc com.example.helloworld for activity com.example.helloworld/.MainActivity: pid=3621 uid=10014 gids={50014, 1028, 1015}
+02-24 14:05:10.592   859          PhoneStatusBar  V  setLightsOn(true)
+02-24 14:05:10.662   752         ActivityManager  I  Displayed com.example.helloworld/.MainActivity: +119ms
+02-24 14:05:15.472   752                dalvikvm  D  GC_FOR_ALLOC freed 883K, 10% free 29842K/33048K, paused 47ms, total 47ms
+02-24 14:05:15.952   859                dalvikvm  D  GC_FOR_ALLOC freed 2447K, 48% free 25840K/48996K, paused 15ms, total 15ms
+02-24 14:05:15.962   752         ActivityManager  I  Killing 3042:android.process.acore/u0a3 (adj 15): empty #17
+02-24 14:05:15.982   752         ActivityManager  I  START u0 {act=com.android.systemui.recent.action.TOGGLE_RECENTS flg=0x10800000 cmp=com.android.systemui/.recent.RecentsActivity} from pid 859
+02-24 14:05:16.022   752                dalvikvm  D  GC_FOR_ALLOC freed 916K, 10% free 29788K/33048K, paused 45ms, total 45ms
+02-24 14:05:16.112   752         ActivityManager  I  Displayed com.android.systemui/.recent.RecentsActivity: +63ms
+02-24 14:05:17.002   752                dalvikvm  D  GC_FOR_ALLOC freed 872K, 10% free 29791K/33048K, paused 60ms, total 60ms
+02-24 14:05:17.042   752                dalvikvm  D  GC_FOR_ALLOC freed 843K, 10% free 29784K/33048K, paused 43ms, total 43ms
+02-24 14:05:17.042   752         ActivityManager  I  Killing 3621:com.example.helloworld/u0a14 (adj 9): remove task
+02-24 14:05:19.542   177             rmt_storage  I  rmt_storage_connect_cb: clnt_h=0x8 conn_h=0xb7fb4160
+02-24 14:05:19.542   177             rmt_storage  I  rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0xc msg_id=3: R/W request received
+02-24 14:05:19.542   177             rmt_storage  I  wakelock acquired: 1, error no: 2
+02-24 14:05:19.542   177             rmt_storage  I  rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1208270304)
+02-24 14:05:19.612   177             rmt_storage  I  rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xc msg_id=3: Bytes written = 1572864
+02-24 14:05:19.612   177             rmt_storage  I  rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0xc msg_id=3: Send response: res=0 err=0
+02-24 14:05:19.612   177             rmt_storage  I  rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1208270304) wakelock released: 1, error no: 0
+02-24 14:05:19.612   177             rmt_storage  I  rmt_storage_disconnect_cb: clnt_h=0x0x8 conn_h=0x0xb7fb4160
+02-24 14:05:20.502   752         ActivityManager  I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.helloworld/.MainActivity} from pid 1043
+02-24 14:05:20.592   752                dalvikvm  D  GC_FOR_ALLOC freed 2544K, 8% free 28157K/30528K, paused 65ms, total 65ms
+02-24 14:05:20.592   752           dalvikvm-heap  I  Grow heap (frag case) to 28.345MB for 856096-byte allocation
+02-24 14:05:20.632   752                dalvikvm  D  GC_FOR_ALLOC freed 2K, 8% free 28990K/31368K, paused 45ms, total 45ms
+02-24 14:05:20.682   752                dalvikvm  D  GC_FOR_ALLOC freed 840K, 11% free 28151K/31368K, paused 44ms, total 44ms
+02-24 14:05:20.732   752         ActivityManager  I  Start proc com.example.helloworld for activity com.example.helloworld/.MainActivity: pid=3680 uid=10014 gids={50014, 1028, 1015}
+02-24 14:05:20.742   859          PhoneStatusBar  V  setLightsOn(true)
+02-24 14:05:20.852   752         ActivityManager  I  Displayed com.example.helloworld/.MainActivity: +134ms
