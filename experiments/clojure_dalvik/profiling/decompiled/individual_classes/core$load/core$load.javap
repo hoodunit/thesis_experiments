@@ -1,0 +1,725 @@
+Classfile /home/ennus/school/thesis/thesis/experiments/clojure_android_profiling/decompiled/classes-dex2jar_unzipped/clojure/core$load.class
+  Last modified Feb 21, 2014; size 3502 bytes
+  MD5 checksum 783aa2b5129158f08979668cc4a13197
+public final class clojure.core$load extends clojure.lang.RestFn
+  minor version: 0
+  major version: 50
+  flags: ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+Constant pool:
+    #1 = Utf8               clojure/core$load
+    #2 = Class              #1            //  clojure/core$load
+    #3 = Utf8               clojure/lang/RestFn
+    #4 = Class              #3            //  clojure/lang/RestFn
+    #5 = Utf8               const__0
+    #6 = Utf8               Lclojure/lang/Var;
+    #7 = Utf8               const__1
+    #8 = Utf8               Ljava/lang/Object;
+    #9 = Utf8               const__10
+   #10 = Utf8               const__11
+   #11 = Utf8               const__12
+   #12 = Utf8               const__13
+   #13 = Utf8               const__14
+   #14 = Utf8               const__15
+   #15 = Utf8               const__16
+   #16 = Utf8               const__17
+   #17 = Utf8               const__18
+   #18 = Utf8               const__19
+   #19 = Utf8               const__2
+   #20 = Utf8               const__20
+   #21 = Utf8               const__21
+   #22 = Utf8               const__22
+   #23 = Utf8               const__23
+   #24 = Utf8               const__24
+   #25 = Utf8               const__3
+   #26 = Utf8               const__4
+   #27 = Utf8               const__5
+   #28 = Utf8               const__6
+   #29 = Utf8               const__7
+   #30 = Utf8               const__8
+   #31 = Utf8               const__9
+   #32 = Utf8               <clinit>
+   #33 = Utf8               ()V
+   #34 = Utf8               clojure.core
+   #35 = String             #34           //  clojure.core
+   #36 = Utf8               seq
+   #37 = String             #36           //  seq
+   #38 = Utf8               clojure/lang/RT
+   #39 = Class              #38           //  clojure/lang/RT
+   #40 = Utf8               var
+   #41 = Utf8               (Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+   #42 = NameAndType        #40:#41       //  var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+   #43 = Methodref          #39.#42       //  clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+   #44 = Utf8               clojure/lang/Var
+   #45 = Class              #44           //  clojure/lang/Var
+   #46 = NameAndType        #5:#6         //  const__0:Lclojure/lang/Var;
+   #47 = Fieldref           #2.#46        //  clojure/core$load.const__0:Lclojure/lang/Var;
+   #48 = Utf8               java/lang/Long
+   #49 = Class              #48           //  java/lang/Long
+   #50 = Utf8               valueOf
+   #51 = Utf8               (J)Ljava/lang/Long;
+   #52 = NameAndType        #50:#51       //  valueOf:(J)Ljava/lang/Long;
+   #53 = Methodref          #49.#52       //  java/lang/Long.valueOf:(J)Ljava/lang/Long;
+   #54 = NameAndType        #7:#8         //  const__1:Ljava/lang/Object;
+   #55 = Fieldref           #2.#54        //  clojure/core$load.const__1:Ljava/lang/Object;
+   #56 = Utf8               <
+   #57 = String             #56           //  <
+   #58 = NameAndType        #19:#6        //  const__2:Lclojure/lang/Var;
+   #59 = Fieldref           #2.#58        //  clojure/core$load.const__2:Lclojure/lang/Var;
+   #60 = Utf8               str
+   #61 = String             #60           //  str
+   #62 = NameAndType        #25:#6        //  const__3:Lclojure/lang/Var;
+   #63 = Fieldref           #2.#62        //  clojure/core$load.const__3:Lclojure/lang/Var;
+   #64 = Utf8               root-directory
+   #65 = String             #64           //  root-directory
+   #66 = NameAndType        #26:#6        //  const__4:Lclojure/lang/Var;
+   #67 = Fieldref           #2.#66        //  clojure/core$load.const__4:Lclojure/lang/Var;
+   #68 = Utf8               ns-name
+   #69 = String             #68           //  ns-name
+   #70 = NameAndType        #27:#6        //  const__5:Lclojure/lang/Var;
+   #71 = Fieldref           #2.#70        //  clojure/core$load.const__5:Lclojure/lang/Var;
+   #72 = Utf8               *ns*
+   #73 = String             #72           //  *ns*
+   #74 = NameAndType        #28:#6        //  const__6:Lclojure/lang/Var;
+   #75 = Fieldref           #2.#74        //  clojure/core$load.const__6:Lclojure/lang/Var;
+   #76 = Utf8               java/lang/Character
+   #77 = Class              #76           //  java/lang/Character
+   #78 = Utf8               (C)Ljava/lang/Character;
+   #79 = NameAndType        #50:#78       //  valueOf:(C)Ljava/lang/Character;
+   #80 = Methodref          #77.#79       //  java/lang/Character.valueOf:(C)Ljava/lang/Character;
+   #81 = NameAndType        #29:#8        //  const__7:Ljava/lang/Object;
+   #82 = Fieldref           #2.#81        //  clojure/core$load.const__7:Ljava/lang/Object;
+   #83 = Utf8               *loading-verbosely*
+   #84 = String             #83           //  *loading-verbosely*
+   #85 = NameAndType        #30:#6        //  const__8:Lclojure/lang/Var;
+   #86 = Fieldref           #2.#85        //  clojure/core$load.const__8:Lclojure/lang/Var;
+   #87 = Utf8               printf
+   #88 = String             #87           //  printf
+   #89 = NameAndType        #31:#6        //  const__9:Lclojure/lang/Var;
+   #90 = Fieldref           #2.#89        //  clojure/core$load.const__9:Lclojure/lang/Var;
+   #91 = Utf8               flush
+   #92 = String             #91           //  flush
+   #93 = NameAndType        #9:#6         //  const__10:Lclojure/lang/Var;
+   #94 = Fieldref           #2.#93        //  clojure/core$load.const__10:Lclojure/lang/Var;
+   #95 = Utf8               check-cyclic-dependency
+   #96 = String             #95           //  check-cyclic-dependency
+   #97 = NameAndType        #10:#6        //  const__11:Lclojure/lang/Var;
+   #98 = Fieldref           #2.#97        //  clojure/core$load.const__11:Lclojure/lang/Var;
+   #99 = Utf8               =
+  #100 = String             #99           //  =
+  #101 = NameAndType        #11:#6        //  const__12:Lclojure/lang/Var;
+  #102 = Fieldref           #2.#101       //  clojure/core$load.const__12:Lclojure/lang/Var;
+  #103 = Utf8               first
+  #104 = String             #103          //  first
+  #105 = NameAndType        #12:#6        //  const__13:Lclojure/lang/Var;
+  #106 = Fieldref           #2.#105       //  clojure/core$load.const__13:Lclojure/lang/Var;
+  #107 = Utf8               *pending-paths*
+  #108 = String             #107          //  *pending-paths*
+  #109 = NameAndType        #13:#6        //  const__14:Lclojure/lang/Var;
+  #110 = Fieldref           #2.#109       //  clojure/core$load.const__14:Lclojure/lang/Var;
+  #111 = Utf8               push-thread-bindings
+  #112 = String             #111          //  push-thread-bindings
+  #113 = NameAndType        #14:#6        //  const__15:Lclojure/lang/Var;
+  #114 = Fieldref           #2.#113       //  clojure/core$load.const__15:Lclojure/lang/Var;
+  #115 = Utf8               hash-map
+  #116 = String             #115          //  hash-map
+  #117 = NameAndType        #15:#6        //  const__16:Lclojure/lang/Var;
+  #118 = Fieldref           #2.#117       //  clojure/core$load.const__16:Lclojure/lang/Var;
+  #119 = Utf8               conj
+  #120 = String             #119          //  conj
+  #121 = NameAndType        #16:#6        //  const__17:Lclojure/lang/Var;
+  #122 = Fieldref           #2.#121       //  clojure/core$load.const__17:Lclojure/lang/Var;
+  #123 = Utf8               unchecked-inc
+  #124 = String             #123          //  unchecked-inc
+  #125 = NameAndType        #17:#6        //  const__18:Lclojure/lang/Var;
+  #126 = Fieldref           #2.#125       //  clojure/core$load.const__18:Lclojure/lang/Var;
+  #127 = Utf8               chunked-seq?
+  #128 = String             #127          //  chunked-seq?
+  #129 = NameAndType        #18:#6        //  const__19:Lclojure/lang/Var;
+  #130 = Fieldref           #2.#129       //  clojure/core$load.const__19:Lclojure/lang/Var;
+  #131 = Utf8               chunk-first
+  #132 = String             #131          //  chunk-first
+  #133 = NameAndType        #20:#6        //  const__20:Lclojure/lang/Var;
+  #134 = Fieldref           #2.#133       //  clojure/core$load.const__20:Lclojure/lang/Var;
+  #135 = Utf8               chunk-rest
+  #136 = String             #135          //  chunk-rest
+  #137 = NameAndType        #21:#6        //  const__21:Lclojure/lang/Var;
+  #138 = Fieldref           #2.#137       //  clojure/core$load.const__21:Lclojure/lang/Var;
+  #139 = Utf8               int
+  #140 = String             #139          //  int
+  #141 = NameAndType        #22:#6        //  const__22:Lclojure/lang/Var;
+  #142 = Fieldref           #2.#141       //  clojure/core$load.const__22:Lclojure/lang/Var;
+  #143 = Utf8               count
+  #144 = String             #143          //  count
+  #145 = NameAndType        #23:#6        //  const__23:Lclojure/lang/Var;
+  #146 = Fieldref           #2.#145       //  clojure/core$load.const__23:Lclojure/lang/Var;
+  #147 = Utf8               next
+  #148 = String             #147          //  next
+  #149 = NameAndType        #24:#6        //  const__24:Lclojure/lang/Var;
+  #150 = Fieldref           #2.#149       //  clojure/core$load.const__24:Lclojure/lang/Var;
+  #151 = Utf8               <init>
+  #152 = NameAndType        #151:#33      //  "<init>":()V
+  #153 = Methodref          #4.#152       //  clojure/lang/RestFn."<init>":()V
+  #154 = Utf8               doInvoke
+  #155 = Utf8               (Ljava/lang/Object;)Ljava/lang/Object;
+  #156 = Utf8               getRawRoot
+  #157 = Utf8               ()Ljava/lang/Object;
+  #158 = NameAndType        #156:#157     //  getRawRoot:()Ljava/lang/Object;
+  #159 = Methodref          #45.#158      //  clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+  #160 = Utf8               clojure/lang/IFn
+  #161 = Class              #160          //  clojure/lang/IFn
+  #162 = Utf8               invoke
+  #163 = NameAndType        #162:#155     //  invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+  #164 = InterfaceMethodref #161.#163     //  clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+  #165 = Utf8               clojure/lang/Indexed
+  #166 = Class              #165          //  clojure/lang/Indexed
+  #167 = Utf8               intCast
+  #168 = Utf8               (J)I
+  #169 = NameAndType        #167:#168     //  intCast:(J)I
+  #170 = Methodref          #39.#169      //  clojure/lang/RT.intCast:(J)I
+  #171 = Utf8               nth
+  #172 = Utf8               (I)Ljava/lang/Object;
+  #173 = NameAndType        #171:#172     //  nth:(I)Ljava/lang/Object;
+  #174 = InterfaceMethodref #166.#173     //  clojure/lang/Indexed.nth:(I)Ljava/lang/Object;
+  #175 = Utf8               java/lang/String
+  #176 = Class              #175          //  java/lang/String
+  #177 = Utf8               /
+  #178 = String             #177          //  /
+  #179 = Utf8               startsWith
+  #180 = Utf8               (Ljava/lang/String;)Z
+  #181 = NameAndType        #179:#180     //  startsWith:(Ljava/lang/String;)Z
+  #182 = Methodref          #176.#181     //  java/lang/String.startsWith:(Ljava/lang/String;)Z
+  #183 = Utf8               get
+  #184 = NameAndType        #183:#157     //  get:()Ljava/lang/Object;
+  #185 = Methodref          #45.#184      //  clojure/lang/Var.get:()Ljava/lang/Object;
+  #186 = Utf8               java/lang/Boolean
+  #187 = Class              #186          //  java/lang/Boolean
+  #188 = Utf8               FALSE
+  #189 = Utf8               Ljava/lang/Boolean;
+  #190 = NameAndType        #188:#189     //  FALSE:Ljava/lang/Boolean;
+  #191 = Fieldref           #187.#190     //  java/lang/Boolean.FALSE:Ljava/lang/Boolean;
+  #192 = Utf8               (clojure.core/load \"%s\")\n
+  #193 = String             #192          //  (clojure.core/load \"%s\")\n
+  #194 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #195 = NameAndType        #162:#194     //  invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #196 = InterfaceMethodref #161.#195     //  clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #197 = NameAndType        #162:#157     //  invoke:()Ljava/lang/Object;
+  #198 = InterfaceMethodref #161.#197     //  clojure/lang/IFn.invoke:()Ljava/lang/Object;
+  #199 = Utf8               clojure/lang/Util
+  #200 = Class              #199          //  clojure/lang/Util
+  #201 = Utf8               equiv
+  #202 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)Z
+  #203 = NameAndType        #201:#202     //  equiv:(Ljava/lang/Object;Ljava/lang/Object;)Z
+  #204 = Methodref          #200.#203     //  clojure/lang/Util.equiv:(Ljava/lang/Object;Ljava/lang/Object;)Z
+  #205 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #206 = NameAndType        #162:#205     //  invoke:(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #207 = InterfaceMethodref #161.#206     //  clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+  #208 = Utf8               clojure/core$load$fn__5016
+  #209 = Class              #208          //  clojure/core$load$fn__5016
+  #210 = Utf8               (Ljava/lang/Object;)V
+  #211 = NameAndType        #151:#210     //  "<init>":(Ljava/lang/Object;)V
+  #212 = Methodref          #209.#211     //  clojure/core$load$fn__5016."<init>":(Ljava/lang/Object;)V
+  #213 = Utf8               (Ljava/lang/Object;)I
+  #214 = NameAndType        #143:#213     //  count:(Ljava/lang/Object;)I
+  #215 = Methodref          #39.#214      //  clojure/lang/RT.count:(Ljava/lang/Object;)I
+  #216 = Utf8               (I)I
+  #217 = NameAndType        #167:#216     //  intCast:(I)I
+  #218 = Methodref          #39.#217      //  clojure/lang/RT.intCast:(I)I
+  #219 = Utf8               clojure/core$load$fn__5018
+  #220 = Class              #219          //  clojure/core$load$fn__5018
+  #221 = Methodref          #220.#211     //  clojure/core$load$fn__5018."<init>":(Ljava/lang/Object;)V
+  #222 = Utf8               getRequiredArity
+  #223 = Utf8               ()I
+  #224 = Utf8               Code
+{
+  public static final clojure.lang.Var const__0;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.Object const__1;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__10;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__11;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__12;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__13;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__14;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__15;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__16;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__17;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__18;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__19;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__2;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__20;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__21;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__22;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__23;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__24;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__3;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__4;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__5;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__6;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final java.lang.Object const__7;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__8;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static final clojure.lang.Var const__9;
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public static {};
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: ldc           #35                 // String clojure.core
+         2: ldc           #37                 // String seq
+         4: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+         7: checkcast     #45                 // class clojure/lang/Var
+        10: putstatic     #47                 // Field const__0:Lclojure/lang/Var;
+        13: lconst_0      
+        14: invokestatic  #53                 // Method java/lang/Long.valueOf:(J)Ljava/lang/Long;
+        17: putstatic     #55                 // Field const__1:Ljava/lang/Object;
+        20: ldc           #35                 // String clojure.core
+        22: ldc           #57                 // String <
+        24: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+        27: checkcast     #45                 // class clojure/lang/Var
+        30: putstatic     #59                 // Field const__2:Lclojure/lang/Var;
+        33: ldc           #35                 // String clojure.core
+        35: ldc           #61                 // String str
+        37: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+        40: checkcast     #45                 // class clojure/lang/Var
+        43: putstatic     #63                 // Field const__3:Lclojure/lang/Var;
+        46: ldc           #35                 // String clojure.core
+        48: ldc           #65                 // String root-directory
+        50: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+        53: checkcast     #45                 // class clojure/lang/Var
+        56: putstatic     #67                 // Field const__4:Lclojure/lang/Var;
+        59: ldc           #35                 // String clojure.core
+        61: ldc           #69                 // String ns-name
+        63: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+        66: checkcast     #45                 // class clojure/lang/Var
+        69: putstatic     #71                 // Field const__5:Lclojure/lang/Var;
+        72: ldc           #35                 // String clojure.core
+        74: ldc           #73                 // String *ns*
+        76: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+        79: checkcast     #45                 // class clojure/lang/Var
+        82: putstatic     #75                 // Field const__6:Lclojure/lang/Var;
+        85: bipush        47
+        87: invokestatic  #80                 // Method java/lang/Character.valueOf:(C)Ljava/lang/Character;
+        90: putstatic     #82                 // Field const__7:Ljava/lang/Object;
+        93: ldc           #35                 // String clojure.core
+        95: ldc           #84                 // String *loading-verbosely*
+        97: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       100: checkcast     #45                 // class clojure/lang/Var
+       103: putstatic     #86                 // Field const__8:Lclojure/lang/Var;
+       106: ldc           #35                 // String clojure.core
+       108: ldc           #88                 // String printf
+       110: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       113: checkcast     #45                 // class clojure/lang/Var
+       116: putstatic     #90                 // Field const__9:Lclojure/lang/Var;
+       119: ldc           #35                 // String clojure.core
+       121: ldc           #92                 // String flush
+       123: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       126: checkcast     #45                 // class clojure/lang/Var
+       129: putstatic     #94                 // Field const__10:Lclojure/lang/Var;
+       132: ldc           #35                 // String clojure.core
+       134: ldc           #96                 // String check-cyclic-dependency
+       136: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       139: checkcast     #45                 // class clojure/lang/Var
+       142: putstatic     #98                 // Field const__11:Lclojure/lang/Var;
+       145: ldc           #35                 // String clojure.core
+       147: ldc           #100                // String =
+       149: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       152: checkcast     #45                 // class clojure/lang/Var
+       155: putstatic     #102                // Field const__12:Lclojure/lang/Var;
+       158: ldc           #35                 // String clojure.core
+       160: ldc           #104                // String first
+       162: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       165: checkcast     #45                 // class clojure/lang/Var
+       168: putstatic     #106                // Field const__13:Lclojure/lang/Var;
+       171: ldc           #35                 // String clojure.core
+       173: ldc           #108                // String *pending-paths*
+       175: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       178: checkcast     #45                 // class clojure/lang/Var
+       181: putstatic     #110                // Field const__14:Lclojure/lang/Var;
+       184: ldc           #35                 // String clojure.core
+       186: ldc           #112                // String push-thread-bindings
+       188: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       191: checkcast     #45                 // class clojure/lang/Var
+       194: putstatic     #114                // Field const__15:Lclojure/lang/Var;
+       197: ldc           #35                 // String clojure.core
+       199: ldc           #116                // String hash-map
+       201: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       204: checkcast     #45                 // class clojure/lang/Var
+       207: putstatic     #118                // Field const__16:Lclojure/lang/Var;
+       210: ldc           #35                 // String clojure.core
+       212: ldc           #120                // String conj
+       214: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       217: checkcast     #45                 // class clojure/lang/Var
+       220: putstatic     #122                // Field const__17:Lclojure/lang/Var;
+       223: ldc           #35                 // String clojure.core
+       225: ldc           #124                // String unchecked-inc
+       227: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       230: checkcast     #45                 // class clojure/lang/Var
+       233: putstatic     #126                // Field const__18:Lclojure/lang/Var;
+       236: ldc           #35                 // String clojure.core
+       238: ldc           #128                // String chunked-seq?
+       240: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       243: checkcast     #45                 // class clojure/lang/Var
+       246: putstatic     #130                // Field const__19:Lclojure/lang/Var;
+       249: ldc           #35                 // String clojure.core
+       251: ldc           #132                // String chunk-first
+       253: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       256: checkcast     #45                 // class clojure/lang/Var
+       259: putstatic     #134                // Field const__20:Lclojure/lang/Var;
+       262: ldc           #35                 // String clojure.core
+       264: ldc           #136                // String chunk-rest
+       266: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       269: checkcast     #45                 // class clojure/lang/Var
+       272: putstatic     #138                // Field const__21:Lclojure/lang/Var;
+       275: ldc           #35                 // String clojure.core
+       277: ldc           #140                // String int
+       279: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       282: checkcast     #45                 // class clojure/lang/Var
+       285: putstatic     #142                // Field const__22:Lclojure/lang/Var;
+       288: ldc           #35                 // String clojure.core
+       290: ldc           #144                // String count
+       292: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       295: checkcast     #45                 // class clojure/lang/Var
+       298: putstatic     #146                // Field const__23:Lclojure/lang/Var;
+       301: ldc           #35                 // String clojure.core
+       303: ldc           #148                // String next
+       305: invokestatic  #43                 // Method clojure/lang/RT.var:(Ljava/lang/String;Ljava/lang/String;)Lclojure/lang/Var;
+       308: checkcast     #45                 // class clojure/lang/Var
+       311: putstatic     #150                // Field const__24:Lclojure/lang/Var;
+       314: return        
+
+  public clojure.core$load();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #153                // Method clojure/lang/RestFn."<init>":()V
+         4: return        
+
+  public java.lang.Object doInvoke(java.lang.Object);
+    flags: ACC_PUBLIC
+    Code:
+      stack=6, locals=26, args_size=2
+         0: getstatic     #47                 // Field const__0:Lclojure/lang/Var;
+         3: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+         6: checkcast     #161                // class clojure/lang/IFn
+         9: aload_1       
+        10: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+        15: astore_2      
+        16: aconst_null   
+        17: astore_3      
+        18: lconst_0      
+        19: lstore        4
+        21: lconst_0      
+        22: lstore        6
+        24: lload         6
+        26: lload         4
+        28: lcmp          
+        29: ifge          314
+        32: aload_3       
+        33: checkcast     #166                // class clojure/lang/Indexed
+        36: lload         6
+        38: invokestatic  #170                // Method clojure/lang/RT.intCast:(J)I
+        41: invokeinterface #174,  2          // InterfaceMethod clojure/lang/Indexed.nth:(I)Ljava/lang/Object;
+        46: astore        20
+        48: aload         20
+        50: checkcast     #176                // class java/lang/String
+        53: ldc           #178                // String /
+        55: checkcast     #176                // class java/lang/String
+        58: invokevirtual #182                // Method java/lang/String.startsWith:(Ljava/lang/String;)Z
+        61: ifeq          177
+        64: aload         20
+        66: astore        21
+        68: getstatic     #86                 // Field const__8:Lclojure/lang/Var;
+        71: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+        74: astore        22
+        76: aload         22
+        78: ifnull        123
+        81: aload         22
+        83: getstatic     #191                // Field java/lang/Boolean.FALSE:Ljava/lang/Boolean;
+        86: if_acmpeq     123
+        89: getstatic     #90                 // Field const__9:Lclojure/lang/Var;
+        92: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+        95: checkcast     #161                // class clojure/lang/IFn
+        98: ldc           #193                // String (clojure.core/load \"%s\")\n
+       100: aload         21
+       102: invokeinterface #196,  3          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       107: pop           
+       108: getstatic     #94                 // Field const__10:Lclojure/lang/Var;
+       111: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       114: checkcast     #161                // class clojure/lang/IFn
+       117: invokeinterface #198,  1          // InterfaceMethod clojure/lang/IFn.invoke:()Ljava/lang/Object;
+       122: pop           
+       123: getstatic     #98                 // Field const__11:Lclojure/lang/Var;
+       126: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       129: checkcast     #161                // class clojure/lang/IFn
+       132: aload         21
+       134: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       139: pop           
+       140: aload         21
+       142: getstatic     #106                // Field const__13:Lclojure/lang/Var;
+       145: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       148: checkcast     #161                // class clojure/lang/IFn
+       151: getstatic     #110                // Field const__14:Lclojure/lang/Var;
+       154: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+       157: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       162: invokestatic  #204                // Method clojure/lang/Util.equiv:(Ljava/lang/Object;Ljava/lang/Object;)Z
+       165: ifeq          235
+       168: lload         6
+       170: lconst_1      
+       171: ladd          
+       172: lstore        6
+       174: goto          24
+       177: getstatic     #63                 // Field const__3:Lclojure/lang/Var;
+       180: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       183: checkcast     #161                // class clojure/lang/IFn
+       186: getstatic     #67                 // Field const__4:Lclojure/lang/Var;
+       189: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       192: checkcast     #161                // class clojure/lang/IFn
+       195: getstatic     #71                 // Field const__5:Lclojure/lang/Var;
+       198: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       201: checkcast     #161                // class clojure/lang/IFn
+       204: getstatic     #75                 // Field const__6:Lclojure/lang/Var;
+       207: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+       210: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       215: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       220: getstatic     #82                 // Field const__7:Ljava/lang/Object;
+       223: aload         20
+       225: invokeinterface #207,  4          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       230: astore        21
+       232: goto          68
+       235: getstatic     #114                // Field const__15:Lclojure/lang/Var;
+       238: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       241: checkcast     #161                // class clojure/lang/IFn
+       244: getstatic     #118                // Field const__16:Lclojure/lang/Var;
+       247: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       250: checkcast     #161                // class clojure/lang/IFn
+       253: getstatic     #110                // Field const__14:Lclojure/lang/Var;
+       256: getstatic     #122                // Field const__17:Lclojure/lang/Var;
+       259: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       262: checkcast     #161                // class clojure/lang/IFn
+       265: getstatic     #110                // Field const__14:Lclojure/lang/Var;
+       268: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+       271: aload         21
+       273: invokeinterface #196,  3          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       278: invokeinterface #196,  3          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       283: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       288: pop           
+       289: new           #209                // class clojure/core$load$fn__5016
+       292: dup           
+       293: aload         21
+       295: invokespecial #212                // Method clojure/core$load$fn__5016."<init>":(Ljava/lang/Object;)V
+       298: astore        25
+       300: aload         25
+       302: checkcast     #161                // class clojure/lang/IFn
+       305: invokeinterface #198,  1          // InterfaceMethod clojure/lang/IFn.invoke:()Ljava/lang/Object;
+       310: pop           
+       311: goto          168
+       314: getstatic     #47                 // Field const__0:Lclojure/lang/Var;
+       317: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       320: checkcast     #161                // class clojure/lang/IFn
+       323: aload_2       
+       324: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       329: astore        8
+       331: aload         8
+       333: ifnull        737
+       336: aload         8
+       338: getstatic     #191                // Field java/lang/Boolean.FALSE:Ljava/lang/Boolean;
+       341: if_acmpeq     737
+       344: getstatic     #130                // Field const__19:Lclojure/lang/Var;
+       347: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       350: checkcast     #161                // class clojure/lang/IFn
+       353: aload         8
+       355: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       360: astore        9
+       362: aload         9
+       364: ifnull        434
+       367: aload         9
+       369: getstatic     #191                // Field java/lang/Boolean.FALSE:Ljava/lang/Boolean;
+       372: if_acmpeq     434
+       375: getstatic     #134                // Field const__20:Lclojure/lang/Var;
+       378: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       381: checkcast     #161                // class clojure/lang/IFn
+       384: aload         8
+       386: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       391: astore        19
+       393: getstatic     #138                // Field const__21:Lclojure/lang/Var;
+       396: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       399: checkcast     #161                // class clojure/lang/IFn
+       402: aload         8
+       404: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       409: astore_2      
+       410: aload         19
+       412: invokestatic  #215                // Method clojure/lang/RT.count:(Ljava/lang/Object;)I
+       415: invokestatic  #218                // Method clojure/lang/RT.intCast:(I)I
+       418: i2l           
+       419: lstore        4
+       421: lconst_0      
+       422: invokestatic  #170                // Method clojure/lang/RT.intCast:(J)I
+       425: i2l           
+       426: lstore        6
+       428: aload         19
+       430: astore_3      
+       431: goto          24
+       434: getstatic     #106                // Field const__13:Lclojure/lang/Var;
+       437: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       440: checkcast     #161                // class clojure/lang/IFn
+       443: aload         8
+       445: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       450: astore        10
+       452: aload         10
+       454: checkcast     #176                // class java/lang/String
+       457: ldc           #178                // String /
+       459: checkcast     #176                // class java/lang/String
+       462: invokevirtual #182                // Method java/lang/String.startsWith:(Ljava/lang/String;)Z
+       465: ifeq          600
+       468: aload         10
+       470: astore        11
+       472: getstatic     #86                 // Field const__8:Lclojure/lang/Var;
+       475: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+       478: astore        12
+       480: aload         12
+       482: ifnull        527
+       485: aload         12
+       487: getstatic     #191                // Field java/lang/Boolean.FALSE:Ljava/lang/Boolean;
+       490: if_acmpeq     527
+       493: getstatic     #90                 // Field const__9:Lclojure/lang/Var;
+       496: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       499: checkcast     #161                // class clojure/lang/IFn
+       502: ldc           #193                // String (clojure.core/load \"%s\")\n
+       504: aload         11
+       506: invokeinterface #196,  3          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       511: pop           
+       512: getstatic     #94                 // Field const__10:Lclojure/lang/Var;
+       515: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       518: checkcast     #161                // class clojure/lang/IFn
+       521: invokeinterface #198,  1          // InterfaceMethod clojure/lang/IFn.invoke:()Ljava/lang/Object;
+       526: pop           
+       527: getstatic     #98                 // Field const__11:Lclojure/lang/Var;
+       530: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       533: checkcast     #161                // class clojure/lang/IFn
+       536: aload         11
+       538: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       543: pop           
+       544: aload         11
+       546: getstatic     #106                // Field const__13:Lclojure/lang/Var;
+       549: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       552: checkcast     #161                // class clojure/lang/IFn
+       555: getstatic     #110                // Field const__14:Lclojure/lang/Var;
+       558: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+       561: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       566: invokestatic  #204                // Method clojure/lang/Util.equiv:(Ljava/lang/Object;Ljava/lang/Object;)Z
+       569: ifeq          658
+       572: getstatic     #150                // Field const__24:Lclojure/lang/Var;
+       575: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       578: checkcast     #161                // class clojure/lang/IFn
+       581: aload         8
+       583: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       588: astore_2      
+       589: lconst_0      
+       590: lstore        4
+       592: lconst_0      
+       593: lstore        6
+       595: aconst_null   
+       596: astore_3      
+       597: goto          24
+       600: getstatic     #63                 // Field const__3:Lclojure/lang/Var;
+       603: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       606: checkcast     #161                // class clojure/lang/IFn
+       609: getstatic     #67                 // Field const__4:Lclojure/lang/Var;
+       612: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       615: checkcast     #161                // class clojure/lang/IFn
+       618: getstatic     #71                 // Field const__5:Lclojure/lang/Var;
+       621: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       624: checkcast     #161                // class clojure/lang/IFn
+       627: getstatic     #75                 // Field const__6:Lclojure/lang/Var;
+       630: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+       633: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       638: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       643: getstatic     #82                 // Field const__7:Ljava/lang/Object;
+       646: aload         10
+       648: invokeinterface #207,  4          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       653: astore        11
+       655: goto          472
+       658: getstatic     #114                // Field const__15:Lclojure/lang/Var;
+       661: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       664: checkcast     #161                // class clojure/lang/IFn
+       667: getstatic     #118                // Field const__16:Lclojure/lang/Var;
+       670: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       673: checkcast     #161                // class clojure/lang/IFn
+       676: getstatic     #110                // Field const__14:Lclojure/lang/Var;
+       679: getstatic     #122                // Field const__17:Lclojure/lang/Var;
+       682: invokevirtual #159                // Method clojure/lang/Var.getRawRoot:()Ljava/lang/Object;
+       685: checkcast     #161                // class clojure/lang/IFn
+       688: getstatic     #110                // Field const__14:Lclojure/lang/Var;
+       691: invokevirtual #185                // Method clojure/lang/Var.get:()Ljava/lang/Object;
+       694: aload         11
+       696: invokeinterface #196,  3          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       701: invokeinterface #196,  3          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+       706: invokeinterface #164,  2          // InterfaceMethod clojure/lang/IFn.invoke:(Ljava/lang/Object;)Ljava/lang/Object;
+       711: pop           
+       712: new           #220                // class clojure/core$load$fn__5018
+       715: dup           
+       716: aload         11
+       718: invokespecial #221                // Method clojure/core$load$fn__5018."<init>":(Ljava/lang/Object;)V
+       721: astore        15
+       723: aload         15
+       725: checkcast     #161                // class clojure/lang/IFn
+       728: invokeinterface #198,  1          // InterfaceMethod clojure/lang/IFn.invoke:()Ljava/lang/Object;
+       733: pop           
+       734: goto          572
+       737: aconst_null   
+       738: areturn       
+
+  public int getRequiredArity();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: iconst_0      
+         1: ireturn       
+}

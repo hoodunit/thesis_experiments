@@ -1,0 +1,173 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: 0PQEYzOnB1nd3VZLxj4XA/AxiZ4=
+Created-By: 1.7.0_51 (Oracle Corporation)
+SHA1-Digest-Manifest: ctbi6ykgtkHKM8YlLTOHFwh6DAA=
+
+Name: clojure/zip.clj
+SHA1-Digest: vfBhi8WII5c9CrEwOc6tdmbz4zA=
+
+Name: clojure/java/browse.clj
+SHA1-Digest: SZBmjxBDwSWSzIleqfipv6U55gs=
+
+Name: clojure/uuid.clj
+SHA1-Digest: Xc4NaOT2A98L9alsF9D4W4WA+Uw=
+
+Name: clojure/pprint/cl_format.clj
+SHA1-Digest: 5zPlWNWiPzzvxJ6R7lR06zMh8+4=
+
+Name: clojure/edn.clj
+SHA1-Digest: +gw/xXuc5MwTeeKm6bHLGlSkNpg=
+
+Name: clojure/gvec.clj
+SHA1-Digest: uN0A6ufOyIjQT/MGOyL9n40CqQU=
+
+Name: res/drawable/splash_background.xml
+SHA1-Digest: GS94GESozN2pwxGhrljWgyMsNfY=
+
+Name: clojure/pprint/dispatch.clj
+SHA1-Digest: S/7dMSNxTvBJ54s17TsNMUHLhdk=
+
+Name: clojure/set.clj
+SHA1-Digest: QQRSYlNopwYad2py3Xj9nm4If9s=
+
+Name: clojure/java/io.clj
+SHA1-Digest: 5Yd98ZjfGbAc5oGg6vg6URnVcaE=
+
+Name: clojure/core/reducers.clj
+SHA1-Digest: fRc8yZ2QZBtWS/AshwODTAUJTwM=
+
+Name: clojure/test/tap.clj
+SHA1-Digest: VsPkyxsPgH95LhGNrr4VJnP8GWw=
+
+Name: res/drawable-hdpi/splash_hands.png
+SHA1-Digest: DcIgpSCu82d+0plH/ic6TD01IE0=
+
+Name: res/layout/splashscreen.xml
+SHA1-Digest: +ctQDQMChg92nko0AhJvqGCjQKM=
+
+Name: clojure/data.clj
+SHA1-Digest: CjRpPSvC6pCnvP4lYTUi7Ad1xPk=
+
+Name: clojure/version.properties
+SHA1-Digest: NDZba1X34FFa620hLq/nWtmN930=
+
+Name: res/layout/main.xml
+SHA1-Digest: yBttm+AHs5wIR82K+zVWV9kEssg=
+
+Name: clojure/stacktrace.clj
+SHA1-Digest: 1kWPK3D0RAZeeWlB2/GpA24knCY=
+
+Name: clojure/pprint/pprint_base.clj
+SHA1-Digest: 4w0mwUutpV7Aau71LyzwMqlpDLA=
+
+Name: clojure/template.clj
+SHA1-Digest: LGpOsmjar7zIHmUR9FsEpewgYrw=
+
+Name: clojure/core_deftype.clj
+SHA1-Digest: 6u0h2miMiZBFYKqkYdgfzoPhTzc=
+
+Name: res/drawable-hdpi/splash_circle.png
+SHA1-Digest: JwoqgiwGLhHuJdks1kOkj2I7UyQ=
+
+Name: clojure/pprint/print_table.clj
+SHA1-Digest: sD1CKPTWY7grPAALWZtTbiU/uhA=
+
+Name: clojure/inspector.clj
+SHA1-Digest: nHqaGOv21SFSTCxTWimKpmKURUk=
+
+Name: clojure/core.clj
+SHA1-Digest: 4k6BQEh8/XvbtMnmEUv08vjw4zA=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: PIyeQgR0lm35qbAmw+y1WKGouy8=
+
+Name: res/drawable-hdpi/splash_droid.png
+SHA1-Digest: 8w7X5admN+74tooAI55fhe1yJAk=
+
+Name: clojure/core_print.clj
+SHA1-Digest: RREIJmORN8ylWlKVxfe/fAkS5DI=
+
+Name: clojure/java/shell.clj
+SHA1-Digest: BqfRWKISUjKkXklhILpGV4Y9wgY=
+
+Name: clojure/string.clj
+SHA1-Digest: 1ok3EM/fIueO3+KrmtlQiQ+OjAA=
+
+Name: resources.arsc
+SHA1-Digest: tP0dot74XvFnTYSbRYTuKRTWYdg=
+
+Name: clojure/main.clj
+SHA1-Digest: xaFjTk9G2bEY8LzWZBzkchGf+eE=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: gFwHK41v46kATlz0z7pe+V8gQLU=
+
+Name: clojure/pprint/column_writer.clj
+SHA1-Digest: zEzGT2a1HVWZajGFEdLoeTVoRJU=
+
+Name: clojure/test.clj
+SHA1-Digest: 7awzm+QqHYmucpBWfGFnvJ0FiM4=
+
+Name: AndroidManifest.xml
+SHA1-Digest: DZerIwXePPZIYHvdGXOhP9HCXYY=
+
+Name: clojure/reflect.clj
+SHA1-Digest: lg8rG23lE+gC4JXPE0SQRSXUUwc=
+
+Name: clojure/instant.clj
+SHA1-Digest: NcFE+SsRvx2g0yh1rBVCRKuEqe8=
+
+Name: res/anim/splash_rotation.xml
+SHA1-Digest: 9o0XEOKx/kooDYMhS/4mBNWfvxk=
+
+Name: clojure/core_proxy.clj
+SHA1-Digest: ZjgjFz8GtoawPbKRaXGsHNgDG/M=
+
+Name: clojure/pprint.clj
+SHA1-Digest: RsiZO7+VUsMerEpBayD1TY4wRTU=
+
+Name: clojure/java/javadoc.clj
+SHA1-Digest: gqTpRy2YSZMykgUc2l/L7woEV0k=
+
+Name: clojure/test/junit.clj
+SHA1-Digest: 2S7WCcm5WqgqC6L19Y+rEdOollQ=
+
+Name: clojure/pprint/utilities.clj
+SHA1-Digest: p5ghNPcu4UC7tEfMAVW7erTBGcw=
+
+Name: clojure/pprint/pretty_writer.clj
+SHA1-Digest: iN8zmjbDlKZyx134hu6+S2/QECo=
+
+Name: classes.dex
+SHA1-Digest: KY0vm9yhCvrxBT6Xk9Crcw6V8CY=
+
+Name: clojure/walk.clj
+SHA1-Digest: wvenWMUDs47/hPNBnziSr40OP9s=
+
+Name: clojure/parallel.clj
+SHA1-Digest: IYcAKrtQnx1Dd9hy1xW6j4wJAts=
+
+Name: clojure/repl.clj
+SHA1-Digest: oailwyh/3ERADTcY3/vxUn22HxE=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: DDsnIcer2nNytpUNCFs4Dnc6rX8=
+
+Name: clojure/genclass.clj
+SHA1-Digest: MjGIol1IfiQV6xDYuKQxbrFa64U=
+
+Name: clojure/core/protocols.clj
+SHA1-Digest: ajcg+plV2mT2j97CLHp27sC69Ws=
+
+Name: clojure/java/browse_ui.clj
+SHA1-Digest: hCnMqRBI8Y4wVpfrorlK+Uo/JGE=
+
+Name: clojure/xml.clj
+SHA1-Digest: /Vteg+IN8Rd6E1k+Ch8UyjH9QgA=
+
+Name: clojure/reflect/java.clj
+SHA1-Digest: ZtWxvFGNRJ7z5Xdt/hp4oDGA20I=
+
+Name: assets/data_readers.clj
+SHA1-Digest: xhms9k4mZZF8LYuoiXrYROJGiXM=
+
