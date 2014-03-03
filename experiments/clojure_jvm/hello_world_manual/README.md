@@ -18,9 +18,6 @@ Compile:
 
 ```
 java -cp src:target/classes:../../clojure-1.5.1.jar -Dclojure.compile.path=target/classes clojure.lang.Compile hello.core 
-
-# To elide metadata
-java -cp src:target/classes:../../clojure-1.5.1.jar -Dclojure.compile.path=target/classes -Dclojure.compiler.elide-meta='[:doc :file :line :column :added]' clojure.lang.Compile hello.core 
 ```
 
 Run:
@@ -46,6 +43,8 @@ Compile:
 ```
 java -cp src:target/classes:../../clojure-1.5.1-elided.jar -Dclojure.compile.path=target/classes -Dclojure.compiler.elide-meta='[:doc :file :line :column :added]' clojure.lang.Compile hello.core 
 ```
+
+The compiler should also be compiled with :elide-meta flags.
 
 Run:
 
