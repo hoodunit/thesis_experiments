@@ -30,3 +30,14 @@ Run times are measured from when the START action is printed to the log to start
 | 1.790 | 20140218_1423.logcat |
 | 1.680 | 20140218_1423.logcat |
 | Average: 1.734 |
+
+
+## Profiling
+
+Profiling data is obtained using `android.os.Debug.startMethodTracing`. This uses method tracing (as opposed to sampling) and affects the start time signifcantly, so times are relative at best.
+
+### Profiling start time
+
+| Time (s) | Log file |
+| ---- | --- |
+| 13.62 | 20140219_1004.logcat |

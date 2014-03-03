@@ -1,0 +1,42 @@
+02-19 10:03:42.620   778         ActivityManager  I  START u0 {flg=0x10000000 cmp=org.helloandroid.core/.LoaderActivity} from pid 2432
+02-19 10:03:42.630   2432               dalvikvm  D  GC_CONCURRENT freed 95K, 15% free 586K/684K, paused 0ms+0ms, total 2ms
+02-19 10:03:42.630   778         ActivityManager  I  Start proc org.helloandroid.core for activity org.helloandroid.core/.LoaderActivity: pid=2450 uid=10114 gids={50114, 1028, 1015}
+02-19 10:03:42.670   2450               dalvikvm  I  TRACE STARTED: '/sdcard/dmtrace.trace' 97656KB
+02-19 10:03:42.840   2450               dalvikvm  D  +++ active profiler count now 1
+02-19 10:03:42.840   778         ActivityManager  I  START u0 {act=org.helloandroid.core.MAIN cmp=org.helloandroid.core/.main} from pid 2450
+02-19 10:03:43.080   2450               dalvikvm  D  GC_CONCURRENT freed 163K, 2% free 16960K/17152K, paused 4ms+2ms, total 26ms
+02-19 10:03:43.170   1002                  Icing  I  Indexing 9E464DC2A102057D86495404FBBAAC90B8242C74 from com.google.android.googlequicksearchbox
+02-19 10:03:43.210   1002                  Icing  I  Indexing done 9E464DC2A102057D86495404FBBAAC90B8242C74
+02-19 10:03:43.540   2450               dalvikvm  D  GC_CONCURRENT freed 210K, 2% free 17150K/17392K, paused 1ms+3ms, total 18ms
+02-19 10:03:43.980   2450               dalvikvm  D  GC_CONCURRENT freed 197K, 2% free 17353K/17580K, paused 1ms+2ms, total 20ms
+02-19 10:03:44.430   2450               dalvikvm  D  GC_CONCURRENT freed 206K, 2% free 17550K/17788K, paused 2ms+3ms, total 22ms
+02-19 10:03:44.850   2450               dalvikvm  D  GC_CONCURRENT freed 246K, 2% free 17705K/17980K, paused 2ms+2ms, total 23ms
+02-19 10:03:45.220   2450               dalvikvm  D  GC_CONCURRENT freed 303K, 2% free 17810K/18152K, paused 2ms+3ms, total 26ms
+02-19 10:03:45.680   2450               dalvikvm  D  GC_CONCURRENT freed 279K, 2% free 17919K/18232K, paused 2ms+19ms, total 42ms
+02-19 10:03:45.730   2450               dalvikvm  I  Could not find method java.beans.Introspector.getBeanInfo, referenced from method clojure.core$bean.invoke
+02-19 10:03:45.730   2450               dalvikvm  W  VFY: unable to resolve static method 17116: Ljava/beans/Introspector;.getBeanInfo (Ljava/lang/Class;)Ljava/beans/BeanInfo;
+02-19 10:03:45.730   2450               dalvikvm  D  VFY: replacing opcode 0x71 at 0x0021
+02-19 10:03:46.120   2450               dalvikvm  D  GC_CONCURRENT freed 274K, 2% free 18054K/18360K, paused 2ms+3ms, total 26ms
+02-19 10:03:46.550   2450               dalvikvm  D  GC_CONCURRENT freed 308K, 2% free 18154K/18492K, paused 2ms+3ms, total 26ms
+02-19 10:03:47.030   2450               dalvikvm  D  GC_CONCURRENT freed 373K, 3% free 18182K/18584K, paused 3ms+2ms, total 28ms
+02-19 10:03:47.530   2450               dalvikvm  D  GC_CONCURRENT freed 336K, 2% free 18243K/18612K, paused 2ms+2ms, total 27ms
+02-19 10:03:47.960   2450               dalvikvm  D  GC_CONCURRENT freed 374K, 3% free 18269K/18676K, paused 2ms+3ms, total 27ms
+02-19 10:03:48.470   2450               dalvikvm  D  GC_CONCURRENT freed 379K, 3% free 18287K/18696K, paused 2ms+1ms, total 17ms
+02-19 10:03:48.930   2450               dalvikvm  D  GC_CONCURRENT freed 386K, 3% free 18314K/18732K, paused 2ms+1ms, total 30ms
+02-19 10:03:49.490   2450               dalvikvm  D  GC_CONCURRENT freed 359K, 3% free 18368K/18760K, paused 2ms+1ms, total 28ms
+02-19 10:03:49.960   2450               dalvikvm  D  GC_CONCURRENT freed 402K, 3% free 18396K/18828K, paused 2ms+1ms, total 18ms
+02-19 10:03:50.260   778         ActivityManager  I  Killing 1951:com.twitter.android/u0a102 (adj 15): empty #17
+02-19 10:03:50.550   2450               dalvikvm  D  GC_CONCURRENT freed 398K, 3% free 18439K/18868K, paused 2ms+0ms, total 27ms
+02-19 10:03:51.110   2450               dalvikvm  D  GC_CONCURRENT freed 433K, 3% free 18471K/18936K, paused 2ms+2ms, total 31ms
+02-19 10:03:51.710   2450               dalvikvm  D  GC_CONCURRENT freed 430K, 3% free 18538K/18992K, paused 3ms+1ms, total 27ms
+02-19 10:03:52.490   2450               dalvikvm  D  GC_CONCURRENT freed 353K, 3% free 18689K/19080K, paused 3ms+2ms, total 32ms
+02-19 10:03:52.620   778         ActivityManager  W  Launch timeout has expired, giving up wake lock!
+02-19 10:03:53.000   2450               dalvikvm  D  GC_CONCURRENT freed 456K, 3% free 18792K/19280K, paused 2ms+1ms, total 28ms
+02-19 10:03:53.640   2450               dalvikvm  D  GC_CONCURRENT freed 484K, 3% free 18946K/19460K, paused 1ms+3ms, total 34ms
+02-19 10:03:54.260   2450               dalvikvm  D  GC_CONCURRENT freed 526K, 3% free 19077K/19640K, paused 2ms+2ms, total 19ms
+02-19 10:03:54.360   2450           helloandroid  V  Clojure Android Hello World done
+02-19 10:03:54.360   2450               dalvikvm  D  +++ active profiler count now 0
+02-19 10:03:54.660   2450               dalvikvm  I  TRACE STOPPED: writing 4623209 records
+02-19 10:03:56.150   2450             Adreno-EGL  I  <qeglDrvAPI_eglInitialize:320>: EGL 1.4 QUALCOMM Build: I0404c4692afb8623f95c43aeb6d5e13ed4b30ddbDate: 11/06/13
+02-19 10:03:56.170   2450         OpenGLRenderer  D  Enabling debug mode 0
+02-19 10:03:56.240   778         ActivityManager  I  Displayed org.helloandroid.core/.main: +13s364ms (total +13s615ms)
