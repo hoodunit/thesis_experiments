@@ -1,4 +1,4 @@
-package com.android.tests.basic;
+package com.android.helloworld;
 
 import android.app.Activity;
 import android.os.Bundle;
