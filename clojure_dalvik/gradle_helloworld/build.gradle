@@ -12,10 +12,6 @@ repositories {
   mavenCentral()
 }
 
-dependencies {
-  compile files('libs/clojure-1.5.1.jar')
-}
-
 android {
     compileSdkVersion 19
     buildToolsVersion "19.0.1"
@@ -47,3 +43,17 @@ android {
         }
     }
 }
+
+dependencies {
+  compile files('libs/clojure-1.5.1.jar')
+}
+
+task compileClojure(dependsOn: 'compileReleaseJava') {
+  doLast {
+    def command = """java -cp src/main/clojure:build/classes/release:libs/android-19.jar:libs/clojure-1.5.1.jar -Dclojure.compile.path=build/classes/release clojure.lang.Compile com.android.helloworld.core"""
+    def proc = command.execute()
+    proc.waitFor()
+  }
+}
+
+assembleRelease.dependsOn compileClojure
