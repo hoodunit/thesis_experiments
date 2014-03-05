@@ -1,6 +1,6 @@
-# Clojure Hello World AOT Compilation Example - with uberjar
+# Clojure Hello World Startup Time Testing
 
-This is an example of the compilation of a Clojure Hello World app and packaging into an uberjar. Compile and package with `lein uberjar`.
+This is a simple Clojure Hello World app for testing startup times. 
 
 ## Setup Information
 
@@ -12,13 +12,19 @@ This is an example of the compilation of a Clojure Hello World app and packaging
 | Operating System | Ubuntu Linux 13.10 64 bit |
 | Computer | Lenovo Yoga 2 Pro i7-4500U 1.8 GHz, 8 GB RAM, 256 GB SSD |
 
-## Run time
+## Run time (JAR)
 
 ```
+# Compile
+lein uberjar
+
+# Remove .clj files from uberjar (or they will slow startup)
+
+# Run
 time java -jar target/hello-0.1.0-SNAPSHOT-standalone.jar
 ```
 
-| Time |
+| Time (s) |
 | ---- |
 | 1.03 |
 | 1.07 |
@@ -26,6 +32,25 @@ time java -jar target/hello-0.1.0-SNAPSHOT-standalone.jar
 | 0.99 |
 | 1.11 |
 | Average: 1.048 |
+
+## Run time (without JAR)
+
+```
+# Compile
+lein compile
+
+# Run
+time java -cp ../../clojure-1.5.1.jar:target/classes hello.core
+```
+
+| Time (s) |
+| ---- |
+| 1.03 |
+| 1.04 |
+| 1.02 |
+| 1.03 |
+| 0.99 |
+| Average: 1.022 |
 
 ## Profiling
 
