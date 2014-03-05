@@ -1,5 +1,5 @@
-# Master's Thesis
+# Master's Thesis Experiments
 
-This contains the work on my thesis related to Clojure on Android and Clojure startup time. The paper itself is under paper/ and various experiments profiling and analyzing Clojure, Java, and Android are found are experiments/.
+This contains a number of experiments for my thesis related to Clojure on Android and Clojure startup time. The paper is located [here](https://github.com/nicholaskariniemi/thesis).
 
-I am also posting about similar topics on my [blog](http://nicholaskariniemi.github.io/).
+I also [blog about similar topics](http://nicholaskariniemi.github.io/).
