@@ -18,6 +18,11 @@ android {
 
     testBuildType "debug"
 
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 19
+    }
+
     signingConfigs {
         debug {
             storeFile file("debug.keystore")
