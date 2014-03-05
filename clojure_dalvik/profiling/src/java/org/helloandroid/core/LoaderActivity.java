@@ -12,7 +12,7 @@ public class LoaderActivity extends Activity {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         
-        Debug.startMethodTracing("/sdcard/dmtrace.trace", 100000000);
+        //Debug.startMethodTracing("/sdcard/dmtrace.trace", 100000000);
         startActivity(new Intent("org.helloandroid.core.MAIN"));
         finish();
     }
