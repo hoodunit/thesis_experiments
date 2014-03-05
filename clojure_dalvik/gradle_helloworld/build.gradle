@@ -12,6 +12,10 @@ repositories {
   mavenCentral()
 }
 
+dependencies {
+  compile files('libs/clojure-1.5.1.jar')
+}
+
 android {
     compileSdkVersion 19
     buildToolsVersion "19.0.1"
