@@ -1,6 +1,5 @@
 (ns hello.core
-  (:gen-class 
-   :methods [[greet [] void]]))
+  (:gen-class))
 
-(defn -greet [this]
+(defn -main [this]
   (println "Hello world"))
