@@ -1,5 +1,5 @@
 (ns hello.core
   (:gen-class))
 
-(defn -main [this]
+(defn -main []
   (println "Hello world"))
