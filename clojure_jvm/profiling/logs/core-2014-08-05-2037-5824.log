@@ -1,0 +1,2486 @@
+13088 - 0.000: Command line:
+  java
+  -agentpath:/home/ennus/app/yjp-2013-build-13088/bin/linux-x86-64/libyjpagent.so=dir=logs,logdir=logs,sampling_settings_path=cpu_sampling_settings,onexit=snapshot,probe_disable=com.yourkit.probes.builtin.*,probe_on=com.yourkit.probes.builtin.ClassLoading
+  -cp
+  /home/ennus/app/yjp-2013-build-13088/lib/yjp.jar:../../clojure-1.6.0.jar:classes
+  hello.core
+13088 - 0.000: uname:
+  sysname: Linux
+  release: 3.13.0-30-generic
+  version: #54-Ubuntu SMP Mon Jun 9 22:45:01 UTC 2014
+  machine: x86_64
+13088 - 0.000: Linux; fast_thread_cpu_time=1; 64-bit process
+13088 - 0.000: Today is 20140805
+13088 - 0.000: Agent_OnLoad: orig_options=dir=logs,logdir=logs,sampling_settings_path=cpu_sampling_settings,onexit=snapshot,probe_disable=com.yourkit.probes.builtin.*,probe_on=com.yourkit.probes.builtin.ClassLoading
+  full_options=,dir=logs,logdir=logs,sampling_settings_path=cpu_sampling_settings,onexit=snapshot,probe_disable=com.yourkit.probes.builtin.*,probe_on=com.yourkit.probes.builtin.ClassLoading,
+13088 - 0.000: phase: 1
+13088 - 0.000: jvmtiVersion: 30010201
+13088 - 0.000: vendor: Oracle Corporation
+13088 - 0.000: version: 24.60-b09
+13088 - 0.000: info: mixed mode, sharing
+13088 - 0.007: Reusing existing jar file: /tmp/yjp201407210713.jar
+13088 - 0.008: JVMTI 30010201; 24.60-b09; Oracle Corporation; mixed mode, sharing; JR=0; I=0
+13088 - 0.012: Successfully registered probe classes: 4
+  Registered: .AgentLoadingSupport$JBoss
+  Registered: .AgentLoadingSupport$OSGi1
+  Registered: .AgentLoadingSupport$OSGi2
+  Registered: .AgentLoadingSupport$OSGi3
+13088 - 0.018: -n registerNatives
+13088 - 0.018: -n getClass
+13088 - 0.018: -n hashCode
+13088 - 0.018: -n clone
+13088 - 0.018: -n notify
+13088 - 0.018: -n notifyAll
+13088 - 0.018: N wait
+13088 - 0.019: [2] java.lang.Object
+13088 - 0.019: N intern
+13088 - 0.020: [2] java.lang.String
+13088 - 0.021: -n
+13088 - 0.021: [2] java.lang.Class 1 ms
+13088 - 0.022: -n
+13088 - 0.023: [2] java.lang.ClassLoader
+13088 - 0.023: -n registerNatives
+13088 - 0.023: -n setIn0
+13088 - 0.023: -n setOut0
+13088 - 0.023: -n setErr0
+13088 - 0.023: -n currentTimeMillis
+13088 - 0.023: -n nanoTime
+13088 - 0.023: N arraycopy
+13088 - 0.023: -n identityHashCode
+13088 - 0.023: -n initProperties
+13088 - 0.023: -n mapLibraryName
+13088 - 0.024: [2] java.lang.System
+13088 - 0.024: -n
+13088 - 0.024: [2] java.lang.Throwable
+13088 - 0.024: [2] java.lang.Error
+13088 - 0.024: [2] java.lang.ThreadDeath
+13088 - 0.024: [2] java.lang.Exception
+13088 - 0.025: [2] java.lang.RuntimeException
+13088 - 0.025: [2] java.security.ProtectionDomain
+13088 - 0.025: [2] java.security.AccessControlContext
+13088 - 0.025: [2] java.lang.ClassNotFoundException
+13088 - 0.025: [2] java.lang.ReflectiveOperationException
+13088 - 0.026: [2] java.lang.NoClassDefFoundError
+13088 - 0.026: [2] java.lang.LinkageError
+13088 - 0.026: [2] java.lang.ClassCastException
+13088 - 0.026: [2] java.lang.ArrayStoreException
+13088 - 0.026: [2] java.lang.VirtualMachineError
+13088 - 0.026: [2] java.lang.OutOfMemoryError
+13088 - 0.026: [2] java.lang.StackOverflowError
+13088 - 0.026: [2] java.lang.IllegalMonitorStateException
+13088 - 0.026: [2] java.lang.ref.Reference
+13088 - 0.026: [2] java.lang.ref.SoftReference
+13088 - 0.026: [2] java.lang.ref.WeakReference
+13088 - 0.026: [2] java.lang.ref.FinalReference
+13088 - 0.026: [2] java.lang.ref.PhantomReference
+13088 - 0.027: [2] java.lang.ref.Finalizer
+13088 - 0.027: -n registerNatives
+13088 - 0.027: -n currentThread
+13088 - 0.027: N yield
+13088 - 0.027: N sleep
+13088 - 0.027: N start0
+13088 - 0.027: -n isInterrupted
+13088 - 0.027: N isAlive
+13088 - 0.027: N countStackFrames
+13088 - 0.027: N holdsLock
+13088 - 0.027: N dumpThreads
+13088 - 0.027: N getThreads
+13088 - 0.027: N setPriority0
+13088 - 0.027: N stop0
+13088 - 0.027: N suspend0
+13088 - 0.027: N resume0
+13088 - 0.027: N interrupt0
+13088 - 0.027: N setNativeName
+13088 - 0.027: [2] java.lang.Thread
+13088 - 0.028: [2] java.lang.ThreadGroup
+13088 - 0.029: [2] java.util.Properties
+13088 - 0.029: [2] java.util.Hashtable
+13088 - 0.030: [2] java.util.Dictionary
+13088 - 0.030: [2] java.lang.reflect.AccessibleObject
+13088 - 0.030: [2] java.lang.reflect.Field
+13088 - 0.031: [2] java.lang.reflect.Method
+13088 - 0.031: [2] java.lang.reflect.Constructor
+13088 - 0.032: [2] sun.reflect.MagicAccessorImpl
+13088 - 0.032: [2] sun.reflect.MethodAccessorImpl
+13088 - 0.032: [2] sun.reflect.ConstructorAccessorImpl
+13088 - 0.032: [2] sun.reflect.DelegatingClassLoader
+13088 - 0.032: -n
+13088 - 0.032: [2] sun.reflect.ConstantPool
+13088 - 0.032: [2] sun.reflect.UnsafeStaticFieldAccessorImpl
+13088 - 0.032: [2] sun.reflect.UnsafeFieldAccessorImpl
+13088 - 0.032: [2] sun.reflect.FieldAccessorImpl
+13088 - 0.033: -n
+13088 - 0.033: [2] java.lang.invoke.MethodHandle
+13088 - 0.034: [2] java.lang.invoke.MemberName
+13088 - 0.035: -n
+13088 - 0.035: [2] java.lang.invoke.MethodHandleNatives
+13088 - 0.036: [2] java.lang.invoke.LambdaForm
+13088 - 0.037: [2] java.lang.invoke.DirectMethodHandle
+13088 - 0.038: [2] java.lang.invoke.MethodType
+13088 - 0.038: [2] java.lang.BootstrapMethodError
+13088 - 0.039: [2] java.lang.invoke.CallSite
+13088 - 0.039: [2] java.lang.invoke.ConstantCallSite
+13088 - 0.039: [2] java.lang.invoke.MutableCallSite
+13088 - 0.039: [2] java.lang.invoke.VolatileCallSite
+13088 - 0.040: [2] java.lang.StringBuffer
+13088 - 0.040: [2] java.lang.AbstractStringBuilder
+13088 - 0.041: [2] java.lang.StringBuilder
+13088 - 0.041: [2] java.lang.StackTraceElement
+13088 - 0.041: [2] java.nio.Buffer
+13088 - 0.042: [2] sun.misc.PostVMInitHook
+13088 - 0.042: [2] java.lang.Boolean
+13088 - 0.042: [2] java.lang.Character
+13088 - 0.043: -n
+13088 - 0.043: [2] java.lang.Float
+13088 - 0.043: [2] java.lang.Number
+13088 - 0.043: -n
+13088 - 0.043: [2] java.lang.Double
+13088 - 0.043: [2] java.lang.Byte
+13088 - 0.044: [2] java.lang.Short
+13088 - 0.044: [2] java.lang.Integer
+13088 - 0.045: [2] java.lang.Long
+13088 - 0.045: [2] java.lang.NullPointerException
+13088 - 0.045: [2] java.lang.ArithmeticException
+13088 - 0.046: agentStart: 1
+13088 - 0.046: agentStart: 2
+13088 - 0.047: agentStart: OK
+13088 - 0.047: [6] java.io.ObjectStreamField
+13088 - 0.047: [6] java.lang.String$CaseInsensitiveComparator
+13088 - 0.048: [6] java.lang.RuntimePermission
+13088 - 0.048: [6] java.security.BasicPermission
+13088 - 0.048: [6] java.security.Permission
+13088 - 0.048: -n
+13088 - 0.048: [6] java.security.AccessController
+13088 - 0.049: [6] java.lang.reflect.ReflectPermission
+13088 - 0.049: [6] sun.reflect.ReflectionFactory$GetReflectionFactoryAction
+13088 - 0.049: [6] java.security.cert.Certificate
+13088 - 0.049: [6] java.util.Vector
+13088 - 0.050: [6] java.util.AbstractList
+13088 - 0.050: [6] java.util.AbstractCollection
+13088 - 0.051: [6] java.util.Stack
+13088 - 0.051: [6] sun.reflect.ReflectionFactory
+13088 - 0.051: [6] java.lang.ref.Reference$Lock
+13088 - 0.051: [6] java.lang.ref.Reference$ReferenceHandler
+13088 - 0.052: [6] java.lang.ref.ReferenceQueue
+13088 - 0.052: [6] java.lang.ref.ReferenceQueue$Null
+13088 - 0.052: [6] java.lang.ref.ReferenceQueue$Lock
+13088 - 0.052: [6] java.lang.ref.Finalizer$FinalizerThread
+13088 - 0.052: N latestUserDefinedLoader
+13088 - 0.052: N initialize
+13088 - 0.053: [6] sun.misc.VM
+13088 - 0.053: [6] java.util.Hashtable$Entry
+13088 - 0.053: [6] java.lang.Math
+13088 - 0.054: [6] java.nio.charset.Charset
+13088 - 0.055: [6] sun.nio.cs.StandardCharsets
+13088 - 0.055: [6] sun.nio.cs.FastCharsetProvider
+13088 - 0.055: [6] java.nio.charset.spi.CharsetProvider
+13088 - 0.056: [6] sun.nio.cs.StandardCharsets$Aliases
+13088 - 0.057: [6] sun.util.PreHashedMap
+13088 - 0.057: [6] java.util.AbstractMap
+13088 - 0.057: [6] sun.nio.cs.StandardCharsets$Classes
+13088 - 0.057: [6] sun.nio.cs.StandardCharsets$Cache
+13088 - 0.058: [6] java.lang.ThreadLocal
+13088 - 0.058: [6] java.util.concurrent.atomic.AtomicInteger
+13088 - 0.058: -n
+13088 - 0.058: [6] sun.misc.Unsafe
+13088 - 0.059: [6] java.lang.NoSuchMethodError
+13088 - 0.059: [6] java.lang.IncompatibleClassChangeError
+13088 - 0.059: [6] java.util.ArrayList
+13088 - 0.060: [6] java.util.Collections
+13088 - 0.061: [6] java.util.Collections$EmptySet
+13088 - 0.061: [6] java.util.AbstractSet
+13088 - 0.061: [6] java.util.Collections$EmptyList
+13088 - 0.061: [6] java.util.Collections$EmptyMap
+13088 - 0.061: [6] java.util.Collections$UnmodifiableRandomAccessList
+13088 - 0.061: [6] java.util.Collections$UnmodifiableList
+13088 - 0.062: [6] java.util.Collections$UnmodifiableCollection
+13088 - 0.062: -n
+13088 - 0.062: [6] sun.reflect.Reflection
+13088 - 0.063: [6] java.util.HashMap
+13088 - 0.063: [6] java.util.HashMap$Entry
+13088 - 0.063: [6] java.util.HashMap$EntrySet
+13088 - 0.063: [6] java.util.HashMap$EntryIterator
+13088 - 0.064: [6] java.util.HashMap$HashIterator
+13088 - 0.064: [6] java.lang.Class$3
+13088 - 0.064: [6] java.lang.reflect.Modifier
+13088 - 0.065: [6] java.lang.reflect.ReflectAccess
+13088 - 0.066: [6] java.util.Arrays
+13088 - 0.067: [6] sun.nio.cs.UTF_8
+13088 - 0.067: [6] sun.nio.cs.Unicode
+13088 - 0.067: [6] java.lang.Class$1
+13088 - 0.067: [6] sun.reflect.ReflectionFactory$1
+13088 - 0.067: -n
+13088 - 0.067: [6] sun.reflect.NativeConstructorAccessorImpl
+13088 - 0.067: [6] sun.reflect.DelegatingConstructorAccessorImpl
+13088 - 0.068: [6] java.lang.StringCoding
+13088 - 0.068: [6] java.lang.ThreadLocal$ThreadLocalMap
+13088 - 0.068: [6] java.lang.ThreadLocal$ThreadLocalMap$Entry
+13088 - 0.069: [6] java.lang.StringCoding$StringDecoder
+13088 - 0.069: [6] sun.nio.cs.UTF_8$Decoder
+13088 - 0.069: [6] java.nio.charset.CharsetDecoder
+13088 - 0.070: [6] java.nio.charset.CodingErrorAction
+13088 - 0.070: [6] java.util.Hashtable$EntrySet
+13088 - 0.070: [6] java.util.Collections$SynchronizedSet
+13088 - 0.071: [6] java.util.Collections$SynchronizedCollection
+13088 - 0.071: [6] java.util.Hashtable$Enumerator
+13088 - 0.071: N availableProcessors
+13088 - 0.071: N freeMemory
+13088 - 0.071: N totalMemory
+13088 - 0.071: N maxMemory
+13088 - 0.071: N gc
+13088 - 0.071: N runFinalization0
+13088 - 0.071: N traceInstructions
+13088 - 0.071: N traceMethodCalls
+13088 - 0.071: [6] java.lang.Runtime
+13088 - 0.072: N getJvmSpecialVersion
+13088 - 0.072: N getJdkSpecialVersion
+13088 - 0.072: N getJvmVersionInfo
+13088 - 0.072: N getJdkVersionInfo
+13088 - 0.072: [6] sun.misc.Version
+13088 - 0.072: N open
+13088 - 0.072: N read0
+13088 - 0.072: N readBytes
+13088 - 0.072: N skip
+13088 - 0.072: N available
+13088 - 0.072: N initIDs
+13088 - 0.072: N close0
+13088 - 0.072: [6] java.io.FileInputStream
+13088 - 0.072: [6] java.io.InputStream
+13088 - 0.073: N sync
+13088 - 0.073: N initIDs
+13088 - 0.073: [6] java.io.FileDescriptor
+13088 - 0.073: [6] java.io.FileDescriptor$1
+13088 - 0.073: [6] sun.misc.SharedSecrets
+13088 - 0.073: N open
+13088 - 0.073: N write
+13088 - 0.073: N writeBytes
+13088 - 0.073: N close0
+13088 - 0.073: N initIDs
+13088 - 0.074: [6] java.io.FileOutputStream
+13088 - 0.074: [6] java.io.OutputStream
+13088 - 0.074: [6] java.io.BufferedInputStream
+13088 - 0.074: [6] java.io.FilterInputStream
+13088 - 0.074: [6] java.util.concurrent.atomic.AtomicReferenceFieldUpdater
+13088 - 0.075: [6] java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl
+13088 - 0.075: [6] sun.reflect.misc.ReflectUtil
+13088 - 0.075: N defineClass0
+13088 - 0.075: [6] java.lang.reflect.Proxy
+13088 - 0.076: [6] java.lang.reflect.WeakCache
+13088 - 0.076: [6] java.lang.reflect.Proxy$KeyFactory
+13088 - 0.076: [6] java.lang.reflect.Proxy$ProxyClassFactory
+13088 - 0.076: N VMSupportsCS8
+13088 - 0.076: [6] java.util.concurrent.atomic.AtomicLong
+13088 - 0.077: [6] java.util.concurrent.ConcurrentHashMap
+13088 - 0.077: [6] java.util.concurrent.ConcurrentHashMap$HashEntry
+13088 - 0.077: [6] java.util.concurrent.ConcurrentHashMap$Segment
+13088 - 0.078: [6] java.util.concurrent.locks.ReentrantLock
+13088 - 0.078: [6] java.util.concurrent.locks.ReentrantLock$NonfairSync
+13088 - 0.078: [6] java.util.concurrent.locks.ReentrantLock$Sync
+13088 - 0.079: [6] java.util.concurrent.locks.AbstractQueuedSynchronizer
+13088 - 0.079: [6] java.util.concurrent.locks.AbstractOwnableSynchronizer
+13088 - 0.079: [6] java.util.concurrent.locks.AbstractQueuedSynchronizer$Node
+13088 - 0.080: [6] java.util.Objects
+13088 - 0.080: [6] java.io.PrintStream
+13088 - 0.080: [6] java.io.FilterOutputStream
+13088 - 0.081: [6] java.io.BufferedOutputStream
+13088 - 0.081: [6] java.io.OutputStreamWriter
+13088 - 0.081: [6] java.io.Writer
+13088 - 0.081: [6] sun.nio.cs.StreamEncoder
+13088 - 0.081: [6] sun.security.action.GetPropertyAction
+13088 - 0.082: [6] sun.nio.cs.UTF_8$Encoder
+13088 - 0.082: [6] java.nio.charset.CharsetEncoder
+13088 - 0.083: [6] java.nio.ByteBuffer
+13088 - 0.083: [6] java.nio.HeapByteBuffer
+13088 - 0.084: N copyFromShortArray
+13088 - 0.084: N copyToShortArray
+13088 - 0.084: N copyFromIntArray
+13088 - 0.084: N copyToIntArray
+13088 - 0.084: N copyFromLongArray
+13088 - 0.084: N copyToLongArray
+13088 - 0.084: [6] java.nio.Bits
+13088 - 0.085: [6] java.nio.ByteOrder
+13088 - 0.085: [6] java.nio.Bits$1
+13088 - 0.085: [6] java.io.BufferedWriter
+13088 - 0.086: [6] java.io.File
+13088 - 0.086: N getFileSystem
+13088 - 0.086: [6] java.io.FileSystem
+13088 - 0.086: N canonicalize0
+13088 - 0.086: N getBooleanAttributes0
+13088 - 0.086: N checkAccess
+13088 - 0.086: N getLastModifiedTime
+13088 - 0.086: N getLength
+13088 - 0.086: N setPermission
+13088 - 0.086: N createFileExclusively
+13088 - 0.086: N delete0
+13088 - 0.087: N list
+13088 - 0.087: N createDirectory
+13088 - 0.087: N rename0
+13088 - 0.087: N setLastModifiedTime
+13088 - 0.087: N setReadOnly
+13088 - 0.087: N getSpace
+13088 - 0.087: N initIDs
+13088 - 0.087: [6] java.io.UnixFileSystem
+13088 - 0.087: [6] java.io.ExpiringCache
+13088 - 0.087: [6] java.io.ExpiringCache$1
+13088 - 0.087: [6] java.util.LinkedHashMap
+13088 - 0.088: [6] java.util.LinkedHashMap$Entry
+13088 - 0.088: [6] java.lang.ClassLoader$3
+13088 - 0.088: [6] java.io.File$PathStatus
+13088 - 0.088: [6] java.lang.Enum
+13088 - 0.088: [6] java.lang.StringCoding$StringEncoder
+13088 - 0.089: [6] java.io.ExpiringCache$Entry
+13088 - 0.089: -n
+13088 - 0.089: [6] java.lang.ClassLoader$NativeLibrary
+13088 - 0.089: [6] java.lang.Terminator
+13088 - 0.089: [6] java.lang.Terminator$1
+13088 - 0.090: N findSignal
+13088 - 0.090: N handle0
+13088 - 0.090: N raise0
+13088 - 0.090: [6] sun.misc.Signal
+13088 - 0.090: N handle0
+13088 - 0.090: [6] sun.misc.NativeSignalHandler
+13088 - 0.090: [6] sun.misc.OSEnvironment
+13088 - 0.090: [6] java.lang.System$2
+13088 - 0.090: [6] java.lang.IllegalArgumentException
+13088 - 0.091: N initialize
+13088 - 0.091: -n registerNatives
+13088 - 0.091: N compileClass
+13088 - 0.091: N compileClasses
+13088 - 0.091: N command
+13088 - 0.091: N enable
+13088 - 0.091: N disable
+13088 - 0.091: [6] java.lang.Compiler
+13088 - 0.091: [6] java.lang.Compiler$1
+13088 - 0.091: [6] sun.misc.Launcher
+13088 - 0.091: [6] sun.misc.Launcher$Factory
+13088 - 0.091: [6] sun.misc.Launcher$ExtClassLoader
+13088 - 0.092: [6] java.net.URLClassLoader
+13088 - 0.092: [6] java.security.SecureClassLoader
+13088 - 0.092: [6] sun.security.util.Debug
+13088 - 0.093: [6] java.lang.ClassLoader$ParallelLoaders
+13088 - 0.093: [6] java.util.WeakHashMap
+13088 - 0.093: [6] sun.misc.Hashing
+13088 - 0.094: [6] java.util.concurrent.ThreadLocalRandom
+13088 - 0.094: [6] java.util.Random
+13088 - 0.094: [6] java.util.concurrent.ThreadLocalRandom$1
+13088 - 0.095: [6] java.util.WeakHashMap$Entry
+13088 - 0.095: [6] java.util.WeakHashMap$Holder
+13088 - 0.095: [6] java.util.Collections$SetFromMap
+13088 - 0.095: [6] java.util.WeakHashMap$KeySet
+13088 - 0.095: [6] java.net.URLClassLoader$7
+13088 - 0.095: [6] java.util.StringTokenizer
+13088 - 0.096: [6] sun.misc.Launcher$ExtClassLoader$1
+13088 - 0.096: [6] sun.misc.MetaIndex
+13088 - 0.096: [6] java.io.BufferedReader
+13088 - 0.097: [6] java.io.Reader
+13088 - 0.097: [6] java.io.FileReader
+13088 - 0.097: [6] java.io.InputStreamReader
+13088 - 0.097: [6] sun.nio.cs.StreamDecoder
+13088 - 0.098: [6] java.nio.CharBuffer
+13088 - 0.098: [6] java.nio.HeapCharBuffer
+13088 - 0.099: [6] java.nio.charset.CoderResult
+13088 - 0.099: [6] java.nio.charset.CoderResult$1
+13088 - 0.099: [6] java.nio.charset.CoderResult$Cache
+13088 - 0.099: [6] java.nio.charset.CoderResult$2
+13088 - 0.099: [6] sun.misc.IoTrace
+13088 - 0.100: N getLength
+13088 - 0.100: N get
+13088 - 0.100: N getBoolean
+13088 - 0.100: N getByte
+13088 - 0.100: N getChar
+13088 - 0.100: N getShort
+13088 - 0.100: N getInt
+13088 - 0.100: N getLong
+13088 - 0.100: N getFloat
+13088 - 0.100: N getDouble
+13088 - 0.100: N set
+13088 - 0.100: N setBoolean
+13088 - 0.100: N setByte
+13088 - 0.100: N setChar
+13088 - 0.100: N setShort
+13088 - 0.100: N setInt
+13088 - 0.100: N setLong
+13088 - 0.100: N setFloat
+13088 - 0.100: N setDouble
+13088 - 0.100: N newArray
+13088 - 0.100: N multiNewArray
+13088 - 0.100: [6] java.lang.reflect.Array
+13088 - 0.100: [6] java.util.HashMap$Holder
+13088 - 0.101: [6] sun.net.www.ParseUtil
+13088 - 0.102: [6] java.util.BitSet
+13088 - 0.103: [6] java.net.URL
+13088 - 0.103: [6] java.util.Hashtable$Holder
+13088 - 0.103: [6] java.net.URL$1
+13088 - 0.104: [6] java.util.Locale
+13088 - 0.105: [6] java.util.Locale$Cache
+13088 - 0.105: [6] sun.util.locale.LocaleObjectCache
+13088 - 0.105: [6] java.util.concurrent.ConcurrentHashMap$Holder
+13088 - 0.105: [6] sun.util.locale.BaseLocale
+13088 - 0.105: [6] sun.util.locale.BaseLocale$Cache
+13088 - 0.106: [6] sun.util.locale.BaseLocale$Key
+13088 - 0.106: [6] sun.util.locale.LocaleObjectCache$CacheEntry
+13088 - 0.106: [6] java.util.Locale$LocaleKey
+13088 - 0.106: [6] sun.util.locale.LocaleUtils
+13088 - 0.107: [6] java.lang.CharacterData
+13088 - 0.107: [6] java.lang.CharacterDataLatin1
+13088 - 0.108: [6] java.net.Parts
+13088 - 0.108: [6] sun.net.www.protocol.file.Handler
+13088 - 0.108: [6] java.net.URLStreamHandler
+13088 - 0.109: [6] java.security.ProtectionDomain$1
+13088 - 0.110: [6] java.security.ProtectionDomain$3
+13088 - 0.110: [6] java.security.CodeSource
+13088 - 0.110: [6] java.security.ProtectionDomain$Key
+13088 - 0.110: [6] java.util.HashSet
+13088 - 0.111: [6] sun.misc.URLClassPath
+13088 - 0.111: [6] sun.net.www.protocol.jar.Handler
+13088 - 0.112: [6] sun.misc.Launcher$AppClassLoader
+13088 - 0.112: [6] sun.misc.Launcher$AppClassLoader$1
+13088 - 0.112: [6] java.lang.SystemClassLoaderAction
+13088 - 0.114: agentInit: 1
+13088 - 0.114: agentInit: Core loaded
+13088 - 0.115: N environ
+13088 - 0.115: java.lang.ProcessEnvironment
+13088 - 0.115: java.lang.ProcessEnvironment$Variable
+13088 - 0.115: java.lang.ProcessEnvironment$ExternalData
+13088 - 0.115: java.lang.ProcessEnvironment$Value
+13088 - 0.117: java.lang.ProcessEnvironment$StringEnvironment
+13088 - 0.117: java.util.Collections$UnmodifiableMap
+13088 - 0.119: java.text.SimpleDateFormat
+13088 - 0.119: java.text.DateFormat
+13088 - 0.120: java.text.Format
+13088 - 0.120: java.text.DateFormat$Field
+13088 - 0.120: java.text.Format$Field
+13088 - 0.120: java.text.AttributedCharacterIterator$Attribute
+13088 - 0.121: N getSystemTimeZoneID
+13088 - 0.121: N getSystemGMTOffsetID
+13088 - 0.121: java.util.TimeZone
+13088 - 0.121: sun.util.calendar.ZoneInfo
+13088 - 0.122: sun.util.calendar.CalendarSystem
+13088 - 0.122: sun.util.calendar.Gregorian
+13088 - 0.122: sun.util.calendar.BaseCalendar
+13088 - 0.123: sun.util.calendar.AbstractCalendar
+13088 - 0.123: sun.util.calendar.ZoneInfoFile
+13088 - 0.124: sun.util.calendar.ZoneInfoFile$1
+13088 - 0.124: java.nio.file.FileSystems
+13088 - 0.124: java.nio.file.FileSystems$DefaultFileSystemHolder
+13088 - 0.124: java.nio.file.FileSystems$DefaultFileSystemHolder$1
+13088 - 0.124: sun.nio.fs.DefaultFileSystemProvider
+13088 - 0.124: sun.nio.fs.DefaultFileSystemProvider$1
+13088 - 0.125: sun.nio.fs.LinuxFileSystemProvider
+13088 - 0.125: sun.nio.fs.UnixFileSystemProvider
+13088 - 0.125: sun.nio.fs.AbstractFileSystemProvider
+13088 - 0.126: java.nio.file.spi.FileSystemProvider
+13088 - 0.126: sun.nio.fs.LinuxFileSystem
+13088 - 0.126: sun.nio.fs.UnixFileSystem
+13088 - 0.126: java.nio.file.FileSystem
+13088 - 0.127: sun.nio.fs.UnixPath
+13088 - 0.127: sun.nio.fs.AbstractPath
+13088 - 0.128: N getcwd
+13088 - 0.128: N dup
+13088 - 0.128: N open0
+13088 - 0.128: N openat0
+13088 - 0.128: N close
+13088 - 0.128: N fopen0
+13088 - 0.128: N fclose
+13088 - 0.128: N link0
+13088 - 0.128: N unlink0
+13088 - 0.128: N unlinkat0
+13088 - 0.128: N mknod0
+13088 - 0.128: N rename0
+13088 - 0.128: N renameat0
+13088 - 0.128: N mkdir0
+13088 - 0.128: N rmdir0
+13088 - 0.128: N readlink0
+13088 - 0.128: N realpath0
+13088 - 0.128: N symlink0
+13088 - 0.128: N stat0
+13088 - 0.128: N lstat0
+13088 - 0.128: N fstat
+13088 - 0.128: N fstatat0
+13088 - 0.128: N chown0
+13088 - 0.128: N lchown0
+13088 - 0.128: N fchown
+13088 - 0.128: N chmod0
+13088 - 0.128: N fchmod
+13088 - 0.128: N utimes0
+13088 - 0.128: N futimes
+13088 - 0.128: N opendir0
+13088 - 0.128: N fdopendir
+13088 - 0.128: N closedir
+13088 - 0.128: N readdir
+13088 - 0.128: N read
+13088 - 0.128: N write
+13088 - 0.128: N access0
+13088 - 0.128: N getpwuid
+13088 - 0.128: N getgrgid
+13088 - 0.128: N getpwnam0
+13088 - 0.128: N getgrnam0
+13088 - 0.128: N statvfs0
+13088 - 0.128: N pathconf0
+13088 - 0.128: N fpathconf
+13088 - 0.128: N strerror
+13088 - 0.128: N init
+13088 - 0.129: sun.nio.fs.UnixNativeDispatcher
+13088 - 0.129: sun.nio.fs.UnixNativeDispatcher$1
+13088 - 0.130: sun.nio.fs.UnixFileAttributes
+13088 - 0.131: sun.nio.fs.UnixFileStoreAttributes
+13088 - 0.131: sun.nio.fs.UnixMountEntry
+13088 - 0.132: java.net.URI
+13088 - 0.133: java.net.URI$Parser
+13088 - 0.133: java.nio.file.LinkOption
+13088 - 0.134: sun.nio.fs.Util
+13088 - 0.134: sun.nio.fs.NativeBuffers
+13088 - 0.134: sun.nio.fs.NativeBuffer
+13088 - 0.134: sun.nio.fs.NativeBuffer$Deallocator
+13088 - 0.134: sun.misc.Cleaner
+13088 - 0.135: sun.util.calendar.ZoneInfoFile$2
+13088 - 0.135: java.util.TimeZone$1
+13088 - 0.136: java.util.Calendar
+13088 - 0.136: sun.util.locale.UnicodeLocaleExtension
+13088 - 0.137: sun.util.locale.Extension
+13088 - 0.137: java.util.Collections$SingletonMap
+13088 - 0.138: java.util.GregorianCalendar 1 ms
+13088 - 0.139: sun.util.resources.LocaleData
+13088 - 0.139: sun.util.resources.LocaleData$1
+13088 - 0.139: sun.util.resources.LocaleData$LocaleDataResourceBundleControl
+13088 - 0.140: java.util.ResourceBundle$Control
+13088 - 0.140: java.util.Arrays$ArrayList
+13088 - 0.140: java.util.ResourceBundle$Control$CandidateListCache
+13088 - 0.141: java.util.ResourceBundle
+13088 - 0.141: java.util.ResourceBundle$1
+13088 - 0.141: java.util.ResourceBundle$RBClassLoader
+13088 - 0.142: java.util.ResourceBundle$RBClassLoader$1
+13088 - 0.142: java.util.ResourceBundle$CacheKey
+13088 - 0.142: java.util.ResourceBundle$LoaderReference
+13088 - 0.142: java.util.ResourceBundle$SingleFormatControl
+13088 - 0.143: java.util.LinkedList
+13088 - 0.143: java.util.AbstractSequentialList
+13088 - 0.143: java.util.LinkedList$Node
+13088 - 0.144: sun.util.LocaleDataMetaInfo
+13088 - 0.144: java.util.ArrayList$Itr
+13088 - 0.144: sun.util.resources.CalendarData
+13088 - 0.144: sun.util.resources.LocaleNamesBundle
+13088 - 0.144: sun.util.resources.OpenListResourceBundle
+13088 - 0.145: java.util.ResourceBundle$BundleReference
+13088 - 0.145: sun.util.resources.CalendarData_en
+13088 - 0.145: sun.util.calendar.Gregorian$Date
+13088 - 0.145: sun.util.calendar.BaseCalendar$Date
+13088 - 0.146: sun.util.calendar.CalendarDate
+13088 - 0.146: sun.util.calendar.CalendarUtils
+13088 - 0.147: java.text.DateFormatSymbols
+13088 - 0.147: java.text.spi.DateFormatSymbolsProvider
+13088 - 0.147: java.util.spi.LocaleServiceProvider
+13088 - 0.148: sun.util.LocaleServiceProviderPool
+13088 - 0.148: sun.util.locale.LocaleExtensions
+13088 - 0.149: java.lang.Character$CharacterCache
+13088 - 0.149: java.util.LinkedHashSet
+13088 - 0.149: sun.util.LocaleServiceProviderPool$1
+13088 - 0.149: java.util.ServiceLoader
+13088 - 0.150: java.util.ServiceLoader$LazyIterator
+13088 - 0.150: java.util.ServiceLoader$1
+13088 - 0.150: java.util.LinkedHashMap$EntryIterator
+13088 - 0.150: java.util.LinkedHashMap$LinkedHashIterator
+13088 - 0.150: sun.misc.Launcher$BootClassPathHolder
+13088 - 0.150: sun.misc.Launcher$BootClassPathHolder$1
+13088 - 0.153: sun.misc.URLClassPath$2
+13088 - 0.153: java.lang.ClassLoader$2
+13088 - 0.153: sun.misc.URLClassPath$1
+13088 - 0.153: java.net.URLClassLoader$3
+13088 - 0.153: sun.misc.CompoundEnumeration
+13088 - 0.153: sun.net.util.URLUtil
+13088 - 0.154: sun.misc.URLClassPath$3
+13088 - 0.154: sun.misc.URLClassPath$JarLoader
+13088 - 0.154: sun.misc.URLClassPath$Loader
+13088 - 0.155: N initIDs
+13088 - 0.155: N getEntry
+13088 - 0.155: N freeEntry
+13088 - 0.155: N getNextEntry
+13088 - 0.155: N close
+13088 - 0.155: N open
+13088 - 0.155: N getTotal
+13088 - 0.155: N startsWithLOC
+13088 - 0.155: N read
+13088 - 0.155: N getEntryTime
+13088 - 0.155: N getEntryCrc
+13088 - 0.155: N getEntryCSize
+13088 - 0.155: N getEntrySize
+13088 - 0.155: N getEntryMethod
+13088 - 0.155: N getEntryFlag
+13088 - 0.155: N getCommentBytes
+13088 - 0.155: N getEntryBytes
+13088 - 0.155: N getZipMessage
+13088 - 0.155: java.util.zip.ZipFile
+13088 - 0.155: java.util.zip.ZipFile$2
+13088 - 0.156: sun.misc.URLClassPath$JarLoader$1
+13088 - 0.156: sun.misc.FileURLMapper
+13088 - 0.156: java.io.FileNotFoundException
+13088 - 0.156: java.io.IOException
+13088 - 0.157: java.security.PrivilegedActionException
+13088 - 0.157: N getMetaInfEntryNames
+13088 - 0.158: java.util.jar.JarFile
+13088 - 0.158: java.util.jar.JavaUtilJarAccessImpl
+13088 - 0.158: java.nio.charset.StandardCharsets
+13088 - 0.158: sun.nio.cs.US_ASCII
+13088 - 0.159: sun.nio.cs.ISO_8859_1
+13088 - 0.159: sun.nio.cs.UTF_16BE
+13088 - 0.159: sun.nio.cs.UTF_16LE
+13088 - 0.159: sun.nio.cs.UTF_16
+13088 - 0.160: java.util.ArrayDeque
+13088 - 0.160: java.util.zip.ZipCoder
+13088 - 0.160: sun.misc.PerfCounter
+13088 - 0.160: sun.misc.Perf$GetPerfAction
+13088 - 0.161: N attach
+13088 - 0.161: N detach
+13088 - 0.161: N createLong
+13088 - 0.161: N createByteArray
+13088 - 0.161: N highResCounter
+13088 - 0.161: N highResFrequency
+13088 - 0.161: N registerNatives
+13088 - 0.161: sun.misc.Perf
+13088 - 0.161: sun.misc.PerfCounter$CoreCounters
+13088 - 0.162: java.nio.DirectByteBuffer
+13088 - 0.162: N isLoaded0
+13088 - 0.162: N load0
+13088 - 0.162: N force0
+13088 - 0.162: java.nio.MappedByteBuffer
+13088 - 0.162: java.nio.DirectLongBufferU
+13088 - 0.163: java.nio.LongBuffer
+13088 - 0.163: sun.misc.JarIndex
+13088 - 0.164: sun.misc.ExtensionDependency
+13088 - 0.164: java.util.zip.ZipEntry
+13088 - 0.165: java.util.jar.JarFile$JarFileEntry
+13088 - 0.165: java.util.jar.JarEntry
+13088 - 0.165: java.util.zip.ZipFile$ZipFileInputStream
+13088 - 0.165: sun.misc.IOUtils
+13088 - 0.165: java.net.URLClassLoader$3$1
+13088 - 0.166: sun.text.resources.FormatData
+13088 - 0.167: java.util.ListResourceBundle
+13088 - 0.167: sun.text.resources.FormatData_en
+13088 - 0.167: sun.text.resources.FormatData_en_US
+13088 - 0.168: java.text.NumberFormat
+13088 - 0.168: java.text.spi.NumberFormatProvider
+13088 - 0.168: java.text.DecimalFormatSymbols
+13088 - 0.169: java.text.spi.DecimalFormatSymbolsProvider
+13088 - 0.169: java.util.Currency
+13088 - 0.169: java.util.Currency$1
+13088 - 0.170: java.io.DataInputStream
+13088 - 0.173: java.util.spi.CurrencyNameProvider
+13088 - 0.174: sun.util.resources.CurrencyNames 1 ms
+13088 - 0.175: sun.util.resources.CurrencyNames_en_US
+13088 - 0.176: java.text.DecimalFormat 1 ms
+13088 - 0.177: java.text.FieldPosition
+13088 - 0.177: java.text.DigitList
+13088 - 0.178: java.math.RoundingMode
+13088 - 0.178: java.util.Date
+13088 - 0.179: java.text.ParsePosition
+13088 - 0.179: java.text.CalendarBuilder
+13088 - 0.179: setTriggers:
+
+13088 - 0.180: sun.reflect.annotation.AnnotationParser
+13088 - 0.181: java.util.Collections$EmptyIterator
+13088 - 0.181: sun.reflect.generics.parser.SignatureParser
+13088 - 0.182: sun.reflect.generics.tree.SimpleClassTypeSignature
+13088 - 0.182: sun.reflect.generics.tree.ClassTypeSignature
+13088 - 0.182: sun.reflect.generics.scope.ClassScope
+13088 - 0.182: sun.reflect.generics.scope.AbstractScope
+13088 - 0.183: sun.reflect.generics.factory.CoreReflectionFactory
+13088 - 0.183: sun.reflect.generics.visitor.Reifier
+13088 - 0.183: sun.reflect.annotation.AnnotationType
+13088 - 0.184: java.lang.annotation.RetentionPolicy
+13088 - 0.184: sun.reflect.annotation.AnnotationType$1
+13088 - 0.184: java.lang.annotation.ElementType
+13088 - 0.185: sun.reflect.annotation.AnnotationInvocationHandler
+13088 - 0.185: java.lang.reflect.WeakCache$CacheKey
+13088 - 0.185: java.lang.reflect.Proxy$Key1
+13088 - 0.186: java.lang.reflect.WeakCache$Factory
+13088 - 0.186: java.util.IdentityHashMap
+13088 - 0.187: sun.misc.ProxyGenerator
+13088 - 0.187: sun.security.action.GetBooleanAction
+13088 - 0.187: java.lang.InterruptedException
+13088 - 0.188: sun.misc.ProxyGenerator$ConstantPool
+13088 - 0.188: sun.misc.ProxyGenerator$ProxyMethod
+13088 - 0.188: java.lang.Class$MethodArray
+13088 - 0.189: java.util.HashMap$Values
+13088 - 0.189: java.util.HashMap$ValueIterator
+13088 - 0.189: sun.misc.ProxyGenerator$MethodInfo
+13088 - 0.189: java.io.ByteArrayOutputStream
+13088 - 0.189: sun.misc.ProxyGenerator$ConstantPool$ValueEntry
+13088 - 0.189: sun.misc.ProxyGenerator$ConstantPool$Entry
+13088 - 0.190: java.io.DataOutputStream
+13088 - 0.190: sun.misc.ProxyGenerator$ConstantPool$IndirectEntry
+13088 - 0.190: sun.misc.ProxyGenerator$FieldInfo
+13088 - 0.190: java.lang.Void
+13088 - 0.190: sun.misc.ProxyGenerator$PrimitiveTypeInfo
+13088 - 0.191: sun.misc.ProxyGenerator$ExceptionTableEntry
+13088 - 0.195: com.sun.proxy.$Proxy0
+13088 - 0.195: java.lang.reflect.WeakCache$CacheValue
+13088 - 0.195: java.lang.Class$4
+13088 - 0.195: -n
+13088 - 0.196: sun.reflect.NativeMethodAccessorImpl
+13088 - 0.196: sun.reflect.DelegatingMethodAccessorImpl
+13088 - 0.196: sun.reflect.annotation.AnnotationTypeMismatchExceptionProxy
+13088 - 0.196: sun.reflect.annotation.ExceptionProxy
+13088 - 0.200: com.sun.proxy.$Proxy1
+13088 - 0.205: com.sun.proxy.$Proxy2
+13088 - 0.211: com.sun.proxy.$Proxy3
+13088 - 0.218: com.sun.proxy.$Proxy4
+13088 - 0.224: com.sun.proxy.$Proxy5
+13088 - 0.227: setTriggers: to unregister: 0
+13088 - 0.227: setTriggers: method listeners to register: 0
+13088 - 0.227: setTriggers: OK
+13088 - 0.227: shmem 42341490: OK
+13088 - 0.227: shmem 4234148E: OK
+13088 - 0.228: N init
+13088 - 0.228: java.net.InetAddress
+13088 - 0.229: sun.security.action.LoadLibraryAction
+13088 - 0.229: java.net.InetAddress$InetAddressHolder
+13088 - 0.229: java.net.InetAddress$Cache
+13088 - 0.230: java.net.InetAddress$Cache$Type
+13088 - 0.230: N isIPv6Supported
+13088 - 0.230: java.net.InetAddressImplFactory
+13088 - 0.230: N getLocalHostName
+13088 - 0.230: N lookupAllHostAddr
+13088 - 0.230: N getHostByAddr
+13088 - 0.230: N isReachable0
+13088 - 0.230: java.net.Inet6AddressImpl
+13088 - 0.230: java.net.InetAddress$1
+13088 - 0.230: N getLocalHostName
+13088 - 0.231: N lookupAllHostAddr
+13088 - 0.231: N getHostByAddr
+13088 - 0.231: N isReachable0
+13088 - 0.231: java.net.Inet4AddressImpl
+13088 - 0.231: N init
+13088 - 0.231: java.net.Inet4Address
+13088 - 0.231: java.net.ServerSocket
+13088 - 0.232: java.net.SocksSocketImpl
+13088 - 0.233: N socketCreate
+13088 - 0.233: N socketConnect
+13088 - 0.233: N socketBind
+13088 - 0.233: N socketListen
+13088 - 0.233: N socketAccept
+13088 - 0.233: N socketAvailable
+13088 - 0.233: N socketClose0
+13088 - 0.233: N socketShutdown
+13088 - 0.233: N initProto
+13088 - 0.233: N socketSetOption
+13088 - 0.233: N socketGetOption
+13088 - 0.233: N socketSendUrgentData
+13088 - 0.233: java.net.PlainSocketImpl
+13088 - 0.233: java.net.AbstractPlainSocketImpl
+13088 - 0.233: java.net.SocketImpl
+13088 - 0.234: java.net.InetSocketAddress
+13088 - 0.234: java.net.SocketAddress
+13088 - 0.234: java.net.InetSocketAddress$InetSocketAddressHolder
+13088 - 0.235: java.net.SocketException
+13088 - 0.235: sun.net.NetHooks
+13088 - 0.235: sun.net.sdp.SdpProvider
+13088 - 0.235: sun.net.NetHooks$Provider
+13088 - 0.236: N init
+13088 - 0.236: java.net.Inet6Address
+13088 - 0.236: java.net.Inet6Address$Inet6AddressHolder
+13088 - 0.237: Profiler agent is listening on port 10001
+13088 - 0.238: javax.management.ObjectName
+13088 - 0.239: java.net.Socket
+13088 - 0.240: com.sun.jmx.mbeanserver.GetPropertyAction
+13088 - 0.240: javax.management.ObjectName$Property
+13088 - 0.240: com.sun.jmx.mbeanserver.Util
+13088 - 0.240: *** HINT ***: To get profiling results, connect to the application from the profiler UI
+13088 - 0.240: agentInit: Core.init() called
+13088 - 0.240: agentInit: OK
+13088 - 0.240: startProfiling: 1
+13088 - 0.240: startProfiling: OK
+13088 - 0.241: java.util.Arrays$LegacyMergeSort
+13088 - 0.241: java.util.ComparableTimSort
+13088 - 0.242: java.lang.management.ManagementFactory
+13088 - 0.242: javax.management.MBeanServerFactory
+13088 - 0.242: javax.management.MBeanServerBuilder
+13088 - 0.243: com.sun.jmx.mbeanserver.JmxMBeanServer
+13088 - 0.244: sun.launcher.LauncherHelper
+13088 - 0.245: java.net.URLClassLoader$1
+13088 - 0.246: com.sun.jmx.mbeanserver.MBeanServerDelegateImpl
+13088 - 0.246: javax.management.MBeanServerDelegate
+13088 - 0.247: javax.management.MBeanNotificationInfo
+13088 - 0.248: javax.management.MBeanFeatureInfo
+13088 - 0.249: javax.management.MBeanInfo
+13088 - 0.250: N initIDs
+13088 - 0.250: N init
+13088 - 0.250: N setDictionary
+13088 - 0.250: N inflateBytes
+13088 - 0.250: N getAdler
+13088 - 0.250: N reset
+13088 - 0.250: N end
+13088 - 0.250: java.util.zip.Inflater
+13088 - 0.251: javax.management.MBeanAttributeInfo
+13088 - 0.251: java.util.zip.ZStreamRef
+13088 - 0.251: javax.management.NotificationBroadcasterSupport
+13088 - 0.252: javax.management.NotificationBroadcasterSupport$1
+13088 - 0.252: java.util.zip.ZipFile$ZipFileInflaterInputStream
+13088 - 0.252: java.util.zip.InflaterInputStream
+13088 - 0.253: com.sun.jmx.remote.util.ClassLogger
+13088 - 0.255: java.util.logging.Logger 1 ms
+13088 - 0.255: sun.misc.URLClassPath$FileLoader
+13088 - 0.256: java.util.logging.Handler
+13088 - 0.256: sun.misc.URLClassPath$FileLoader$1
+13088 - 0.256: java.util.logging.Level
+13088 - 0.256: sun.misc.Resource
+13088 - 0.257: java.util.logging.Level$KnownLevel
+13088 - 0.257: N getSystemPackage0
+13088 - 0.257: N getSystemPackages0
+13088 - 0.257: java.lang.Package
+13088 - 0.257: java.lang.Integer$IntegerCache
+13088 - 0.258: java.security.Permissions
+13088 - 0.258: java.security.PermissionCollection
+13088 - 0.259: java.util.concurrent.CopyOnWriteArrayList
+13088 - 0.259: sun.net.www.protocol.file.FileURLConnection
+13088 - 0.260: java.util.logging.LogManager
+13088 - 0.260: sun.net.www.URLConnection
+13088 - 0.261: java.util.logging.LogManager$1
+13088 - 0.261: java.net.URLConnection
+13088 - 0.262: java.beans.PropertyChangeSupport
+13088 - 0.262: sun.net.www.MessageHeader
+13088 - 0.263: java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+13088 - 0.263: java.beans.ChangeListenerMap
+13088 - 0.263: java.io.FilePermission
+13088 - 0.263: java.util.logging.LogManager$SystemLoggerContext
+13088 - 0.263: java.io.FilePermission$1
+13088 - 0.264: java.util.logging.LogManager$LoggerContext
+13088 - 0.264: java.util.logging.LogManager$LogNode
+13088 - 0.264: java.io.FilePermissionCollection
+13088 - 0.264: java.util.logging.LoggingPermission
+13088 - 0.265: java.util.logging.LogManager$Cleaner
+13088 - 0.265: java.security.AllPermission
+13088 - 0.265: java.security.UnresolvedPermission
+13088 - 0.265: java.lang.ApplicationShutdownHooks
+13088 - 0.265: java.security.BasicPermissionCollection
+13088 - 0.266: java.lang.ApplicationShutdownHooks$1
+13088 - 0.266: N halt0
+13088 - 0.266: N runAllFinalizers
+13088 - 0.266: java.lang.Shutdown
+13088 - 0.266: hello.core
+13088 - 0.266: java.lang.Shutdown$Lock
+13088 - 0.266: java.util.logging.LogManager$RootLogger
+13088 - 0.266: java.util.logging.LogManager$2
+13088 - 0.267: java.lang.UnsupportedOperationException
+13088 - 0.267: java.util.Collections$EmptyEnumeration
+13088 - 0.267: sun.misc.URLClassPath$JarLoader$2
+13088 - 0.267: java.util.Properties$LineReader
+13088 - 0.268: java.util.jar.Manifest
+13088 - 0.268: java.beans.PropertyChangeEvent
+13088 - 0.268: java.io.ByteArrayInputStream
+13088 - 0.268: java.util.EventObject
+13088 - 0.268: java.util.jar.Attributes
+13088 - 0.269: sun.util.logging.PlatformLogger
+13088 - 0.269: java.util.jar.Manifest$FastInputStream
+13088 - 0.269: sun.util.logging.PlatformLogger$Level
+13088 - 0.269: java.util.jar.Attributes$Name
+13088 - 0.270: sun.util.logging.PlatformLogger$1
+13088 - 0.270: sun.util.logging.PlatformLogger$DefaultLoggerProxy
+13088 - 0.270: sun.misc.ASCIICaseInsensitiveComparator
+13088 - 0.270: sun.util.logging.PlatformLogger$LoggerProxy
+13088 - 0.270: sun.util.logging.PlatformLogger$JavaLoggerProxy
+13088 - 0.271: java.util.jar.JarVerifier
+13088 - 0.271: sun.util.logging.LoggingSupport
+13088 - 0.271: java.security.CodeSigner
+13088 - 0.271: sun.util.logging.LoggingSupport$1
+13088 - 0.272: java.util.jar.JarVerifier$3
+13088 - 0.272: java.util.logging.LoggingProxyImpl
+13088 - 0.272: sun.security.util.SignatureFileVerifier
+13088 - 0.273: sun.reflect.UnsafeFieldAccessorFactory
+13088 - 0.273: sun.security.util.ManifestEntryVerifier
+13088 - 0.273: sun.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl
+13088 - 0.273: sun.reflect.UnsafeQualifiedStaticFieldAccessorImpl
+13088 - 0.274: sun.misc.BASE64Decoder
+13088 - 0.274: sun.misc.CharacterDecoder
+13088 - 0.274: java.util.logging.LogManager$LoggerWeakRef
+13088 - 0.274: java.util.logging.LogManager$LoggerContext$1
+13088 - 0.274: java.util.logging.LogManager$4
+13088 - 0.275: javax.management.MBeanOperationInfo
+13088 - 0.276: javax.management.MBeanConstructorInfo
+13088 - 0.276: javax.management.ImmutableDescriptor
+13088 - 0.277: java.util.TreeMap
+13088 - 0.279: clojure.lang.Var 1 ms
+13088 - 0.279: java.util.TreeMap$EntrySet
+13088 - 0.280: java.util.TreeMap$EntryIterator
+13088 - 0.280: java.util.TreeMap$PrivateEntryIterator
+13088 - 0.280: java.util.TreeMap$KeySet
+13088 - 0.280: java.util.TreeMap$KeyIterator
+13088 - 0.281: java.util.TreeMap$Values
+13088 - 0.281: java.util.TreeMap$ValueIterator
+13088 - 0.281: com.sun.jmx.mbeanserver.ClassLoaderRepositorySupport
+13088 - 0.281: com.sun.jmx.mbeanserver.ClassLoaderRepositorySupport$LoaderEntry
+13088 - 0.282: clojure.lang.ARef
+13088 - 0.282: com.sun.jmx.mbeanserver.MBeanInstantiator
+13088 - 0.282: com.sun.jmx.mbeanserver.SecureClassLoaderRepository
+13088 - 0.283: clojure.lang.AReference
+13088 - 0.283: com.sun.jmx.mbeanserver.JmxMBeanServer$1
+13088 - 0.283: com.sun.jmx.mbeanserver.Repository
+13088 - 0.284: java.util.concurrent.locks.ReentrantReadWriteLock
+13088 - 0.284: java.util.concurrent.locks.ReentrantReadWriteLock$FairSync
+13088 - 0.284: java.util.concurrent.locks.ReentrantReadWriteLock$Sync
+13088 - 0.285: java.util.concurrent.locks.ReentrantReadWriteLock$Sync$ThreadLocalHoldCounter
+13088 - 0.285: java.util.concurrent.locks.ReentrantReadWriteLock$ReadLock
+13088 - 0.285: java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock
+13088 - 0.286: com.sun.jmx.interceptor.DefaultMBeanServerInterceptor 1 ms
+13088 - 0.287: com.sun.jmx.mbeanserver.JmxMBeanServer$2
+13088 - 0.288: com.sun.jmx.mbeanserver.Introspector
+13088 - 0.288: java.lang.IllegalStateException
+13088 - 0.288: com.sun.jmx.defaults.JmxProperties
+13088 - 0.289: com.sun.jmx.interceptor.DefaultMBeanServerInterceptor$ResourceContext$1
+13088 - 0.290: com.sun.jmx.mbeanserver.NamedObject
+13088 - 0.290: javax.management.MBeanServerNotification
+13088 - 0.290: javax.management.Notification
+13088 - 0.291: clojure.lang.Var$1
+13088 - 0.291: java.util.concurrent.CopyOnWriteArrayList$COWIterator
+13088 - 0.291: javax.management.ObjectInstance
+13088 - 0.291: com.sun.jmx.mbeanserver.JmxMBeanServer$3
+13088 - 0.292: java.lang.management.PlatformComponent
+13088 - 0.292: clojure.lang.Keyword
+13088 - 0.292: java.util.Collections$SingletonSet
+13088 - 0.293: java.lang.management.PlatformComponent$1
+13088 - 0.293: java.lang.management.PlatformComponent$2
+13088 - 0.293: java.lang.management.PlatformComponent$3
+13088 - 0.293: java.lang.management.PlatformComponent$4
+13088 - 0.293: java.lang.management.PlatformComponent$5
+13088 - 0.293: java.lang.management.PlatformComponent$6
+13088 - 0.293: java.lang.management.PlatformComponent$7
+13088 - 0.293: java.lang.management.PlatformComponent$8
+13088 - 0.294: java.lang.management.PlatformComponent$9
+13088 - 0.294: java.lang.management.PlatformComponent$10
+13088 - 0.294: java.lang.management.PlatformComponent$11
+13088 - 0.294: java.lang.management.PlatformComponent$12
+13088 - 0.294: java.lang.management.PlatformComponent$13
+13088 - 0.294: clojure.lang.Symbol
+13088 - 0.295: java.lang.management.PlatformComponent$14
+13088 - 0.295: java.lang.management.PlatformComponent$15
+13088 - 0.295: sun.management.ManagementFactoryHelper
+13088 - 0.296: clojure.lang.AFn
+13088 - 0.296: N getVersion0
+13088 - 0.296: N initOptionalSupportFields
+13088 - 0.296: N isThreadContentionMonitoringEnabled
+13088 - 0.296: N isThreadCpuTimeEnabled
+13088 - 0.296: N isThreadAllocatedMemoryEnabled
+13088 - 0.296: N getTotalClassCount
+13088 - 0.296: N getUnloadedClassCount
+13088 - 0.296: N getVerboseClass
+13088 - 0.296: N getVerboseGC
+13088 - 0.296: N getProcessId
+13088 - 0.296: N getVmArguments0
+13088 - 0.296: N getStartupTime
+13088 - 0.296: N getAvailableProcessors
+13088 - 0.296: N getTotalCompileTime
+13088 - 0.297: N getTotalThreadCount
+13088 - 0.297: N getLiveThreadCount
+13088 - 0.297: N getPeakThreadCount
+13088 - 0.297: N getDaemonThreadCount
+13088 - 0.297: N getSafepointCount
+13088 - 0.297: N getTotalSafepointTime
+13088 - 0.297: N getSafepointSyncTime
+13088 - 0.297: N getTotalApplicationNonStoppedTime
+13088 - 0.297: N getLoadedClassSize
+13088 - 0.297: N getUnloadedClassSize
+13088 - 0.297: N getClassLoadingTime
+13088 - 0.297: N getMethodDataSize
+13088 - 0.297: N getInitializedClassCount
+13088 - 0.297: N getClassInitializationTime
+13088 - 0.297: N getClassVerificationTime
+13088 - 0.297: sun.management.VMManagementImpl
+13088 - 0.297: clojure.lang.ArityException
+13088 - 0.298: N setVerboseClass
+13088 - 0.298: sun.management.ClassLoadingImpl
+13088 - 0.298: java.util.Collections$SingletonList
+13088 - 0.298: java.util.Collections$1
+13088 - 0.298: sun.management.Util
+13088 - 0.299: clojure.lang.Util
+13088 - 0.299: java.lang.management.ManagementPermission
+13088 - 0.300: java.lang.management.ManagementFactory$2
+13088 - 0.301: javax.management.StandardMBean
+13088 - 0.301: clojure.lang.Util$1
+13088 - 0.302: javax.management.JMX
+13088 - 0.302: com.sun.jmx.mbeanserver.DescriptorCache
+13088 - 0.302: com.sun.jmx.mbeanserver.MXBeanSupport
+13088 - 0.303: clojure.lang.Util$2
+13088 - 0.303: com.sun.jmx.mbeanserver.MBeanSupport
+13088 - 0.303: java.util.HashMap$KeySet
+13088 - 0.303: clojure.lang.Util$3
+13088 - 0.304: java.util.HashMap$KeyIterator
+13088 - 0.304: com.sun.jmx.mbeanserver.MXBeanIntrospector
+13088 - 0.304: clojure.lang.Util$4
+13088 - 0.305: com.sun.jmx.mbeanserver.MBeanIntrospector
+13088 - 0.305: com.sun.jmx.mbeanserver.MBeanIntrospector$PerInterfaceMap
+13088 - 0.305: com.sun.jmx.mbeanserver.MBeanIntrospector$MBeanInfoMap
+13088 - 0.305: clojure.lang.Murmur3
+13088 - 0.306: com.sun.jmx.mbeanserver.MBeanAnalyzer
+13088 - 0.306: com.sun.jmx.mbeanserver.MBeanAnalyzer$MethodOrder
+13088 - 0.306: java.util.TimSort
+13088 - 0.307: clojure.lang.PersistentArrayMap
+13088 - 0.307: com.sun.jmx.mbeanserver.ConvertingMethod
+13088 - 0.308: com.sun.jmx.mbeanserver.MXBeanMappingFactory
+13088 - 0.308: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory
+13088 - 0.308: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$Mappings
+13088 - 0.309: javax.management.openmbean.OpenType
+13088 - 0.309: clojure.lang.APersistentMap
+13088 - 0.309: javax.management.openmbean.SimpleType
+13088 - 0.311: java.math.BigDecimal 1 ms
+13088 - 0.313: java.math.BigInteger 1 ms
+13088 - 0.314: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$IdentityMapping
+13088 - 0.314: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$NonNullMXBeanMapping
+13088 - 0.314: com.sun.jmx.mbeanserver.MXBeanMapping
+13088 - 0.315: javax.management.openmbean.ArrayType
+13088 - 0.316: java.lang.NoSuchFieldException
+13088 - 0.316: clojure.lang.Var$2
+13088 - 0.316: com.sun.jmx.mbeanserver.MBeanAnalyzer$AttrMethods
+13088 - 0.317: com.sun.jmx.mbeanserver.MBeanIntrospector$MBeanInfoMaker
+13088 - 0.317: clojure.lang.Var$3
+13088 - 0.317: java.util.TreeMap$Entry
+13088 - 0.318: clojure.lang.Namespace
+13088 - 0.318: javax.management.openmbean.OpenMBeanAttributeInfoSupport
+13088 - 0.319: java.util.concurrent.atomic.AtomicReference
+13088 - 0.319: com.sun.jmx.mbeanserver.PerInterface
+13088 - 0.322: clojure.lang.RT 2 ms
+13088 - 0.323: com.sun.jmx.mbeanserver.PerInterface$InitMaps
+13088 - 0.324: com.sun.jmx.mbeanserver.MXBeanLookup
+13088 - 0.324: com.sun.jmx.mbeanserver.WeakIdentityHashMap
+13088 - 0.324: com.sun.jmx.mbeanserver.WeakIdentityHashMap$IdentityWeakReference
+13088 - 0.325: sun.management.VMManagementImpl$1
+13088 - 0.325: sun.management.CompilationImpl
+13088 - 0.325: java.io.StringWriter
+13088 - 0.326: java.lang.IllegalAccessError
+13088 - 0.327: N getMemoryPools0
+13088 - 0.327: N getMemoryManagers0
+13088 - 0.327: N getMemoryUsage0
+13088 - 0.327: N setVerboseGC
+13088 - 0.327: sun.management.MemoryImpl
+13088 - 0.327: sun.management.NotificationEmitterSupport
+13088 - 0.327: java.lang.IndexOutOfBoundsException
+13088 - 0.328: javax.management.StandardEmitterMBean
+13088 - 0.328: java.lang.management.MemoryUsage
+13088 - 0.329: javax.management.openmbean.CompositeType
+13088 - 0.329: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$CompositeMapping
+13088 - 0.330: java.io.StringReader
+13088 - 0.330: javax.management.MBeanParameterInfo
+13088 - 0.331: com.sun.jmx.mbeanserver.PerInterface$MethodAndSig
+13088 - 0.331: sun.management.ManagementFactory
+13088 - 0.333: clojure.lang.Compiler 1 ms
+13088 - 0.334: N getMemoryPools0
+13088 - 0.334: sun.management.MemoryManagerImpl
+13088 - 0.334: N getCollectionCount
+13088 - 0.334: N getCollectionTime
+13088 - 0.334: N setNotificationEnabled
+13088 - 0.334: sun.management.GarbageCollectorImpl
+13088 - 0.335: com.sun.management.GcInfo
+13088 - 0.335: java.lang.InheritableThreadLocal
+13088 - 0.335: java.lang.Process
+13088 - 0.336: java.lang.ProcessBuilder
+13088 - 0.336: sun.reflect.generics.scope.MethodScope
+13088 - 0.336: -n
+13088 - 0.336: java.lang.SecurityManager
+13088 - 0.336: sun.reflect.generics.repository.MethodRepository
+13088 - 0.337: sun.reflect.generics.repository.ConstructorRepository
+13088 - 0.337: N sin
+13088 - 0.337: N cos
+13088 - 0.337: N tan
+13088 - 0.337: N asin
+13088 - 0.337: N acos
+13088 - 0.337: N atan
+13088 - 0.337: N exp
+13088 - 0.337: N log
+13088 - 0.337: N log10
+13088 - 0.337: N sqrt
+13088 - 0.337: N cbrt
+13088 - 0.337: N IEEEremainder
+13088 - 0.337: N atan2
+13088 - 0.337: N pow
+13088 - 0.337: N sinh
+13088 - 0.337: N cosh
+13088 - 0.337: N tanh
+13088 - 0.337: N hypot
+13088 - 0.337: N expm1
+13088 - 0.337: N log1p
+13088 - 0.337: java.lang.StrictMath
+13088 - 0.337: sun.reflect.generics.repository.GenericDeclRepository
+13088 - 0.337: sun.reflect.generics.repository.AbstractRepository
+13088 - 0.337: sun.reflect.generics.tree.FormalTypeParameter
+13088 - 0.338: java.lang.ArrayIndexOutOfBoundsException
+13088 - 0.338: java.lang.CloneNotSupportedException
+13088 - 0.338: java.lang.EnumConstantNotPresentException
+13088 - 0.338: sun.reflect.generics.tree.MethodTypeSignature
+13088 - 0.338: java.lang.IllegalAccessException
+13088 - 0.338: java.lang.IllegalThreadStateException
+13088 - 0.339: sun.reflect.generics.reflectiveObjects.ParameterizedTypeImpl
+13088 - 0.339: java.lang.InstantiationException
+13088 - 0.339: java.lang.NegativeArraySizeException
+13088 - 0.339: sun.reflect.generics.repository.ClassRepository
+13088 - 0.339: java.lang.NoSuchMethodException
+13088 - 0.339: java.lang.NumberFormatException
+13088 - 0.339: java.lang.SecurityException
+13088 - 0.340: java.lang.StringIndexOutOfBoundsException
+13088 - 0.340: sun.reflect.generics.tree.ClassSignature
+13088 - 0.340: java.lang.TypeNotPresentException
+13088 - 0.340: java.lang.AbstractMethodError
+13088 - 0.340: sun.reflect.generics.reflectiveObjects.TypeVariableImpl
+13088 - 0.340: java.lang.AssertionError
+13088 - 0.340: sun.reflect.generics.reflectiveObjects.LazyReflectiveObjectGenerator
+13088 - 0.340: java.lang.ClassCircularityError
+13088 - 0.340: java.lang.ClassFormatError
+13088 - 0.341: javax.management.openmbean.TabularType
+13088 - 0.341: java.lang.ExceptionInInitializerError
+13088 - 0.341: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$TabularMapping
+13088 - 0.341: java.lang.InstantiationError
+13088 - 0.341: java.lang.InternalError
+13088 - 0.341: java.lang.NoSuchFieldError
+13088 - 0.341: java.lang.UnknownError
+13088 - 0.342: java.lang.UnsatisfiedLinkError
+13088 - 0.342: java.lang.UnsupportedClassVersionError
+13088 - 0.342: java.lang.VerifyError
+13088 - 0.342: java.lang.Thread$State
+13088 - 0.343: clojure.lang.PersistentHashMap
+13088 - 0.344: N getUsage0
+13088 - 0.344: N getPeakUsage0
+13088 - 0.345: N getCollectionUsage0
+13088 - 0.345: N setUsageThreshold0
+13088 - 0.345: N setCollectionThreshold0
+13088 - 0.345: N resetPeakUsage0
+13088 - 0.345: N getMemoryManagers0
+13088 - 0.345: N setPoolUsageSensor
+13088 - 0.345: N setPoolCollectionSensor
+13088 - 0.345: sun.management.MemoryPoolImpl
+13088 - 0.345: sun.management.MemoryPoolImpl$PoolSensor
+13088 - 0.345: sun.management.Sensor
+13088 - 0.346: clojure.lang.PersistentHashMap$TransientHashMap
+13088 - 0.346: sun.management.MemoryPoolImpl$CollectionSensor
+13088 - 0.347: clojure.lang.ATransientMap
+13088 - 0.347: java.lang.management.MemoryType
+13088 - 0.348: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$EnumMapping
+13088 - 0.348: clojure.lang.Box
+13088 - 0.349: clojure.lang.PersistentHashMap$BitmapIndexedNode
+13088 - 0.352: clojure.lang.PersistentHashMap$ArrayNode
+13088 - 0.352: com.sun.management.OSMBeanFactory
+13088 - 0.352: N getCommittedVirtualMemorySize
+13088 - 0.352: N getTotalSwapSpaceSize
+13088 - 0.352: N getFreeSwapSpaceSize
+13088 - 0.352: N getProcessCpuTime
+13088 - 0.352: N getFreePhysicalMemorySize
+13088 - 0.352: N getTotalPhysicalMemorySize
+13088 - 0.352: N getOpenFileDescriptorCount
+13088 - 0.352: N getMaxFileDescriptorCount
+13088 - 0.352: N getSystemCpuLoad
+13088 - 0.352: N getProcessCpuLoad
+13088 - 0.352: N initialize
+13088 - 0.352: com.sun.management.UnixOperatingSystem
+13088 - 0.353: sun.management.OperatingSystemImpl
+13088 - 0.354: java.util.concurrent.atomic.AtomicBoolean
+13088 - 0.355: clojure.lang.Var$Unbound
+13088 - 0.356: sun.management.RuntimeImpl
+13088 - 0.357: clojure.lang.PersistentList
+13088 - 0.358: clojure.lang.ASeq
+13088 - 0.358: sun.reflect.generics.tree.TypeVariableSignature
+13088 - 0.359: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$CollectionMapping
+13088 - 0.359: clojure.lang.Obj
+13088 - 0.360: clojure.lang.PersistentList$1
+13088 - 0.362: clojure.lang.RestFn 1 ms
+13088 - 0.363: N getThreads
+13088 - 0.363: N getThreadInfo1
+13088 - 0.363: N getThreadTotalCpuTime0
+13088 - 0.363: N getThreadTotalCpuTime1
+13088 - 0.363: N getThreadUserCpuTime0
+13088 - 0.363: N getThreadUserCpuTime1
+13088 - 0.363: N getThreadAllocatedMemory1
+13088 - 0.363: N setThreadCpuTimeEnabled0
+13088 - 0.363: N setThreadAllocatedMemoryEnabled0
+13088 - 0.363: N setThreadContentionMonitoringEnabled0
+13088 - 0.363: N findMonitorDeadlockedThreads0
+13088 - 0.363: N findDeadlockedThreads0
+13088 - 0.363: N resetPeakThreadCount0
+13088 - 0.363: N dumpThreads0
+13088 - 0.363: N resetContentionTimes0
+13088 - 0.363: sun.management.ThreadImpl
+13088 - 0.364: clojure.lang.AFunction
+13088 - 0.364: java.lang.management.ThreadInfo
+13088 - 0.366: java.lang.management.LockInfo
+13088 - 0.366: java.lang.management.MonitorInfo
+13088 - 0.368: com.sun.jmx.mbeanserver.DefaultMXBeanMappingFactory$ArrayMapping
+13088 - 0.370: clojure.lang.PersistentList$EmptyList
+13088 - 0.371: clojure.lang.Cons
+13088 - 0.372: sun.management.ManagementFactoryHelper$PlatformLoggingImpl
+13088 - 0.372: clojure.lang.LineNumberingPushbackReader
+13088 - 0.372: java.io.PushbackReader
+13088 - 0.372: java.io.FilterReader
+13088 - 0.373: java.io.LineNumberReader
+13088 - 0.373: javax.management.openmbean.OpenMBeanParameterInfoSupport
+13088 - 0.374: java.io.PrintWriter
+13088 - 0.374: javax.management.openmbean.OpenMBeanOperationInfoSupport
+13088 - 0.374: javax.management.MBeanInfo$ArrayGettersSafeAction
+13088 - 0.375: clojure.lang.RT$1
+13088 - 0.376: java.nio.Bits$1$1
+13088 - 0.376: sun.management.ManagementFactoryHelper$1
+13088 - 0.376: clojure.lang.RT$2
+13088 - 0.376: N map0
+13088 - 0.376: N unmap0
+13088 - 0.376: N transferTo0
+13088 - 0.376: N position0
+13088 - 0.376: N initIDs
+13088 - 0.377: sun.nio.ch.FileChannelImpl
+13088 - 0.377: java.nio.channels.FileChannel
+13088 - 0.378: clojure.lang.RT$DefaultComparator
+13088 - 0.378: java.nio.channels.spi.AbstractInterruptibleChannel
+13088 - 0.378: clojure.lang.LazilyPersistentVector
+13088 - 0.379: sun.nio.ch.Util
+13088 - 0.379: N randomBytes
+13088 - 0.379: N makePipe
+13088 - 0.379: N drain
+13088 - 0.379: N configureBlocking
+13088 - 0.379: N fdVal
+13088 - 0.379: N setfdVal
+13088 - 0.379: N iovMax
+13088 - 0.379: N fdLimit
+13088 - 0.379: N initIDs
+13088 - 0.379: sun.nio.ch.IOUtil
+13088 - 0.380: clojure.lang.PersistentVector
+13088 - 0.380: sun.nio.ch.Util$1
+13088 - 0.381: clojure.lang.APersistentVector
+13088 - 0.381: sun.nio.ch.FileChannelImpl$1
+13088 - 0.383: clojure.lang.PersistentVector$Node
+13088 - 0.383: N dumpHeap0
+13088 - 0.383: sun.management.HotSpotDiagnostic
+13088 - 0.383: com.sun.management.VMOption
+13088 - 0.383: clojure.lang.RT$3
+13088 - 0.384: com.sun.management.VMOption$Origin
+13088 - 0.384: clojure.lang.LispReader$ReaderException
+13088 - 0.385: clojure.asm.ClassVisitor
+13088 - 0.386: clojure.asm.ClassWriter
+13088 - 0.386: sun.reflect.misc.MethodUtil
+13088 - 0.387: sun.reflect.misc.MethodUtil$1
+13088 - 0.387: sun.net.www.protocol.jar.JarURLConnection
+13088 - 0.387: clojure.lang.Compiler$CompilerException
+13088 - 0.387: java.net.JarURLConnection
+13088 - 0.388: sun.net.www.protocol.jar.JarFileFactory
+13088 - 0.388: java.net.HttpURLConnection
+13088 - 0.389: sun.net.www.protocol.jar.URLJarFile
+13088 - 0.389: sun.net.www.protocol.jar.URLJarFile$URLJarFileEntry
+13088 - 0.389: sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream
+13088 - 0.390: java.security.AllPermissionCollection
+13088 - 0.390: sun.reflect.misc.Trampoline
+13088 - 0.390: clojure.lang.Compiler$DefExpr$Parser
+13088 - 0.390: java.lang.reflect.InvocationTargetException
+13088 - 0.391: N getAllFlagNames
+13088 - 0.391: N getFlags
+13088 - 0.391: N getInternalFlagCount
+13088 - 0.391: N setLongValue
+13088 - 0.391: N setBooleanValue
+13088 - 0.391: N setStringValue
+13088 - 0.391: N initialize
+13088 - 0.391: sun.management.Flag
+13088 - 0.391: clojure.lang.Compiler$LetExpr$Parser
+13088 - 0.392: com.yourkit.api.ProbeActivityMode
+13088 - 0.392: clojure.lang.Compiler$RecurExpr$Parser
+13088 - 0.393: com.yourkit.util.Util
+13088 - 0.393: clojure.lang.Compiler$IfExpr$Parser
+13088 - 0.394: clojure.lang.Compiler$CaseExpr$Parser
+13088 - 0.395: clojure.lang.Compiler$LetFnExpr$Parser
+13088 - 0.395: clojure.lang.Compiler$BodyExpr$Parser
+13088 - 0.396: clojure.lang.Compiler$ConstantExpr$Parser
+13088 - 0.396: clojure.lang.Compiler$TheVarExpr$Parser
+13088 - 0.397: clojure.lang.Compiler$ImportExpr$Parser
+13088 - 0.397: clojure.lang.Compiler$HostExpr$Parser
+13088 - 0.398: clojure.lang.Compiler$AssignExpr$Parser
+13088 - 0.398: clojure.lang.Compiler$NewInstanceExpr$DeftypeParser
+13088 - 0.399: clojure.lang.Compiler$NewInstanceExpr$ReifyParser
+13088 - 0.399: clojure.lang.Compiler$TryExpr$Parser
+13088 - 0.400: clojure.lang.Compiler$ThrowExpr$Parser
+13088 - 0.400: clojure.lang.Compiler$MonitorEnterExpr$Parser
+13088 - 0.401: clojure.lang.Compiler$MonitorExitExpr$Parser
+13088 - 0.401: clojure.lang.Compiler$NewExpr$Parser
+13088 - 0.402: clojure.asm.Type
+13088 - 0.406: clojure.lang.Numbers 2 ms
+13088 - 0.408: clojure.lang.Reflector
+13088 - 0.409: clojure.lang.Compiler$Recur
+13088 - 0.410: clojure.lang.Compiler$NilExpr
+13088 - 0.410: clojure.lang.Compiler$LiteralExpr
+13088 - 0.410: clojure.lang.Compiler$BooleanExpr
+13088 - 0.411: clojure.lang.LazySeq
+13088 - 0.412: clojure.lang.PersistentHashMap$ArrayNode$Seq
+13088 - 0.413: clojure.lang.PersistentHashMap$NodeSeq
+13088 - 0.413: clojure.lang.MapEntry
+13088 - 0.414: clojure.lang.AMapEntry
+13088 - 0.415: java.lang.Long$LongCache
+13088 - 0.415: clojure.lang.APersistentMap$KeySeq
+13088 - 0.415: clojure.lang.Compiler$1
+13088 - 0.417: java.util.regex.Pattern 1 ms
+13088 - 0.418: java.util.regex.Pattern$4
+13088 - 0.418: java.util.regex.Pattern$Node
+13088 - 0.418: java.util.regex.Pattern$LastNode
+13088 - 0.419: java.util.regex.ASCII
+13088 - 0.419: java.util.regex.Pattern$GroupHead
+13088 - 0.419: java.util.regex.Pattern$Slice
+13088 - 0.419: java.util.regex.Pattern$SliceNode
+13088 - 0.419: java.util.regex.Pattern$BranchConn
+13088 - 0.420: java.util.regex.Pattern$Branch
+13088 - 0.420: java.util.regex.Pattern$Single
+13088 - 0.420: java.util.regex.Pattern$BmpCharProperty
+13088 - 0.420: java.util.regex.Pattern$CharProperty
+13088 - 0.420: java.util.regex.Pattern$Begin
+13088 - 0.420: java.util.regex.Pattern$First
+13088 - 0.421: java.util.regex.Pattern$Start
+13088 - 0.421: java.util.regex.Pattern$TreeInfo
+13088 - 0.421: java.net.URLClassLoader$2
+13088 - 0.422: clojure.lang.Var$Frame
+13088 - 0.423: clojure.lang.PersistentArrayMap$Seq
+13088 - 0.423: clojure.lang.Var$TBox
+13088 - 0.442: clojure.core__init 16 ms
+13088 - 0.483: java.util.AbstractList$ListItr
+13088 - 0.483: java.util.AbstractList$Itr
+13088 - 0.492: clojure.lang.ChunkBuffer
+13088 - 0.495: clojure.lang.PersistentHashSet
+13088 - 0.495: clojure.lang.APersistentSet
+13088 - 0.497: clojure.lang.BigInt
+13088 - 0.498: clojure.lang.Ratio
+13088 - 0.499: clojure.lang.Numbers$LongOps
+13088 - 0.500: clojure.lang.Numbers$DoubleOps
+13088 - 0.500: clojure.lang.Numbers$OpsP
+13088 - 0.501: clojure.lang.Numbers$RatioOps
+13088 - 0.501: clojure.lang.Numbers$BigIntOps
+13088 - 0.502: clojure.lang.Numbers$BigDecimalOps
+13088 - 0.534: java.math.BigDecimal$1
+13088 - 0.550: java.util.regex.Matcher
+13088 - 0.578: clojure.lang.PersistentTreeMap
+13088 - 0.579: clojure.lang.PersistentTreeMap$Node
+13088 - 0.580: clojure.lang.PersistentTreeMap$Red
+13088 - 0.580: clojure.lang.PersistentTreeMap$RedVal
+13088 - 0.580: clojure.lang.PersistentTreeMap$Black
+13088 - 0.581: clojure.lang.PersistentTreeMap$RedBranch
+13088 - 0.582: clojure.lang.PersistentTreeMap$RedBranchVal
+13088 - 0.582: clojure.lang.PersistentTreeMap$BlackVal
+13088 - 0.582: clojure.lang.PersistentTreeMap$BlackBranch
+13088 - 0.583: clojure.lang.PersistentTreeMap$BlackBranchVal
+13088 - 0.592: clojure.core$loading__1352__auto__
+13088 - 0.593: clojure.core$cons
+13088 - 0.593: clojure.core$let
+13088 - 0.595: clojure.lang.KeywordLookupSite
+13088 - 0.595: clojure.core$loop
+13088 - 0.596: clojure.core$fn
+13088 - 0.597: clojure.core$first
+13088 - 0.597: clojure.core$next
+13088 - 0.598: clojure.core$rest
+13088 - 0.598: clojure.core$conj
+13088 - 0.599: clojure.core$second
+13088 - 0.599: clojure.core$ffirst
+13088 - 0.599: clojure.core$nfirst
+13088 - 0.600: clojure.core$fnext
+13088 - 0.600: clojure.core$nnext
+13088 - 0.601: clojure.core$seq
+13088 - 0.601: clojure.core$instance_QMARK_
+13088 - 0.602: clojure.core$seq_QMARK_
+13088 - 0.602: clojure.core$char_QMARK_
+13088 - 0.603: clojure.core$string_QMARK_
+13088 - 0.603: clojure.core$map_QMARK_
+13088 - 0.604: clojure.core$vector_QMARK_
+13088 - 0.604: clojure.core$assoc
+13088 - 0.605: clojure.core$meta
+13088 - 0.605: clojure.core$with_meta
+13088 - 0.605: clojure.core$assert_valid_fdecl
+13088 - 0.606: clojure.core$sigs
+13088 - 0.607: clojure.core$last
+13088 - 0.607: clojure.core$butlast
+13088 - 0.608: clojure.core$defn
+13088 - 0.609: clojure.core$cast
+13088 - 0.609: clojure.core$to_array
+13088 - 0.610: clojure.core$vector
+13088 - 0.610: clojure.core$vec
+13088 - 0.611: clojure.core$hash_map
+13088 - 0.611: clojure.core$hash_set
+13088 - 0.611: clojure.core$sorted_map
+13088 - 0.612: clojure.core$sorted_map_by
+13088 - 0.612: clojure.core$sorted_set
+13088 - 0.613: clojure.core$sorted_set_by
+13088 - 0.613: clojure.core$nil_QMARK___inliner
+13088 - 0.614: clojure.core$nil_QMARK_
+13088 - 0.614: clojure.core$defmacro
+13088 - 0.615: clojure.core$when
+13088 - 0.615: clojure.core$when_not
+13088 - 0.616: clojure.core$false_QMARK_
+13088 - 0.616: clojure.core$true_QMARK_
+13088 - 0.617: clojure.core$not
+13088 - 0.617: clojure.core$some_QMARK_
+13088 - 0.618: clojure.core$str
+13088 - 0.618: clojure.core$symbol_QMARK_
+13088 - 0.619: clojure.core$keyword_QMARK_
+13088 - 0.619: clojure.core$symbol
+13088 - 0.620: clojure.core$gensym
+13088 - 0.620: clojure.core$cond
+13088 - 0.621: clojure.core$keyword
+13088 - 0.621: clojure.core$find_keyword
+13088 - 0.622: clojure.core$spread
+13088 - 0.623: clojure.core$list_STAR_
+13088 - 0.623: clojure.core$apply
+13088 - 0.624: clojure.core$vary_meta
+13088 - 0.624: clojure.core$lazy_seq
+13088 - 0.625: clojure.core$chunk_buffer
+13088 - 0.625: clojure.core$chunk_append
+13088 - 0.626: clojure.core$chunk
+13088 - 0.626: clojure.core$chunk_first
+13088 - 0.626: clojure.core$chunk_rest
+13088 - 0.627: clojure.core$chunk_next
+13088 - 0.627: clojure.core$chunk_cons
+13088 - 0.628: clojure.core$chunked_seq_QMARK_
+13088 - 0.628: clojure.core$concat
+13088 - 0.629: clojure.core$delay
+13088 - 0.629: clojure.core$delay_QMARK_
+13088 - 0.630: clojure.lang.Delay
+13088 - 0.630: clojure.core$force
+13088 - 0.631: clojure.core$if_not
+13088 - 0.631: clojure.core$identical_QMARK___inliner
+13088 - 0.632: clojure.core$identical_QMARK_
+13088 - 0.632: clojure.core$_EQ___inliner
+13088 - 0.633: clojure.core$_EQ_
+13088 - 0.633: clojure.core$not_EQ_
+13088 - 0.634: clojure.core$compare__inliner
+13088 - 0.634: clojure.core$compare
+13088 - 0.635: clojure.core$and
+13088 - 0.635: clojure.core$or
+13088 - 0.636: clojure.core$zero_QMARK___inliner
+13088 - 0.637: clojure.core$zero_QMARK_
+13088 - 0.637: clojure.core$count__inliner
+13088 - 0.638: clojure.core$count
+13088 - 0.638: clojure.core$int__inliner
+13088 - 0.638: clojure.core$int
+13088 - 0.639: clojure.core$nth__inliner
+13088 - 0.640: clojure.core$nth
+13088 - 0.640: clojure.core$_LT___inliner
+13088 - 0.641: clojure.core$_LT_
+13088 - 0.641: clojure.core$inc_SINGLEQUOTE___inliner
+13088 - 0.642: clojure.core$inc_SINGLEQUOTE_
+13088 - 0.642: clojure.core$inc__inliner
+13088 - 0.643: clojure.core$inc
+13088 - 0.643: clojure.core$reduce1
+13088 - 0.644: clojure.core$reverse
+13088 - 0.644: clojure.core$nary_inline
+13088 - 0.645: clojure.core$_GT_1_QMARK_
+13088 - 0.645: clojure.core$_GT_0_QMARK_
+13088 - 0.646: clojure.core$nary_inline$fn__3993
+13088 - 0.647: clojure.core$_PLUS__SINGLEQUOTE_
+13088 - 0.648: clojure.core$_PLUS_
+13088 - 0.648: clojure.core$_STAR__SINGLEQUOTE_
+13088 - 0.649: clojure.core$_STAR_
+13088 - 0.650: clojure.core$_SLASH_
+13088 - 0.651: clojure.core$__SINGLEQUOTE_
+13088 - 0.651: clojure.core$_
+13088 - 0.652: clojure.core$_LT__EQ___inliner
+13088 - 0.653: clojure.core$_LT__EQ_
+13088 - 0.653: clojure.core$_GT___inliner
+13088 - 0.654: clojure.core$_GT_
+13088 - 0.654: clojure.core$_GT__EQ___inliner
+13088 - 0.655: clojure.core$_GT__EQ_
+13088 - 0.656: clojure.core$_EQ__EQ___inliner
+13088 - 0.656: clojure.core$_EQ__EQ_
+13088 - 0.657: clojure.core$max
+13088 - 0.658: clojure.core$min
+13088 - 0.658: clojure.core$dec_SINGLEQUOTE___inliner
+13088 - 0.659: clojure.core$dec_SINGLEQUOTE_
+13088 - 0.659: clojure.core$dec__inliner
+13088 - 0.660: clojure.core$dec
+13088 - 0.660: clojure.core$unchecked_inc_int__inliner
+13088 - 0.661: clojure.core$unchecked_inc_int
+13088 - 0.661: clojure.core$unchecked_inc__inliner
+13088 - 0.662: clojure.core$unchecked_inc
+13088 - 0.662: clojure.core$unchecked_dec_int__inliner
+13088 - 0.663: clojure.core$unchecked_dec_int
+13088 - 0.664: clojure.core$unchecked_dec__inliner
+13088 - 0.665: clojure.core$unchecked_dec
+13088 - 0.665: clojure.core$unchecked_negate_int__inliner
+13088 - 0.666: clojure.core$unchecked_negate_int
+13088 - 0.667: clojure.core$unchecked_negate__inliner
+13088 - 0.668: clojure.core$unchecked_negate
+13088 - 0.668: clojure.core$unchecked_add_int__inliner
+13088 - 0.669: clojure.core$unchecked_add_int
+13088 - 0.670: clojure.core$unchecked_add__inliner
+13088 - 0.671: clojure.core$unchecked_add
+13088 - 0.671: clojure.core$unchecked_subtract_int__inliner
+13088 - 0.672: clojure.core$unchecked_subtract_int
+13088 - 0.673: clojure.core$unchecked_subtract__inliner
+13088 - 0.673: clojure.core$unchecked_subtract
+13088 - 0.674: clojure.core$unchecked_multiply_int__inliner
+13088 - 0.675: clojure.core$unchecked_multiply_int
+13088 - 0.675: clojure.core$unchecked_multiply__inliner
+13088 - 0.676: clojure.core$unchecked_multiply
+13088 - 0.677: clojure.core$unchecked_divide_int__inliner
+13088 - 0.678: clojure.core$unchecked_divide_int
+13088 - 0.678: clojure.core$unchecked_remainder_int__inliner
+13088 - 0.679: clojure.core$unchecked_remainder_int
+13088 - 0.680: clojure.core$pos_QMARK___inliner
+13088 - 0.681: clojure.core$pos_QMARK_
+13088 - 0.681: clojure.core$neg_QMARK___inliner
+13088 - 0.682: clojure.core$neg_QMARK_
+13088 - 0.683: clojure.core$quot__inliner
+13088 - 0.683: clojure.core$quot
+13088 - 0.684: clojure.core$rem__inliner
+13088 - 0.685: clojure.core$rem
+13088 - 0.685: clojure.core$rationalize
+13088 - 0.686: clojure.core$bit_not__inliner
+13088 - 0.687: clojure.core$bit_not
+13088 - 0.687: clojure.core$bit_and
+13088 - 0.688: clojure.core$bit_or
+13088 - 0.688: clojure.core$bit_xor
+13088 - 0.689: clojure.core$bit_and_not
+13088 - 0.689: clojure.core$bit_clear
+13088 - 0.690: clojure.core$bit_set
+13088 - 0.690: clojure.core$bit_flip
+13088 - 0.691: clojure.core$bit_test
+13088 - 0.691: clojure.core$bit_shift_left__inliner
+13088 - 0.692: clojure.core$bit_shift_left
+13088 - 0.692: clojure.core$bit_shift_right__inliner
+13088 - 0.693: clojure.core$bit_shift_right
+13088 - 0.693: clojure.core$unsigned_bit_shift_right__inliner
+13088 - 0.693: clojure.core$unsigned_bit_shift_right
+13088 - 0.694: clojure.core$integer_QMARK_
+13088 - 0.694: clojure.core$even_QMARK_
+13088 - 0.695: clojure.core$odd_QMARK_
+13088 - 0.695: clojure.core$complement
+13088 - 0.696: clojure.core$constantly
+13088 - 0.696: clojure.core$identity
+13088 - 0.697: clojure.core$peek
+13088 - 0.697: clojure.core$pop
+13088 - 0.698: clojure.core$contains_QMARK_
+13088 - 0.698: clojure.core$get__inliner
+13088 - 0.699: clojure.core$get
+13088 - 0.699: clojure.core$dissoc
+13088 - 0.700: clojure.core$disj
+13088 - 0.700: clojure.core$find
+13088 - 0.701: clojure.core$select_keys
+13088 - 0.701: clojure.core$keys
+13088 - 0.702: clojure.core$vals
+13088 - 0.702: clojure.core$key
+13088 - 0.703: clojure.core$val
+13088 - 0.703: clojure.core$rseq
+13088 - 0.703: clojure.core$name
+13088 - 0.704: clojure.core$namespace
+13088 - 0.704: clojure.core$locking
+13088 - 0.705: clojure.core$_DOT__DOT_
+13088 - 0.706: clojure.core$__GT_
+13088 - 0.706: clojure.core$__GT__GT_
+13088 - 0.707: clojure.core$check_valid_options
+13088 - 0.708: clojure.core$defmulti
+13088 - 0.709: clojure.core$defmethod
+13088 - 0.709: clojure.core$remove_all_methods
+13088 - 0.710: clojure.core$remove_method
+13088 - 0.710: clojure.core$prefer_method
+13088 - 0.710: clojure.core$methods
+13088 - 0.711: clojure.core$get_method
+13088 - 0.711: clojure.core$prefers
+13088 - 0.712: clojure.core$assert_args
+13088 - 0.712: clojure.core$if_let
+13088 - 0.713: clojure.core$when_let
+13088 - 0.714: clojure.core$if_some
+13088 - 0.716: clojure.core$when_some
+13088 - 0.716: clojure.core$push_thread_bindings
+13088 - 0.717: clojure.core$pop_thread_bindings
+13088 - 0.717: clojure.core$get_thread_bindings
+13088 - 0.718: clojure.core$binding
+13088 - 0.719: clojure.core$with_bindings_STAR_
+13088 - 0.719: clojure.core$with_bindings
+13088 - 0.720: clojure.core$bound_fn_STAR_
+13088 - 0.720: clojure.core$bound_fn
+13088 - 0.721: clojure.core$find_var
+13088 - 0.721: clojure.core$binding_conveyor_fn
+13088 - 0.722: clojure.core$setup_reference
+13088 - 0.722: clojure.core$agent
+13088 - 0.723: clojure.core$set_agent_send_executor_BANG_
+13088 - 0.724: clojure.core$set_agent_send_off_executor_BANG_
+13088 - 0.724: clojure.core$send_via
+13088 - 0.724: clojure.core$send
+13088 - 0.725: clojure.core$send_off
+13088 - 0.726: clojure.core$release_pending_sends
+13088 - 0.726: clojure.core$add_watch
+13088 - 0.726: clojure.core$remove_watch
+13088 - 0.727: clojure.core$agent_error
+13088 - 0.727: clojure.core$restart_agent
+13088 - 0.728: clojure.core$set_error_handler_BANG_
+13088 - 0.728: clojure.core$error_handler
+13088 - 0.729: clojure.core$set_error_mode_BANG_
+13088 - 0.729: clojure.core$error_mode
+13088 - 0.729: clojure.core$agent_errors
+13088 - 0.730: clojure.core$clear_agent_errors
+13088 - 0.730: clojure.core$shutdown_agents
+13088 - 0.731: clojure.core$ref
+13088 - 0.731: clojure.core$deref_future
+13088 - 0.732: java.util.concurrent.TimeoutException
+13088 - 0.732: clojure.core$deref
+13088 - 0.733: clojure.core$atom
+13088 - 0.733: clojure.core$swap_BANG_
+13088 - 0.734: clojure.core$compare_and_set_BANG_
+13088 - 0.734: clojure.core$reset_BANG_
+13088 - 0.735: clojure.core$set_validator_BANG_
+13088 - 0.735: clojure.core$get_validator
+13088 - 0.736: clojure.core$alter_meta_BANG_
+13088 - 0.736: clojure.core$reset_meta_BANG_
+13088 - 0.736: clojure.core$commute
+13088 - 0.737: clojure.core$alter
+13088 - 0.737: clojure.core$ref_set
+13088 - 0.738: clojure.core$ref_history_count
+13088 - 0.738: clojure.core$ref_min_history
+13088 - 0.738: clojure.core$ref_max_history
+13088 - 0.739: clojure.core$ensure
+13088 - 0.739: clojure.core$sync
+13088 - 0.740: clojure.core$io_BANG_
+13088 - 0.741: clojure.core$comp
+13088 - 0.741: clojure.core$juxt
+13088 - 0.742: clojure.core$partial
+13088 - 0.742: clojure.core$sequence
+13088 - 0.743: clojure.core$every_QMARK_
+13088 - 0.743: clojure.core$comp$fn__4192
+13088 - 0.744: clojure.core$some
+13088 - 0.745: clojure.core$dotimes
+13088 - 0.745: clojure.core$map
+13088 - 0.746: clojure.core$mapcat
+13088 - 0.747: clojure.core$filter
+13088 - 0.747: clojure.core$remove
+13088 - 0.747: clojure.core$take
+13088 - 0.748: clojure.core$take_while
+13088 - 0.748: clojure.core$drop
+13088 - 0.749: clojure.core$drop_last
+13088 - 0.749: clojure.core$take_last
+13088 - 0.750: clojure.core$drop_while
+13088 - 0.750: clojure.core$cycle
+13088 - 0.751: clojure.core$split_at
+13088 - 0.751: clojure.core$split_with
+13088 - 0.752: clojure.core$repeat
+13088 - 0.752: clojure.core$replicate
+13088 - 0.753: clojure.core$iterate
+13088 - 0.753: clojure.core$range
+13088 - 0.754: clojure.core$merge
+13088 - 0.754: clojure.core$merge_with
+13088 - 0.755: clojure.core$zipmap
+13088 - 0.755: clojure.core$declare
+13088 - 0.756: clojure.core$line_seq
+13088 - 0.756: clojure.core$comparator
+13088 - 0.757: clojure.core$sort
+13088 - 0.757: clojure.core$sort_by
+13088 - 0.758: clojure.core$dorun
+13088 - 0.758: clojure.core$doall
+13088 - 0.759: clojure.core$nthnext
+13088 - 0.760: clojure.core$nthrest
+13088 - 0.760: clojure.core$partition
+13088 - 0.761: clojure.core$eval
+13088 - 0.761: clojure.core$doseq
+13088 - 0.762: clojure.core$await
+13088 - 0.763: clojure.core$await1
+13088 - 0.763: clojure.core$await_for
+13088 - 0.764: clojure.core$transient
+13088 - 0.765: clojure.core$persistent_BANG_
+13088 - 0.765: clojure.core$conj_BANG_
+13088 - 0.765: clojure.core$assoc_BANG_
+13088 - 0.766: clojure.core$dissoc_BANG_
+13088 - 0.767: clojure.core$pop_BANG_
+13088 - 0.767: clojure.core$disj_BANG_
+13088 - 0.768: clojure.core$into1
+13088 - 0.768: clojure.core$import
+13088 - 0.769: clojure.core$into_array
+13088 - 0.769: clojure.core$array
+13088 - 0.770: clojure.core$class
+13088 - 0.770: clojure.core$type
+13088 - 0.771: clojure.core$num__inliner
+13088 - 0.771: clojure.core$num
+13088 - 0.772: clojure.core$long__inliner
+13088 - 0.772: clojure.core$long
+13088 - 0.773: clojure.core$float__inliner
+13088 - 0.773: clojure.core$float
+13088 - 0.774: clojure.core$double__inliner
+13088 - 0.774: clojure.core$double
+13088 - 0.774: clojure.core$short__inliner
+13088 - 0.775: clojure.core$short
+13088 - 0.775: clojure.core$byte__inliner
+13088 - 0.776: clojure.core$byte
+13088 - 0.776: clojure.core$char__inliner
+13088 - 0.777: clojure.core$char
+13088 - 0.777: clojure.core$boolean__inliner
+13088 - 0.778: clojure.core$boolean
+13088 - 0.778: clojure.core$unchecked_byte__inliner
+13088 - 0.779: clojure.core$unchecked_byte
+13088 - 0.779: clojure.core$unchecked_short__inliner
+13088 - 0.780: clojure.core$unchecked_short
+13088 - 0.780: clojure.core$unchecked_char__inliner
+13088 - 0.781: clojure.core$unchecked_char
+13088 - 0.781: clojure.core$unchecked_int__inliner
+13088 - 0.782: clojure.core$unchecked_int
+13088 - 0.782: clojure.core$unchecked_long__inliner
+13088 - 0.783: clojure.core$unchecked_long
+13088 - 0.783: clojure.core$unchecked_float__inliner
+13088 - 0.784: clojure.core$unchecked_float
+13088 - 0.785: clojure.core$unchecked_double__inliner
+13088 - 0.785: clojure.core$unchecked_double
+13088 - 0.785: clojure.core$number_QMARK_
+13088 - 0.786: clojure.core$mod
+13088 - 0.786: clojure.core$ratio_QMARK_
+13088 - 0.787: clojure.core$numerator
+13088 - 0.787: clojure.core$denominator
+13088 - 0.788: clojure.core$decimal_QMARK_
+13088 - 0.788: clojure.core$float_QMARK_
+13088 - 0.789: clojure.core$rational_QMARK_
+13088 - 0.789: clojure.core$bigint
+13088 - 0.790: clojure.core$biginteger
+13088 - 0.791: clojure.core$bigdec
+13088 - 0.791: clojure.core$fn__4452
+13088 - 0.793: clojure.lang.MultiFn
+13088 - 0.794: clojure.core$fn__4452$fn__4453
+13088 - 0.794: java.util.concurrent.locks.ReentrantReadWriteLock$NonfairSync
+13088 - 0.795: clojure.core$fn__4458
+13088 - 0.795: clojure.core$fn__4458$fn__4459
+13088 - 0.796: clojure.core$pr_on
+13088 - 0.796: clojure.core$pr
+13088 - 0.797: clojure.core$newline
+13088 - 0.797: clojure.core$flush
+13088 - 0.798: clojure.core$prn
+13088 - 0.798: clojure.core$print
+13088 - 0.799: clojure.core$println
+13088 - 0.800: clojure.core$read
+13088 - 0.800: clojure.core$read_line
+13088 - 0.801: clojure.core$read_string
+13088 - 0.801: clojure.core$subvec
+13088 - 0.802: clojure.core$with_open
+13088 - 0.802: clojure.core$doto
+13088 - 0.803: clojure.core$memfn
+13088 - 0.804: clojure.core$time
+13088 - 0.805: clojure.core$alength__inliner
+13088 - 0.805: clojure.core$alength
+13088 - 0.806: clojure.core$aclone__inliner
+13088 - 0.806: clojure.core$aclone
+13088 - 0.807: clojure.core$aget__inliner
+13088 - 0.807: clojure.core$aget
+13088 - 0.808: clojure.core$aset__inliner
+13088 - 0.808: clojure.core$aset
+13088 - 0.809: clojure.core$def_aset
+13088 - 0.810: clojure.core$aset_int
+13088 - 0.810: clojure.core$aset_long
+13088 - 0.811: clojure.core$aset_boolean
+13088 - 0.812: clojure.core$aset_float
+13088 - 0.812: clojure.core$aset_double
+13088 - 0.813: clojure.core$aset_short
+13088 - 0.813: clojure.core$aset_byte
+13088 - 0.814: clojure.core$aset_char
+13088 - 0.814: clojure.core$make_array
+13088 - 0.815: clojure.core$to_array_2d
+13088 - 0.816: clojure.core$macroexpand_1
+13088 - 0.816: clojure.core$macroexpand
+13088 - 0.817: clojure.core$create_struct
+13088 - 0.817: clojure.core$defstruct
+13088 - 0.818: clojure.core$struct_map
+13088 - 0.818: clojure.core$struct
+13088 - 0.818: clojure.core$accessor
+13088 - 0.819: clojure.core$load_reader
+13088 - 0.819: clojure.core$load_string
+13088 - 0.820: clojure.core$set
+13088 - 0.820: clojure.core$filter_key
+13088 - 0.821: clojure.core$find_ns
+13088 - 0.821: clojure.core$create_ns
+13088 - 0.822: clojure.core$remove_ns
+13088 - 0.822: clojure.core$all_ns
+13088 - 0.823: clojure.core$the_ns
+13088 - 0.823: clojure.core$ns_name
+13088 - 0.824: clojure.core$ns_map
+13088 - 0.824: clojure.core$ns_unmap
+13088 - 0.824: clojure.core$ns_publics
+13088 - 0.825: clojure.core$ns_imports
+13088 - 0.825: clojure.core$ns_interns
+13088 - 0.826: clojure.core$refer
+13088 - 0.827: clojure.core$ns_refers
+13088 - 0.828: clojure.core$alias
+13088 - 0.828: clojure.core$ns_aliases
+13088 - 0.829: clojure.core$ns_unalias
+13088 - 0.829: clojure.core$take_nth
+13088 - 0.830: clojure.core$interleave
+13088 - 0.830: clojure.core$var_get
+13088 - 0.831: clojure.core$var_set
+13088 - 0.831: clojure.core$with_local_vars
+13088 - 0.832: clojure.core$ns_resolve
+13088 - 0.833: clojure.core$resolve
+13088 - 0.833: clojure.core$array_map
+13088 - 0.834: clojure.core$destructure
+13088 - 0.835: clojure.core$maybe_destructured
+13088 - 0.836: clojure.core$when_first
+13088 - 0.837: clojure.core$lazy_cat
+13088 - 0.838: clojure.core$for
+13088 - 0.839: clojure.core$comment
+13088 - 0.840: clojure.core$with_out_str
+13088 - 0.840: clojure.core$with_in_str
+13088 - 0.841: clojure.core$pr_str
+13088 - 0.842: clojure.core$prn_str
+13088 - 0.842: clojure.core$print_str
+13088 - 0.843: clojure.core$println_str
+13088 - 0.844: clojure.lang.ExceptionInfo
+13088 - 0.844: clojure.core$ex_info
+13088 - 0.845: clojure.core$ex_data
+13088 - 0.845: clojure.core$assert
+13088 - 0.846: clojure.core$test
+13088 - 0.847: clojure.core$re_pattern
+13088 - 0.847: clojure.core$re_matcher
+13088 - 0.848: clojure.core$re_groups
+13088 - 0.848: clojure.core$re_seq
+13088 - 0.849: clojure.core$re_matches
+13088 - 0.849: clojure.core$re_find
+13088 - 0.850: clojure.core$rand
+13088 - 0.850: clojure.core$rand_int
+13088 - 0.851: clojure.core$defn_
+13088 - 0.851: clojure.core$tree_seq
+13088 - 0.852: clojure.core$file_seq
+13088 - 0.852: clojure.core$xml_seq
+13088 - 0.853: clojure.core$special_symbol_QMARK_
+13088 - 0.853: clojure.core$var_QMARK_
+13088 - 0.854: clojure.core$subs
+13088 - 0.854: clojure.core$max_key
+13088 - 0.855: clojure.core$min_key
+13088 - 0.855: clojure.core$distinct
+13088 - 0.856: clojure.core$replace
+13088 - 0.856: clojure.core$dosync
+13088 - 0.857: clojure.core$with_precision
+13088 - 0.858: clojure.core$mk_bound_fn
+13088 - 0.858: clojure.core$subseq
+13088 - 0.859: clojure.core$rsubseq
+13088 - 0.859: clojure.core$repeatedly
+13088 - 0.860: clojure.core$add_classpath
+13088 - 0.860: clojure.core$hash
+13088 - 0.861: clojure.core$mix_collection_hash
+13088 - 0.862: clojure.core$hash_ordered_coll
+13088 - 0.862: clojure.core$hash_unordered_coll
+13088 - 0.863: clojure.core$interpose
+13088 - 0.863: clojure.core$definline
+13088 - 0.864: clojure.core$empty
+13088 - 0.865: clojure.core$amap
+13088 - 0.865: clojure.core$areduce
+13088 - 0.866: clojure.core$float_array__inliner
+13088 - 0.867: clojure.core$float_array
+13088 - 0.867: clojure.core$boolean_array__inliner
+13088 - 0.868: clojure.core$boolean_array
+13088 - 0.868: clojure.core$byte_array__inliner
+13088 - 0.869: clojure.core$byte_array
+13088 - 0.869: clojure.core$char_array__inliner
+13088 - 0.870: clojure.core$char_array
+13088 - 0.870: clojure.core$short_array__inliner
+13088 - 0.871: clojure.core$short_array
+13088 - 0.871: clojure.core$double_array__inliner
+13088 - 0.872: clojure.core$double_array
+13088 - 0.872: clojure.core$object_array__inliner
+13088 - 0.873: clojure.core$object_array
+13088 - 0.873: clojure.core$int_array__inliner
+13088 - 0.874: clojure.core$int_array
+13088 - 0.875: clojure.core$long_array__inliner
+13088 - 0.875: clojure.core$long_array
+13088 - 0.876: clojure.core$booleans
+13088 - 0.876: clojure.lang.ArraySeq
+13088 - 0.877: clojure.core$bytes
+13088 - 0.878: clojure.core$chars
+13088 - 0.878: clojure.core$shorts
+13088 - 0.879: clojure.core$floats
+13088 - 0.880: clojure.core$ints
+13088 - 0.880: clojure.core$doubles
+13088 - 0.881: clojure.core$longs
+13088 - 0.882: java.util.concurrent.LinkedBlockingQueue
+13088 - 0.882: java.util.AbstractQueue
+13088 - 0.883: clojure.core$seque
+13088 - 0.883: clojure.core$class_QMARK_
+13088 - 0.884: clojure.core$is_annotation_QMARK_
+13088 - 0.884: clojure.core$is_runtime_annotation_QMARK_
+13088 - 0.885: clojure.core$descriptor
+13088 - 0.886: clojure.core$add_annotation
+13088 - 0.886: clojure.core$process_annotation
+13088 - 0.887: clojure.core$add_annotations
+13088 - 0.888: clojure.core$alter_var_root
+13088 - 0.889: clojure.core$bound_QMARK_
+13088 - 0.889: clojure.core$thread_bound_QMARK_
+13088 - 0.890: clojure.core$make_hierarchy
+13088 - 0.890: clojure.core$not_empty
+13088 - 0.891: clojure.core$bases
+13088 - 0.891: clojure.core$supers
+13088 - 0.892: clojure.core$isa_QMARK_
+13088 - 0.893: clojure.core$parents
+13088 - 0.893: clojure.core$ancestors
+13088 - 0.894: clojure.core$descendants
+13088 - 0.895: clojure.core$derive
+13088 - 0.896: clojure.core$underive
+13088 - 0.897: clojure.core$distinct_QMARK_
+13088 - 0.898: clojure.core$resultset_seq
+13088 - 0.898: clojure.core$iterator_seq
+13088 - 0.899: clojure.core$enumeration_seq
+13088 - 0.899: clojure.core$format
+13088 - 0.900: clojure.core$printf
+13088 - 0.901: clojure.core$with_loading_context
+13088 - 0.902: clojure.core$ns
+13088 - 0.903: clojure.core$refer_clojure
+13088 - 0.904: clojure.core$defonce
+13088 - 0.904: clojure.core$fn__4981
+13088 - 0.905: clojure.lang.PersistentTreeSet
+13088 - 0.906: clojure.lang.Ref
+13088 - 0.907: clojure.lang.Ref$TVal
+13088 - 0.908: clojure.core$fn__4984
+13088 - 0.909: clojure.core$fn__4987
+13088 - 0.909: clojure.core$throw_if
+13088 - 0.910: clojure.core$libspec_QMARK_
+13088 - 0.910: clojure.core$prependss
+13088 - 0.911: clojure.core$root_resource
+13088 - 0.911: clojure.core$root_directory
+13088 - 0.912: clojure.core$load_one
+13088 - 0.913: clojure.core$load_all
+13088 - 0.913: clojure.core$load_lib
+13088 - 0.915: clojure.core$load_libs
+13088 - 0.916: clojure.core$check_cyclic_dependency
+13088 - 0.917: clojure.core$require
+13088 - 0.917: clojure.core$use
+13088 - 0.918: clojure.core$loaded_libs
+13088 - 0.918: clojure.core$load
+13088 - 0.919: clojure.core$compile
+13088 - 0.920: clojure.core$get_in
+13088 - 0.920: clojure.core$assoc_in
+13088 - 0.921: clojure.core$update_in
+13088 - 0.922: clojure.core$empty_QMARK_
+13088 - 0.922: clojure.core$coll_QMARK_
+13088 - 0.923: clojure.core$list_QMARK_
+13088 - 0.923: clojure.core$set_QMARK_
+13088 - 0.923: clojure.core$ifn_QMARK_
+13088 - 0.924: clojure.core$fn_QMARK_
+13088 - 0.924: clojure.core$associative_QMARK_
+13088 - 0.925: clojure.core$sequential_QMARK_
+13088 - 0.925: clojure.core$sorted_QMARK_
+13088 - 0.926: clojure.core$counted_QMARK_
+13088 - 0.927: clojure.core$reversible_QMARK_
+13088 - 0.927: clojure.core$trampoline
+13088 - 0.928: clojure.core$intern
+13088 - 0.929: clojure.core$while
+13088 - 0.929: clojure.core$memoize
+13088 - 0.930: clojure.core$condp
+13088 - 0.931: clojure.core$add_doc_and_meta
+13088 - 0.931: clojure.core$merge$fn__4314
+13088 - 0.934: clojure.core$future_QMARK_
+13088 - 0.934: clojure.core$future_done_QMARK_
+13088 - 0.935: clojure.core$letfn
+13088 - 0.936: clojure.core$fnil
+13088 - 0.936: clojure.core$shift_mask
+13088 - 0.937: clojure.core$maybe_min_hash
+13088 - 0.938: clojure.core$case_map
+13088 - 0.938: clojure.core$fits_table_QMARK_
+13088 - 0.939: clojure.core$prep_ints
+13088 - 0.940: clojure.core$merge_hash_collisions
+13088 - 0.941: clojure.core$prep_hashes
+13088 - 0.942: clojure.core$case
+13088 - 0.944: clojure.core$reduced
+13088 - 0.944: clojure.core$reduced_QMARK___inliner
+13088 - 0.945: clojure.core$reduced_QMARK_
+13088 - 0.945: clojure.core$str$fn__3928
+13088 - 0.946: clojure.core$load$fn__5066
+13088 - 0.947: clojure.core_proxy__init
+13088 - 0.950: clojure.asm.FieldVisitor
+13088 - 0.951: clojure.asm.FieldWriter
+13088 - 0.951: clojure.asm.AnnotationVisitor
+13088 - 0.952: clojure.asm.AnnotationWriter
+13088 - 0.952: clojure.asm.MethodVisitor
+13088 - 0.954: clojure.asm.MethodWriter
+13088 - 0.956: clojure.asm.commons.Method
+13088 - 0.957: clojure.asm.commons.GeneratorAdapter
+13088 - 0.958: clojure.asm.commons.LocalVariablesSorter
+13088 - 0.961: clojure.lang.DynamicClassLoader
+13088 - 0.961: clojure.core$method_sig
+13088 - 0.962: clojure.core$most_specific
+13088 - 0.962: clojure.core$group_by_sig
+13088 - 0.963: clojure.core$proxy_name
+13088 - 0.964: clojure.core$generate_proxy
+13088 - 0.966: clojure.core$get_super_and_interfaces
+13088 - 0.966: clojure.core$get_proxy_class
+13088 - 0.967: clojure.core$construct_proxy
+13088 - 0.967: clojure.core$init_proxy
+13088 - 0.968: clojure.core$update_proxy
+13088 - 0.968: clojure.core$proxy_mappings
+13088 - 0.968: clojure.core$proxy
+13088 - 0.969: clojure.core$proxy_call_with_super
+13088 - 0.970: clojure.core$proxy_super
+13088 - 0.970: clojure.core$bean
+13088 - 0.972: clojure.core_print__init
+13088 - 0.975: clojure.core$print_sequential
+13088 - 0.976: clojure.core$print_meta
+13088 - 0.977: clojure.core$fn__5418
+13088 - 0.977: clojure.core$fn__5422
+13088 - 0.978: clojure.core$fn__5424
+13088 - 0.978: clojure.core$print_ctor
+13088 - 0.979: clojure.core$print_object
+13088 - 0.979: clojure.core$fn__5428
+13088 - 0.980: clojure.core$fn__5430
+13088 - 0.980: clojure.core$fn__5432
+13088 - 0.981: clojure.core$fn__5434
+13088 - 0.981: clojure.core$fn__5436
+13088 - 0.981: clojure.core$fn__5440
+13088 - 0.982: clojure.lang.KeywordLookupSite$1
+13088 - 0.983: clojure.lang.PersistentHashSet$TransientHashSet
+13088 - 0.983: clojure.lang.ATransientSet
+13088 - 0.984: clojure.core$fn__5444
+13088 - 0.985: clojure.core$fn__5446
+13088 - 0.985: clojure.core$print_simple
+13088 - 0.986: clojure.core$fn__5449
+13088 - 0.986: clojure.core$fn__5451
+13088 - 0.987: clojure.core$fn__5453
+13088 - 0.987: clojure.core$fn__5455
+13088 - 0.987: clojure.core$fn__5457
+13088 - 0.988: clojure.core$fn__5459
+13088 - 0.989: clojure.core$fn__5461
+13088 - 0.990: clojure.core$fn__5465
+13088 - 0.991: clojure.core$fn__5469
+13088 - 0.992: clojure.core$fn__5471
+13088 - 0.992: clojure.core$fn__5475
+13088 - 0.993: clojure.core$fn__5477
+13088 - 0.993: clojure.core$print_map
+13088 - 0.994: clojure.core$fn__5482
+13088 - 0.994: clojure.core$fn__5486
+13088 - 0.995: clojure.core$fn__5490
+13088 - 0.996: clojure.core$fn__5492
+13088 - 0.997: clojure.core$fn__5494
+13088 - 0.997: clojure.core$fn__5496
+13088 - 0.998: clojure.core$fn__5498
+13088 - 0.999: clojure.core$fn__5500
+13088 - 0.999: clojure.core$fn__5502
+13088 - 1.001: clojure.core$fn__5504
+13088 - 1.002: clojure.core$fn__5506
+13088 - 1.002: clojure.core$fn__5509
+13088 - 1.003: clojure.core$fn__5511
+13088 - 1.003: clojure.core$fn__5513
+13088 - 1.004: clojure.core$fn__5515
+13088 - 1.004: clojure.core$fn__5517
+13088 - 1.005: clojure.core$fn__5519
+13088 - 1.005: clojure.core$fn__5521
+13088 - 1.006: clojure.core$fn__5523
+13088 - 1.006: clojure.core$fn__5525
+13088 - 1.007: clojure.core$fn__5527
+13088 - 1.007: clojure.core$fn__5529
+13088 - 1.008: clojure.core$fn__5531
+13088 - 1.008: clojure.core$fn__5533
+13088 - 1.009: clojure.core$fn__5535
+13088 - 1.009: clojure.core$fn__5537
+13088 - 1.010: clojure.core$fn__5544
+13088 - 1.010: clojure.core$fn__5546
+13088 - 1.011: clojure.core$fn__5548
+13088 - 1.012: clojure.lang.Agent
+13088 - 1.012: clojure.lang.Agent$1
+13088 - 1.013: java.util.concurrent.Executors
+13088 - 1.014: java.util.concurrent.ThreadPoolExecutor
+13088 - 1.014: java.util.concurrent.AbstractExecutorService
+13088 - 1.015: java.util.concurrent.ThreadPoolExecutor$AbortPolicy
+13088 - 1.015: java.util.concurrent.TimeUnit
+13088 - 1.015: java.util.concurrent.TimeUnit$1
+13088 - 1.015: java.util.concurrent.TimeUnit$2
+13088 - 1.015: java.util.concurrent.TimeUnit$3
+13088 - 1.015: java.util.concurrent.TimeUnit$4
+13088 - 1.016: java.util.concurrent.TimeUnit$5
+13088 - 1.016: java.util.concurrent.TimeUnit$6
+13088 - 1.016: java.util.concurrent.TimeUnit$7
+13088 - 1.016: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject
+13088 - 1.017: java.util.concurrent.LinkedBlockingQueue$Node
+13088 - 1.017: java.util.concurrent.SynchronousQueue
+13088 - 1.017: java.util.concurrent.SynchronousQueue$TransferStack
+13088 - 1.017: java.util.concurrent.SynchronousQueue$Transferer
+13088 - 1.018: java.util.concurrent.SynchronousQueue$TransferStack$SNode
+13088 - 1.019: clojure.genclass__init
+13088 - 1.023: clojure.core$filter_methods
+13088 - 1.023: clojure.core$non_private_methods
+13088 - 1.024: clojure.core$protected_final_methods
+13088 - 1.024: clojure.core$ctor_sigs
+13088 - 1.025: clojure.core$escape_class_name
+13088 - 1.025: clojure.core$overload_name
+13088 - 1.026: clojure.core$find_field
+13088 - 1.026: clojure.core$the_class
+13088 - 1.027: clojure.core$valid_java_method_name
+13088 - 1.027: clojure.core$validate_generate_class_options
+13088 - 1.029: clojure.core$generate_class
+13088 - 1.035: clojure.core$gen_class
+13088 - 1.036: clojure.core$asm_type
+13088 - 1.036: clojure.core$generate_interface
+13088 - 1.038: clojure.core$gen_interface
+13088 - 1.040: clojure.core_deftype__init
+13088 - 1.045: clojure.core$namespace_munge
+13088 - 1.046: clojure.core$definterface
+13088 - 1.047: clojure.core$parse_opts
+13088 - 1.048: clojure.core$parse_impls
+13088 - 1.048: clojure.core$parse_opts_PLUS_specs
+13088 - 1.049: clojure.core$reify
+13088 - 1.049: clojure.core$hash_combine
+13088 - 1.050: clojure.core$munge
+13088 - 1.050: clojure.core$imap_cons
+13088 - 1.051: clojure.core$emit_defrecord
+13088 - 1.052: clojure.core$build_positional_factory
+13088 - 1.053: clojure.core$validate_fields
+13088 - 1.054: clojure.core$defrecord
+13088 - 1.054: clojure.core$record_QMARK_
+13088 - 1.055: clojure.core$emit_deftype_STAR_
+13088 - 1.055: clojure.core$deftype
+13088 - 1.057: clojure.core$expand_method_impl_cache
+13088 - 1.057: clojure.core$super_chain
+13088 - 1.058: clojure.core$pref
+13088 - 1.058: clojure.core$find_protocol_impl
+13088 - 1.059: clojure.core$find_protocol_method
+13088 - 1.060: clojure.core$protocol_QMARK_
+13088 - 1.060: clojure.core$implements_QMARK_
+13088 - 1.061: clojure.core$extends_QMARK_
+13088 - 1.061: clojure.core$extenders
+13088 - 1.062: clojure.core$satisfies_QMARK_
+13088 - 1.062: clojure.core$_cache_protocol_fn
+13088 - 1.063: clojure.core$emit_method_builder
+13088 - 1.064: clojure.core$_reset_methods
+13088 - 1.065: clojure.core$assert_same_protocol
+13088 - 1.066: clojure.core$emit_protocol
+13088 - 1.067: clojure.core$defprotocol
+13088 - 1.067: clojure.core$extend
+13088 - 1.068: clojure.core$emit_impl
+13088 - 1.069: clojure.core$emit_hinted_impl
+13088 - 1.069: clojure.core$emit_extend_type
+13088 - 1.070: clojure.core$extend_type
+13088 - 1.070: clojure.core$emit_extend_protocol
+13088 - 1.071: clojure.core$extend_protocol
+13088 - 1.072: clojure.core.protocols__init
+13088 - 1.076: clojure.lang.StringSeq
+13088 - 1.078: clojure.lang.ArraySeq$ArraySeq_boolean
+13088 - 1.079: clojure.lang.ArraySeq$ArraySeq_char
+13088 - 1.080: clojure.lang.ArraySeq$ArraySeq_byte
+13088 - 1.081: clojure.lang.ArraySeq$ArraySeq_double
+13088 - 1.082: clojure.lang.ArraySeq$ArraySeq_float
+13088 - 1.082: clojure.lang.ArraySeq$ArraySeq_long
+13088 - 1.083: clojure.lang.ArraySeq$ArraySeq_int
+13088 - 1.085: clojure.core.protocols$loading__4958__auto__
+13088 - 1.086: clojure.core$ns_publics$fn__4529
+13088 - 1.112: clojure.core.protocols$fn__6024
+13088 - 1.113: clojure.lang.LockingTransaction
+13088 - 1.113: clojure.lang.LockingTransaction$RetryEx
+13088 - 1.114: clojure.lang.LockingTransaction$AbortException
+13088 - 1.115: clojure.lang.LockingTransaction$Info
+13088 - 1.115: java.util.concurrent.CountDownLatch
+13088 - 1.115: java.util.concurrent.CountDownLatch$Sync
+13088 - 1.116: clojure.lang.LockingTransaction$CFn
+13088 - 1.117: clojure.core.protocols$fn__6028
+13088 - 1.118: clojure.core.protocols$fn__6031
+13088 - 1.118: clojure.lang.MethodImplCache
+13088 - 1.119: clojure.core.protocols$fn__6031$G__6027__6037
+13088 - 1.119: clojure.core.protocols$fn__6031$G__6026__6044
+13088 - 1.120: clojure.core.protocols$fn__6054
+13088 - 1.121: clojure.core.protocols$fn__6057
+13088 - 1.121: clojure.core.protocols$fn__6057$G__6053__6061
+13088 - 1.122: clojure.core.protocols$fn__6057$G__6052__6066
+13088 - 1.122: clojure.core.protocols$seq_reduce
+13088 - 1.123: clojure.core.protocols$fn__6074
+13088 - 1.123: clojure.core$partition$fn__4348
+13088 - 1.124: clojure.core$take$fn__4270
+13088 - 1.125: clojure.lang.PersistentVector$ChunkedSeq
+13088 - 1.126: clojure.core.protocols$fn__6076
+13088 - 1.126: clojure.core.protocols$fn__6078
+13088 - 1.127: clojure.core.protocols$fn__6080
+13088 - 1.127: clojure.core.protocols$fn__6082
+13088 - 1.128: clojure.core.protocols$fn__6084
+13088 - 1.129: clojure.core.protocols$fn__6086
+13088 - 1.130: clojure.core.protocols$fn__6089
+13088 - 1.131: clojure.core.protocols$fn__6091
+13088 - 1.132: clojure.core.protocols$fn__6093
+13088 - 1.133: clojure.core.protocols$fn__6096
+13088 - 1.133: clojure.core.protocols$emit_array_impls_STAR_
+13088 - 1.134: clojure.core.protocols$emit_array_impls
+13088 - 1.134: clojure.core.protocols$fn__6102
+13088 - 1.135: clojure.core.protocols$fn__6104
+13088 - 1.136: clojure.core.protocols$fn__6106
+13088 - 1.137: clojure.core.protocols$fn__6108
+13088 - 1.137: clojure.core.protocols$fn__6110
+13088 - 1.138: clojure.core.protocols$fn__6112
+13088 - 1.138: clojure.core.protocols$fn__6114
+13088 - 1.139: clojure.core.protocols$fn__6118
+13088 - 1.140: clojure.core.protocols$fn__6121
+13088 - 1.140: clojure.core.protocols$fn__6121$G__6117__6125
+13088 - 1.141: clojure.core.protocols$fn__6121$G__6116__6130
+13088 - 1.142: clojure.gvec__init
+13088 - 1.143: clojure.core$fn__6136
+13088 - 1.144: clojure.core.VecNode
+13088 - 1.144: clojure.core$fn__6136$__GT_VecNode__6138
+13088 - 1.145: clojure.core$fn__6141
+13088 - 1.146: clojure.core$fn__6143
+13088 - 1.146: clojure.core$fn__6145
+13088 - 1.147: clojure.core.ArrayChunk
+13088 - 1.148: clojure.core$fn__6145$__GT_ArrayChunk__6147
+13088 - 1.148: clojure.core$fn__6150
+13088 - 1.149: clojure.core.VecSeq
+13088 - 1.150: clojure.core$fn__6150$__GT_VecSeq__6158
+13088 - 1.151: clojure.core$fn__6161
+13088 - 1.151: clojure.core$fn__6165
+13088 - 1.152: clojure.core.Vec
+13088 - 1.155: clojure.core$fn__6165$__GT_Vec__6193
+13088 - 1.155: clojure.core$fn__6196
+13088 - 1.156: clojure.core$mk_am
+13088 - 1.156: clojure.core$reify__6203
+13088 - 1.157: clojure.core$reify__6206
+13088 - 1.158: clojure.core$reify__6209
+13088 - 1.158: clojure.core$reify__6212
+13088 - 1.159: clojure.core$reify__6215
+13088 - 1.159: clojure.core$reify__6218
+13088 - 1.160: clojure.core$reify__6221
+13088 - 1.160: clojure.core$reify__6224
+13088 - 1.161: clojure.core$vector_of
+13088 - 1.163: clojure.instant__init
+13088 - 1.165: java.sql.Timestamp
+13088 - 1.166: clojure.instant$loading__4958__auto__
+13088 - 1.186: clojure.instant$fn__6228
+13088 - 1.187: clojure.instant$fail
+13088 - 1.188: clojure.instant$verify
+13088 - 1.189: clojure.instant$divisible_QMARK_
+13088 - 1.190: clojure.instant$indivisible_QMARK_
+13088 - 1.190: clojure.instant$parse_int
+13088 - 1.191: clojure.instant$zero_fill_right
+13088 - 1.192: clojure.instant$fn__6236
+13088 - 1.192: java.util.regex.Pattern$GroupTail
+13088 - 1.192: java.util.regex.Pattern$Ctype
+13088 - 1.193: java.util.regex.Pattern$BitClass
+13088 - 1.193: java.util.regex.Pattern$Curly
+13088 - 1.193: java.util.regex.Pattern$Ques
+13088 - 1.194: clojure.instant$fn__6236$fn__6237
+13088 - 1.195: clojure.instant$leap_year_QMARK_
+13088 - 1.196: clojure.instant$fn__6245
+13088 - 1.197: clojure.instant$fn__6245$fn__6246
+13088 - 1.197: clojure.instant$validated
+13088 - 1.198: clojure.instant$fn__6252
+13088 - 1.198: clojure.instant.proxy$java.lang.ThreadLocal$ff19274a
+13088 - 1.199: clojure.instant$fn__6252$fn__6253
+13088 - 1.200: clojure.instant$print_date
+13088 - 1.201: clojure.instant$fn__6259
+13088 - 1.201: clojure.instant$fn__6261
+13088 - 1.202: clojure.instant$print_calendar
+13088 - 1.203: clojure.instant$fn__6264
+13088 - 1.203: clojure.instant$fn__6266
+13088 - 1.204: clojure.instant$fn__6268
+13088 - 1.205: clojure.instant$fn__6268$fn__6269
+13088 - 1.205: clojure.instant$print_timestamp
+13088 - 1.206: clojure.instant$fn__6275
+13088 - 1.207: clojure.instant$fn__6277
+13088 - 1.207: clojure.instant$construct_calendar
+13088 - 1.208: clojure.instant$construct_date
+13088 - 1.209: clojure.instant$construct_timestamp
+13088 - 1.210: clojure.instant$validated$fn__6249
+13088 - 1.210: clojure.core$partial$fn__4228
+13088 - 1.212: clojure.uuid__init
+13088 - 1.213: java.util.UUID
+13088 - 1.214: clojure.uuid$loading__4958__auto__
+13088 - 1.239: clojure.uuid$fn__6285
+13088 - 1.241: clojure.uuid$default_uuid_reader
+13088 - 1.242: clojure.uuid$fn__6288
+13088 - 1.243: clojure.uuid$fn__6290
+13088 - 1.243: clojure.core$reduce
+13088 - 1.244: clojure.core$fn__6293
+13088 - 1.245: clojure.core$fn__6295
+13088 - 1.246: clojure.core$fn__6297
+13088 - 1.247: clojure.core$fn__6299
+13088 - 1.248: clojure.core$fn__6301
+13088 - 1.249: clojure.core$fn__6307
+13088 - 1.249: clojure.core$reduce_kv
+13088 - 1.250: clojure.core$into
+13088 - 1.251: clojure.core$mapv
+13088 - 1.252: clojure.core$filterv
+13088 - 1.253: clojure.core$filter$fn__4264
+13088 - 1.254: clojure.core$repeat$fn__4300
+13088 - 1.255: clojure.core$interleave$fn__4566
+13088 - 1.255: clojure.core$complement$fn__4082
+13088 - 1.256: clojure.core$drop$step__4278
+13088 - 1.257: clojure.core$drop$fn__4281
+13088 - 1.258: clojure.core$concat$fn__3955
+13088 - 1.259: clojure.lang.ArrayChunk
+13088 - 1.259: clojure.lang.ChunkedCons
+13088 - 1.260: clojure.core$load_lib$fn__5015
+13088 - 1.263: clojure.java.io__init 1 ms
+13088 - 1.274: clojure.java.io$loading__4958__auto__
+13088 - 1.296: clojure.string__init
+13088 - 1.301: clojure.string$loading__4958__auto__
+13088 - 1.315: clojure.string$fn__8933
+13088 - 1.316: clojure.string$reverse
+13088 - 1.317: clojure.string$re_quote_replacement
+13088 - 1.317: clojure.string$replace_by
+13088 - 1.318: clojure.string$replace
+13088 - 1.319: clojure.string$replace_first_by
+13088 - 1.320: clojure.string$replace_first_char
+13088 - 1.321: clojure.string$replace_first_str
+13088 - 1.321: clojure.string$replace_first
+13088 - 1.322: clojure.string$join
+13088 - 1.322: clojure.string$capitalize
+13088 - 1.323: clojure.string$upper_case
+13088 - 1.323: clojure.string$lower_case
+13088 - 1.324: clojure.string$split
+13088 - 1.324: clojure.string$split_lines
+13088 - 1.325: clojure.string$trim
+13088 - 1.325: clojure.string$triml
+13088 - 1.326: clojure.string$trimr
+13088 - 1.326: clojure.string$trim_newline
+13088 - 1.327: clojure.string$blank_QMARK_
+13088 - 1.327: clojure.string$escape
+13088 - 1.328: clojure.core$load_one$fn__5001
+13088 - 1.329: java.io.CharArrayReader
+13088 - 1.329: java.net.MalformedURLException
+13088 - 1.329: java.net.URLDecoder
+13088 - 1.329: java.net.URLEncoder
+13088 - 1.330: clojure.java.io$fn__8552
+13088 - 1.331: clojure.java.io$fn__8558
+13088 - 1.332: clojure.java.io$fn__8561
+13088 - 1.332: clojure.java.io$fn__8572
+13088 - 1.333: clojure.java.io$fn__8561$G__8555__8563
+13088 - 1.333: clojure.java.io$fn__8561$G__8554__8566
+13088 - 1.334: clojure.java.io$fn__8572$G__8557__8574
+13088 - 1.334: clojure.java.io$fn__8572$G__8556__8577
+13088 - 1.335: clojure.java.io$escaped_utf8_urlstring__GT_str
+13088 - 1.335: clojure.java.io$fn__8584
+13088 - 1.336: clojure.java.io$fn__8586
+13088 - 1.336: clojure.java.io$fn__8588
+13088 - 1.337: clojure.java.io$fn__8590
+13088 - 1.338: clojure.java.io$fn__8592
+13088 - 1.338: clojure.java.io$fn__8594
+13088 - 1.339: clojure.java.io$fn__8596
+13088 - 1.339: clojure.java.io$fn__8598
+13088 - 1.340: clojure.java.io$fn__8600
+13088 - 1.340: clojure.java.io$fn__8602
+13088 - 1.341: clojure.java.io$fn__8612
+13088 - 1.341: clojure.java.io$fn__8615
+13088 - 1.342: clojure.java.io$fn__8628
+13088 - 1.342: clojure.java.io$fn__8641
+13088 - 1.343: clojure.java.io$fn__8654
+13088 - 1.343: clojure.java.io$fn__8615$G__8607__8618
+13088 - 1.344: clojure.java.io$fn__8615$G__8606__8622
+13088 - 1.344: clojure.java.io$fn__8628$G__8611__8631
+13088 - 1.345: clojure.java.io$fn__8628$G__8610__8635
+13088 - 1.345: clojure.java.io$fn__8641$G__8605__8644
+13088 - 1.346: clojure.java.io$fn__8641$G__8604__8648
+13088 - 1.346: clojure.java.io$fn__8654$G__8609__8657
+13088 - 1.347: clojure.java.io$fn__8654$G__8608__8661
+13088 - 1.347: clojure.java.io$reader
+13088 - 1.348: clojure.java.io$writer
+13088 - 1.348: clojure.java.io$input_stream
+13088 - 1.349: clojure.java.io$output_stream
+13088 - 1.349: clojure.java.io$append_QMARK_
+13088 - 1.350: clojure.java.io$encoding
+13088 - 1.350: clojure.java.io$buffer_size
+13088 - 1.351: clojure.java.io$fn__8676
+13088 - 1.351: clojure.java.io$fn__8678
+13088 - 1.352: clojure.java.io$fn__8680
+13088 - 1.352: clojure.java.io$fn__8682
+13088 - 1.353: clojure.java.io$inputstream__GT_reader
+13088 - 1.353: clojure.java.io$outputstream__GT_writer
+13088 - 1.354: clojure.java.io$fn__8686
+13088 - 1.354: clojure.java.io$fn__8688
+13088 - 1.355: clojure.java.io$fn__8690
+13088 - 1.355: clojure.java.io$fn__8692
+13088 - 1.356: clojure.java.io$fn__8694
+13088 - 1.356: clojure.java.io$fn__8696
+13088 - 1.357: clojure.java.io$fn__8698
+13088 - 1.358: clojure.java.io$fn__8700
+13088 - 1.358: clojure.java.io$fn__8702
+13088 - 1.359: clojure.java.io$fn__8704
+13088 - 1.359: clojure.java.io$fn__8706
+13088 - 1.360: clojure.java.io$fn__8708
+13088 - 1.360: clojure.java.io$fn__8710
+13088 - 1.361: clojure.java.io$fn__8712
+13088 - 1.361: clojure.java.io$fn__8714
+13088 - 1.362: clojure.java.io$fn__8716
+13088 - 1.363: clojure.java.io$fn__8718
+13088 - 1.363: clojure.java.io$fn__8720
+13088 - 1.364: clojure.java.io$fn__8722
+13088 - 1.364: clojure.java.io$fn__8724
+13088 - 1.365: clojure.java.io$fn__8726
+13088 - 1.366: clojure.java.io$fn__8726$fn__8727
+13088 - 1.366: clojure.java.io$fn__8732
+13088 - 1.367: clojure.lang.PersistentVector$1
+13088 - 1.367: clojure.java.io$fn__8734
+13088 - 1.368: clojure.java.io$fn__8736
+13088 - 1.369: clojure.java.io$fn__8738
+13088 - 1.369: clojure.java.io$fn__8740
+13088 - 1.370: clojure.java.io$fn__8742
+13088 - 1.370: clojure.java.io$fn__8744
+13088 - 1.370: clojure.java.io$fn__8746
+13088 - 1.371: clojure.java.io$fn__8748
+13088 - 1.371: clojure.java.io$fn__8750
+13088 - 1.372: clojure.java.io$fn__8752
+13088 - 1.372: clojure.java.io$fn__8754
+13088 - 1.373: clojure.java.io$fn__8756
+13088 - 1.373: clojure.java.io$fn__8758
+13088 - 1.374: clojure.java.io$fn__8760
+13088 - 1.374: clojure.java.io$fn__8762
+13088 - 1.375: clojure.java.io$fn__8764
+13088 - 1.375: clojure.java.io$fn__8766
+13088 - 1.376: clojure.java.io$copy
+13088 - 1.376: clojure.java.io$as_relative_path
+13088 - 1.377: clojure.java.io$file
+13088 - 1.377: clojure.java.io$delete_file
+13088 - 1.378: clojure.java.io$make_parents
+13088 - 1.378: clojure.java.io$resource
+13088 - 1.379: clojure.core$normalize_slurp_opts
+13088 - 1.379: clojure.core$slurp
+13088 - 1.380: clojure.core$spit
+13088 - 1.380: total: 2000 classes 241 ms
+13088 - 1.381: clojure.core$future_call
+13088 - 1.381: clojure.core$future
+13088 - 1.382: clojure.core$future_cancel
+13088 - 1.382: clojure.core$future_cancelled_QMARK_
+13088 - 1.383: clojure.core$pmap
+13088 - 1.383: clojure.core$pcalls
+13088 - 1.384: clojure.core$pvalues
+13088 - 1.384: clojure.core$fn__6355
+13088 - 1.385: java.util.regex.Pattern$1
+13088 - 1.385: java.util.regex.Pattern$5
+13088 - 1.386: clojure.core$fn__6355$fn__6356
+13088 - 1.386: java.util.InvalidPropertiesFormatException
+13088 - 1.387: java.io.UnsupportedEncodingException
+13088 - 1.388: clojure.core$clojure_version
+13088 - 1.389: clojure.core$promise
+13088 - 1.389: clojure.core$deliver
+13088 - 1.390: clojure.core$flatten
+13088 - 1.390: clojure.core$group_by
+13088 - 1.391: clojure.core$partition_by
+13088 - 1.391: clojure.core$frequencies
+13088 - 1.392: clojure.core$reductions
+13088 - 1.392: clojure.core$rand_nth
+13088 - 1.393: clojure.core$partition_all
+13088 - 1.394: clojure.core$shuffle
+13088 - 1.394: clojure.core$map_indexed
+13088 - 1.395: clojure.core$keep
+13088 - 1.395: clojure.core$keep_indexed
+13088 - 1.396: clojure.core$every_pred
+13088 - 1.396: clojure.core$some_fn
+13088 - 1.397: clojure.core$with_redefs_fn
+13088 - 1.398: clojure.core$with_redefs
+13088 - 1.399: clojure.core$realized_QMARK_
+13088 - 1.400: clojure.core$cond__GT_
+13088 - 1.402: clojure.core$cond__GT__GT_
+13088 - 1.403: clojure.core$as__GT_
+13088 - 1.404: clojure.core$some__GT_
+13088 - 1.405: clojure.core$some__GT__GT_
+13088 - 1.407: clojure.core$data_reader_urls
+13088 - 1.407: clojure.core$data_reader_var
+13088 - 1.408: clojure.core$load_data_reader_file
+13088 - 1.409: clojure.core$load_data_readers
+13088 - 1.410: clojure.core$fn__6596
+13088 - 1.410: clojure.core$load_data_readers$fn__6593
+13088 - 1.411: clojure.lang.EnumerationSeq
+13088 - 1.412: java.io.NotSerializableException
+13088 - 1.412: java.io.ObjectStreamException
+13088 - 1.413: clojure.core$find_protocol_impl$impl__5896
+13088 - 1.413: clojure.core$expand_method_impl_cache$fn__5883
+13088 - 1.414: clojure.core$map$fn__4245
+13088 - 1.415: clojure.lang.PersistentArrayMap$TransientArrayMap
+13088 - 1.416: clojure.lang.MethodImplCache$Entry
+13088 - 1.417: clojure.core$maybe_min_hash$fn__5125
+13088 - 1.417: clojure.core$maybe_min_hash$iter__5130__5136
+13088 - 1.418: clojure.core$maybe_min_hash$fn__5153
+13088 - 1.419: clojure.core$range$fn__4307
+13088 - 1.420: clojure.core$maybe_min_hash$iter__5130__5136$fn__5137
+13088 - 1.421: clojure.lang.Numbers$Category
+13088 - 1.422: clojure.core$maybe_min_hash$iter__5130__5136$fn__5137$iter__5132__5138
+13088 - 1.423: clojure.core$maybe_min_hash$iter__5130__5136$fn__5137$iter__5132__5138$fn__5139
+13088 - 1.424: clojure.core$maybe_min_hash$iter__5130__5136$fn__5137$iter__5132__5138$fn__5139$fn__5140
+13088 - 1.425: clojure.core$maybe_min_hash$fn__5125$fn__5127
+13088 - 1.426: clojure.core$expand_method_impl_cache$fn__5888
+13088 - 1.442: hello.core__init
+13088 - 1.443: hello.core$loading__4958__auto__
+13088 - 1.457: hello.core$fn__2
+13088 - 1.458: hello.core$_main
+13088 - 1.459: CGS: start
+13088 - 1.482: CGS: end
+13088 - 1.482: java.util.IdentityHashMap$KeySet
+13088 - 1.483: java.util.IdentityHashMap$KeyIterator
+13088 - 1.483: java.util.IdentityHashMap$IdentityHashMapIterator
+13088 - 1.483: vmDeath: 1
+13088 - 1.483: vmDeath: 2
+13088 - 1.483: vmDeath: 3
+13088 - 1.526: CGS: start
+13088 - 1.542: CGS: end
+13088 - 1.542: Snapshot captured: /home/ennus/school/thesis/experiments/clojure_jvm/profiling/logs/core-2014-08-05-shutdown.snapshot
+13088 - 1.543: vmDeath: 4
+13088 - 1.543: vmDeath: OK
