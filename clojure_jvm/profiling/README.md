@@ -24,22 +24,34 @@ It is run from the command line using YourKit profiler sampling to get class loa
 
 ## Setup
 
-Compile sources:
+Compile Clojure sources:
 
 ```
 java -cp src/clj:../../clojure-1.6.0.jar -Dclojure.compile.path=classes clojure.lang.Compile hello.core
 ```
 
-Execute program with sampling profiling:
+Compile Java sources:
+
+```
+javac -cp $YJP_HOME/lib/yjp.jar:classes -d classes src/java/ProfilingLoader.java
+```
+
+Execute program with class loading probe and snapshot:
 
 ```
 java -agentpath:$YJP_HOME/bin/linux-x86-64/libyjpagent.so=dir=logs,logdir=logs,sampling_settings_path=cpu_sampling_settings,onexit=snapshot,probe_disable=com.yourkit.probes.builtin.*,probe_on=com.yourkit.probes.builtin.ClassLoading -cp $YJP_HOME/lib/yjp.jar:../../clojure-1.6.0.jar:classes hello.core
 ```
 
-Execute program with only the class loading probe:
+Execute program with only class loading probe:
 
 ```
 java -agentpath:$YJP_HOME/bin/linux-x86-64/libyjpagent.so=dir=logs,logdir=logs,probe_disable=com.yourkit.probes.builtin.*,probe_on=com.yourkit.probes.builtin.ClassLoading -cp $YJP_HOME/lib/yjp.jar:../../clojure-1.6.0.jar:classes hello.core
+```
+
+Execute program with sampling profiling:
+
+```
+java -agentpath:$YJP_HOME/bin/linux-x86-64/libyjpagent.so=dir=logs,logdir=logs,probe_disable=com.yourkit.probes.builtin.*,probe_on=com.yourkit.probes.builtin.ClassLoading -cp $YJP_HOME/lib/yjp.jar:../../clojure-1.6.0.jar:classes ProfilingLoader
 ```
 
 Environment variable YJP_HOME must be set to the YourKit profiler installation directory.

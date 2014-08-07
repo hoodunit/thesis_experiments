@@ -6,7 +6,7 @@ public class ProfilingLoader {
         try{
             Controller controller = new Controller();
             controller.startCPUSampling(null);
-            new core();
+            hello.core.greet();
             controller.stopCPUProfiling();
             controller.captureSnapshot(Controller.SNAPSHOT_WITHOUT_HEAP);
         } catch (Exception e){
